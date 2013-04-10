@@ -24,9 +24,10 @@
             }
         },
         "battle": {
-            "evasion": 0.95,
-            "defense": 1.75,
-            "damage": 2,
+            "evasion": 1.125,
+            "defense": 1,
+            "damage": 1.1,
+            "critical": 1.5,
             "party": 6
         },
         "leveling": {
@@ -6349,5 +6350,10 @@
                 "*rock": 0.05
             }
         }
-    }
+    },
+    "classHelp": [
+        "*** ************************************** ***",
+        "±Game: Insert Class Help here",
+        "*** ************************************** ***"
+    ]
 }

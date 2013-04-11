@@ -143,8 +143,8 @@
         "slime": {
             "name": "Slime",
             "level": 1,
-            "exp": 10,
-            "gold": 5,
+            "exp": 9,
+            "gold": 4,
             "stats": {
                 "dex": 1,
                 "hp": 30,
@@ -172,8 +172,8 @@
         "dirt": {
             "name": "Super-Dirt",
             "level": 10,
-            "exp": 500,
-            "gold": 10,
+            "exp": 300,
+            "gold": 8,
             "stats": {
                 "hp": 50,
                 "dex": 1,
@@ -185,10 +185,10 @@
             },
             "skills": {
                 "attack": 1,
-                "rest": 5,
-                "heal": 5,
+                "rest": 4,
+                "heal": 1,
                 "tank": 5,
-                "bless": 5
+                "bless": 2
             },
             "strategy": {
                 "attack": 0.5,
@@ -272,7 +272,7 @@
             "name": "White Rabbit",
             "level": 4,
             "exp": 53,
-            "gold": 4,
+            "gold": 3,
             "stats": {
                 "hp": 57,
                 "dex": 1,
@@ -325,10 +325,10 @@
         "tamer": {
             "name": "Dandylion Tamer",
             "level": 1,
-            "exp": 4500,
-            "gold": 150,
+            "exp": 2000,
+            "gold": 30,
             "stats": {
-                "dex": 15,
+                "dex": 10,
                 "hp": 200,
                 "mp": 80,
                 "str": 1,
@@ -339,7 +339,7 @@
             "skills": {
                 "fire": 5,
                 "ice": 5,
-                "poison": 5,
+                "poison": 3,
                 "rest": 4
             },
             "strategy": {
@@ -359,7 +359,7 @@
         "dandylion": {
             "name": "Dandylion",
             "level": 1,
-            "exp": 12000,
+            "exp": 8000,
             "gold": 200,
             "stats": {
                 "hp": 1000,
@@ -414,7 +414,7 @@
             },
             "skills": {
                 "attack": 1,
-                "heal": 5,
+                "heal": 3,
                 "charge": 4,
                 "dbreath": 3,
                 "fire": 5,
@@ -702,18 +702,18 @@
             "stats": {
                 "hp": 80,
                 "mp": 40,
-                "dex": 8,
-                "str": 7,
+                "dex": 6,
+                "str": 5,
                 "def": 5,
                 "spd": 9,
                 "mag": 1
             },
             "skills": {
                 "attack": 1,
-                "aimed": 2,
+                "aimed": 1,
                 "rest": 4,
-                "pierce": 3,
-                "weak": 3
+                "pierce": 2,
+                "weak": 2
             },
             "strategy": {
                 "attack": 0.5,
@@ -733,15 +733,15 @@
             "name": "Zombie",
             "level": 1,
             "exp": 500,
-            "gold": 100,
+            "gold": 50,
             "stats": {
                 "hp": 100,
                 "mp": 10,
-                "dex": 5,
-                "str": 10,
+                "dex": 2,
+                "str": 9,
                 "def": 7,
                 "spd": 3,
-                "mag": 9
+                "mag": 1
             },
             "skills": {
                 "attack": 1,
@@ -761,7 +761,7 @@
         "golem": {
             "name": "Golem",
             "level": 1,
-            "exp": 1000,
+            "exp": 1500,
             "gold": 250,
             "stats": {
                 "hp": 150,
@@ -828,8 +828,8 @@
         "necrolord": {
             "name": "Necrolord",
             "level": 1,
-            "exp": 20000,
-            "gold": 800,
+            "exp": 24000,
+            "gold": 400,
             "stats": {
                 "hp": 350,
                 "mp": 190,
@@ -867,16 +867,16 @@
         "zdragon": {
             "name": "Zombie Dragon",
             "level": 20,
-            "exp": 15000,
+            "exp": 20000,
             "gold": 5000,
             "stats": {
-                "hp": 2000,
+                "hp": 1500,
                 "mp": 150,
-                "str": 25,
-                "dex": 40,
-                "def": 25,
+                "str": 20,
+                "dex": 20,
+                "def": 20,
                 "spd": 20,
-                "mag": 22
+                "mag": 20
             },
             "skills": {
                 "attack": 1,
@@ -896,7 +896,7 @@
                 "udshield": 0.15,
                 "udhelmet": 0.15,
                 "rotten flesh": 0.2,
-                "selixer": 0.2
+                "melixer": 0.2
             }
         },
         "ranger1": {
@@ -908,7 +908,7 @@
                 "hp": 25,
                 "mp": 25,
                 "str": 8,
-                "dex": 7,
+                "dex": 5,
                 "def": 5,
                 "spd": 8,
                 "mag": 1
@@ -942,7 +942,7 @@
             "stats": {
                 "hp": 20,
                 "mp": 30,
-                "dex": 5,
+                "dex": 4,
                 "str": 1,
                 "def": 2,
                 "spd": 6,
@@ -976,7 +976,7 @@
             "stats": {
                 "hp": 40,
                 "mp": 15,
-                "dex": 4,
+                "dex": 2,
                 "str": 7,
                 "def": 9,
                 "spd": 2,
@@ -1070,12 +1070,12 @@
         "bat": {
             "name": "Giant Bat",
             "level": 1,
-            "exp": 400,
-            "gold": 300,
+            "exp": 500,
+            "gold": 80,
             "stats": {
                 "hp": 90,
                 "mp": 50,
-                "dex": 8,
+                "dex": 4,
                 "str": 8,
                 "def": 8,
                 "spd": 10,
@@ -1113,7 +1113,7 @@
                 "hp": 130,
                 "mp": 40,
                 "dex": 7,
-                "str": 10,
+                "str": 9,
                 "def": 14,
                 "spd": 2,
                 "mag": 2
@@ -1159,6 +1159,9 @@
                 "roar": 0,
                 "whirl": 0
             },
+            "growth": {
+                "maxhp": 1
+            },
             "strategy": {
                 "attack": 1
             }
@@ -1173,6 +1176,10 @@
                 "def": 8,
                 "spd": 4,
                 "mag": 1
+            },
+            "growth": {
+                "def": 1,
+                "maxhp": 1
             },
             "skills": {
                 "attack": 1,
@@ -1200,6 +1207,10 @@
                 "spd": 6,
                 "mag": 1
             },
+            "growth": {
+                "str": 1,
+                "maxhp": 1
+            },
             "skills": {
                 "attack": 1,
                 "rest": 1,
@@ -1221,6 +1232,10 @@
                 "def": 5,
                 "spd": 7,
                 "mag": 6
+            },
+            "growth": {
+                "maxhp": 1,
+                "dex": 1
             },
             "skills": {
                 "punch": 1,
@@ -1245,6 +1260,10 @@
                 "spd": 7,
                 "mag": 3
             },
+            "growth": {
+                "maxhp": 1,
+                "str": 1
+            },
             "skills": {
                 "punch": 1,
                 "rest": 1,
@@ -1268,6 +1287,9 @@
                 "spd": 4,
                 "mag": 3
             },
+            "growth": {
+                "maxhp": 1
+            },
             "skills": {
                 "punch": 1,
                 "rest": 1,
@@ -1289,6 +1311,9 @@
                 "def": 2,
                 "spd": 2,
                 "mag": 1
+            },
+            "growth": {
+                "maxhp": 1
             },
             "skills": {
                 "attack": 1,
@@ -1314,6 +1339,9 @@
                 "spd": 3,
                 "mag": 1
             },
+            "growth": {
+                "maxhp": 2
+            },
             "skills": {
                 "attack": 1,
                 "rest": 1,
@@ -1337,6 +1365,10 @@
                 "spd": 4,
                 "mag": 1
             },
+            "growth": {
+                "maxhp": 1,
+                "def": 1
+            },
             "skills": {
                 "attack": 1,
                 "rest": 1,
@@ -1359,6 +1391,10 @@
                 "def": 4,
                 "spd": 8,
                 "mag": 1
+            },
+            "growth": {
+                "maxhp": 1,
+                "dex": 1
             },
             "skills": {
                 "attack": 1,
@@ -1386,6 +1422,10 @@
                 "spd": 6,
                 "mag": 1
             },
+            "growth": {
+                "maxhp": 1,
+                "def": 1
+            },
             "skills": {
                 "attack": 1,
                 "rest": 1,
@@ -1411,6 +1451,9 @@
                 "spd": 5,
                 "mag": 1
             },
+            "growth": {
+                "maxhp": 1
+            },
             "skills": {
                 "attack": 1,
                 "rest": 1,
@@ -1435,6 +1478,10 @@
                 "spd": 4,
                 "mag": 6
             },
+            "growth": {
+                "maxhp": 1,
+                "str": 1
+            },
             "skills": {
                 "attack": 1,
                 "rest": 1,
@@ -1458,6 +1505,10 @@
                 "def": 4,
                 "spd": 3,
                 "mag": 8
+            },
+            "growth": {
+                "maxhp": 1,
+                "def": 1
             },
             "skills": {
                 "magic": 1,
@@ -1484,6 +1535,9 @@
                 "spd": 1,
                 "mag": 4
             },
+            "growth": {
+                "maxhp": 1
+            },
             "skills": {
                 "magic": 1,
                 "rest": 1,
@@ -1507,6 +1561,10 @@
                 "def": 5,
                 "spd": 8,
                 "mag": 2
+            },
+            "growth": {
+                "maxhp": 1,
+                "dex": 1
             },
             "skills": {
                 "attack": 1,
@@ -1532,6 +1590,10 @@
                 "spd": 9,
                 "mag": 1
             },
+            "growth": {
+                "str": 1,
+                "dex": 1
+            },
             "skills": {
                 "attack": 1,
                 "rest": 1,
@@ -1555,6 +1617,9 @@
                 "spd": 5,
                 "mag": 1
             },
+            "growth": {
+                "maxhp": 1
+            },
             "skills": {
                 "attack": 1,
                 "rest": 1,
@@ -1577,6 +1642,10 @@
                 "def": 3,
                 "spd": 6,
                 "mag": 9
+            },
+            "growth": {
+                "maxmp": 1,
+                "dex": 1
             },
             "skills": {
                 "magic": 1,
@@ -1603,6 +1672,10 @@
                 "spd": 5,
                 "mag": 6
             },
+            "growth": {
+                "maxhp": 1,
+    			"maxmp": 1
+            },
             "skills": {
                 "magic": 1,
                 "rest": 1,
@@ -1626,6 +1699,9 @@
                 "def": 2,
                 "spd": 2,
                 "mag": 5
+            },
+            "growth": {
+                "maxhp": 1
             },
             "skills": {
                 "magic": 1,
@@ -3500,11 +3576,11 @@
     "items": {
         "potion": {
             "name": "Potion",
-            "info": "Heals a small amount of HP",
+            "info": "Heals a small amount of HP.",
             "type": "usable",
             "level": 0,
             "cost": 20,
-            "message": "You drank a potion and restored 30 HP and 10 MP!",
+            "message": "You drank a potion and restored 30 HP and 10 MP, so now you have ~Life~ HP and ~Mana~ MP!",
             "effect": {
                 "hp": 30,
                 "mp": 10
@@ -3516,7 +3592,7 @@
             "level": 0,
             "type": "usable",
             "cost": 30,
-            "message": "You ate a carrot and recovered 10 HP!",
+            "message": "You ate a carrot and recovered 10 HP, so now you have ~Life~ HP!",
             "effect": {
                 "hp": 10
             }
@@ -3637,7 +3713,7 @@
             "type": "usable",
             "level": 0,
             "cost": 150,
-            "message": "You drank a potion and restored 150 HP and MP!",
+            "message": "You drank a potion and restored 150 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
             "effect": {
                 "hp": 150,
                 "mana": 150,
@@ -3650,7 +3726,7 @@
             "type": "usable",
             "level": 0,
             "cost": 150,
-            "message": "You drank a potion and restored 150 HP and MP!",
+            "message": "You drank a potion and restored 150 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
             "effect": {
                 "hp": 150,
                 "mana": 150,
@@ -3663,7 +3739,7 @@
             "type": "usable",
             "level": 0,
             "cost": 150,
-            "message": "You drank a potion and restored 500 HP and MP!",
+            "message": "You drank a potion and restored 500 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
             "effect": {
                 "hp": 500,
                 "mana": 500,
@@ -3676,7 +3752,7 @@
             "type": "usable",
             "level": 0,
             "cost": 150,
-            "message": "You drank a potion and restored 1000 HP and MP!",
+            "message": "You drank a potion and restored 1000 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
             "effect": {
                 "hp": 1000,
                 "mana": 1000,
@@ -3689,7 +3765,7 @@
             "level": 0,
             "type": "usable",
             "cost": 20,
-            "message": "You ate a rotten flesh and lost 50 HP!",
+            "message": "You ate a rotten flesh and lost 50 HP, and now have ~Life~ HP!",
             "effect": {
                 "hp": -50
             }
@@ -4084,34 +4160,14 @@
             "slot": "head",
             "cost": 0,
             "effect": {
-                "str": 10,
-                "mag": 10,
-                "dex": 10,
-                "maxhp": 50,
+                "str": 5,
+                "mpabsorb": 0.02,
+                "mag": 5,
+                "dex": 5,
+                "maxhp": 40,
                 "maxmp": 10,
-                "def": 10,
-                "spd": 10
-            }
-        },
-        "crowna": {
-            "name": "Crown of α",
-            "alt": [
-                "crown of alpha",
-                "alpha"
-            ],
-            "info": "This crown is for those true to RPG, who have made it to Top 5.",
-            "level": 90,
-            "type": "equip",
-            "slot": "head",
-            "cost": 0,
-            "effect": {
-                "str": 30,
-                "mag": 30,
-                "dex": 10,
-                "maxhp": 200,
-                "maxmp": 30,
-                "def": 30,
-                "spd": 30
+                "def": 5,
+                "spd": 5
             }
         },
         "troll skull": {
@@ -6009,6 +6065,7 @@
                 "weaponry",
                 "grave",
                 "forest",
+                "center",
                 "tower f1"
             ],
             "content": {
@@ -6034,6 +6091,7 @@
                         }
                     }
                 },
+				"
                 "ron": {
                     "message": "Ron the Questgiver: Hello there! I have quests for new adventurers. If you bring me 75 venoms, I can give you a new weapon. Just type /talk ron:venom.",
                     "notopic": "Ron the Questgiver: Wuh... what? I have too many quests for this!",
@@ -6411,16 +6469,22 @@
                 "*berserker staff": 0.02,
                 "*sword": 0.02,
                 "*bone bow": 0.02,
+				"*dagger": 0.02,
                 "*armor": 0.02,
                 "*shield": 0.02,
-                "*rock": 0.05
+                "*rock": 0.03
             }
         }
     },
     "classHelp": [
         "*** ************************************** ***",
-        "±Game: Info for class 1",
-        "±Game: Info for class 2",
+        "±Game: The Warrior is a class which revolves Strength and Defense, using physical brawn and fortitude to defeat enemies at the cost of speed and dexterity. Each warrior has a high selection of items to choose from, as well as being able to play aggressively or defensively. Can upgrade into a Barbarian or Dragoon at level 30.",
+        "±Game: The Ranger's bows are their livelihood. Each of their attacks strike with true passion, and with an arsenal of skills, a ranger can be quite deadly. At level 30, a Ranger can become a Marksman or a Guard.",
+        "±Game: A Mage's power comes from their magic and their mastery of special abilities! Most magic requires time to cast, but mages can lower this time, weaken enemies, and defend themselves so that the enemy won't even cause damage. At level 30, can become a Wizard or a Necromancer.",
+        "±Game: Capable of breaking through the toughest of defenses, a Rogue specializes in different abilities meant to do one thing: kill. Whether it be high impact damage, piercing, or damage over time, a rogue can specialize in any killing technique. Of course, such power means that a rogue won't be too defensive. Can upgrade into an Assassin or a Ninja at level 30.",
+        "±Game: The holy Cleric can heal and bless allies and itself during battle. Keeping allies alive can be the tipping point in battles. A cleric can use holy attacks, capable of doing serious damage to enemies. At level 30, upgrades to a Bishop or a Paladin.",
+        "±Game: The gentle Bard is a team player. It isn't a surprise that a Bard's abilities revolve around team protection and rejuvination. A Bard isn't left without offense though. A Bard's song can cause his enemies' ears to bleed and death will come to those who oppose them... or even help them. At level 30, can upgrade to a poet or a Rocker.",
+        "±Game: A Monk's power comes from his heart-- and his fists. Monks are incapable of wielding weapons, but their punching skills can become stronger. A monk has the ability to destroy enemy's mana with his fists, as well as cause enemies to become disoriented. Once a Monk becomes level 30, he can upgrade to a Scrapper or a Chi Master.",
         "*** ************************************** ***"
     ]
 }

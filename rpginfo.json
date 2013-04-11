@@ -8,7 +8,7 @@
                 "mage",
                 "rogue",
                 "bard",
-    			"monk"
+                "monk"
             ],
             "location": "inn",
             "gold": 100,
@@ -18,16 +18,15 @@
                 "potion": 3,
                 "sword": 1,
                 "staff": 1,
-				"dagger": 1,
+                "dagger": 1,
                 "armor": 1,
                 "bow": 1
             }
         },
         "battle": {
-            "evasion": 1.125,
-            "defense": 1,
-            "damage": 1.1,
-            "critical": 1.5,
+            "evasion": 0.95,
+            "defense": 1.75,
+            "damage": 2,
             "party": 6
         },
         "leveling": {
@@ -145,8 +144,8 @@
             "level": 1,
             "exp": 10,
             "gold": 5,
-            "stats":{
-				"dex": 1,
+            "stats": {
+                "dex": 1,
                 "hp": 30,
                 "mp": 5,
                 "str": 1,
@@ -165,7 +164,7 @@
             "loot": {
                 "none": 0.5,
                 "potion": 0.43,
-				"kazoo": 0.05,
+                "kazoo": 0.05,
                 "slime sword": 0.02
             }
         },
@@ -176,7 +175,7 @@
             "gold": 10,
             "stats": {
                 "hp": 50,
-				"dex": 1,
+                "dex": 1,
                 "mp": 75,
                 "str": 5,
                 "def": 20,
@@ -204,7 +203,7 @@
                 "moldy toast": 0.1,
                 "selixer": 0.05,
                 "sword": 0.02,
-				"dagger": 0.03,
+                "dagger": 0.03,
                 "shield": 0.05,
                 "armor": 0.05,
                 "bow": 0.05,
@@ -224,7 +223,7 @@
             "gold": 1,
             "stats": {
                 "hp": 23,
-				"dex": 1,
+                "dex": 1,
                 "mp": 0,
                 "str": 1,
                 "def": 0,
@@ -249,7 +248,7 @@
             "gold": 2,
             "stats": {
                 "hp": 39,
-				"dex": 1,
+                "dex": 1,
                 "mp": 0,
                 "str": 1,
                 "def": 0,
@@ -275,7 +274,7 @@
             "gold": 4,
             "stats": {
                 "hp": 57,
-				"dex": 1,
+                "dex": 1,
                 "mp": 0,
                 "str": 1,
                 "def": 1,
@@ -300,7 +299,7 @@
             "exp": 86,
             "gold": 5,
             "stats": {
-				"dex": 2,
+                "dex": 2,
                 "hp": 89,
                 "mp": 0,
                 "str": 2,
@@ -328,7 +327,7 @@
             "exp": 4500,
             "gold": 150,
             "stats": {
-				"dex": 15,
+                "dex": 15,
                 "hp": 200,
                 "mp": 80,
                 "str": 1,
@@ -364,7 +363,7 @@
             "stats": {
                 "hp": 1000,
                 "mp": 200,
-				"dex": 3,
+                "dex": 3,
                 "str": 2,
                 "def": 1,
                 "spd": 10,
@@ -405,7 +404,7 @@
             "gold": 18000,
             "stats": {
                 "hp": 8000,
-				"dex": 40,
+                "dex": 40,
                 "mp": 2000,
                 "str": 55,
                 "def": 70,
@@ -446,7 +445,7 @@
             "stats": {
                 "hp": 900,
                 "mp": 205,
-				"dex": 50,
+                "dex": 50,
                 "str": 18,
                 "def": 20,
                 "spd": 40,
@@ -476,7 +475,7 @@
             "gold": 5000,
             "stats": {
                 "hp": 2500,
-				"dex": 65,
+                "dex": 65,
                 "mp": 60000,
                 "str": 20,
                 "def": 15,
@@ -512,7 +511,7 @@
                 "hp": 805,
                 "mp": 1000,
                 "str": 25,
-				"dex": 55,
+                "dex": 55,
                 "def": 20,
                 "spd": 40,
                 "mag": 25
@@ -549,7 +548,7 @@
             "gold": 8000,
             "stats": {
                 "hp": 1050,
-				"dex": 70,
+                "dex": 70,
                 "mp": 400,
                 "str": 36,
                 "def": 28,
@@ -590,7 +589,7 @@
             "stats": {
                 "hp": 1300,
                 "mp": 120,
-				"dex": 50,
+                "dex": 50,
                 "str": 25,
                 "def": 50,
                 "spd": 38,
@@ -625,7 +624,7 @@
             "stats": {
                 "hp": 400,
                 "mp": 100,
-				"dex": 55,
+                "dex": 55,
                 "str": 5,
                 "def": 40,
                 "spd": 5,
@@ -663,7 +662,7 @@
             "stats": {
                 "hp": 2500,
                 "mp": 200,
-				"dex": 50,
+                "dex": 50,
                 "str": 15,
                 "def": 45,
                 "spd": 10,
@@ -702,7 +701,7 @@
             "stats": {
                 "hp": 80,
                 "mp": 40,
-				"dex": 8,
+                "dex": 8,
                 "str": 7,
                 "def": 5,
                 "spd": 9,
@@ -725,7 +724,7 @@
             "loot": {
                 "none": 0.8,
                 "swift cape": 0.08,
-				"harmonica": 0.02,
+                "harmonica": 0.02,
                 "bone bow": 0.1
             }
         },
@@ -737,7 +736,7 @@
             "stats": {
                 "hp": 100,
                 "mp": 10,
-				"dex": 5,
+                "dex": 5,
                 "str": 10,
                 "def": 7,
                 "spd": 3,
@@ -766,7 +765,7 @@
             "stats": {
                 "hp": 150,
                 "mp": 50,
-				"dex": 10,
+                "dex": 10,
                 "str": 12,
                 "def": 30,
                 "spd": 4,
@@ -799,7 +798,7 @@
                 "hp": 80,
                 "mp": 150,
                 "str": 5,
-				"dex": 25,
+                "dex": 25,
                 "def": 10,
                 "spd": 20,
                 "mag": 30
@@ -833,7 +832,7 @@
             "stats": {
                 "hp": 350,
                 "mp": 190,
-				"dex": 32,
+                "dex": 32,
                 "str": 5,
                 "def": 15,
                 "spd": 20,
@@ -873,7 +872,7 @@
                 "hp": 2000,
                 "mp": 150,
                 "str": 25,
-				"dex": 40,
+                "dex": 40,
                 "def": 25,
                 "spd": 20,
                 "mag": 22
@@ -908,7 +907,7 @@
                 "hp": 25,
                 "mp": 25,
                 "str": 8,
-				"dex": 7,
+                "dex": 7,
                 "def": 5,
                 "spd": 8,
                 "mag": 1
@@ -924,15 +923,15 @@
             },
             "strategy": {
                 "attack": 0.7,
-				"rest": 0.03,
-				"aimed": 0.05,
-				"shower": 0.02,
-				"weak": 0.1,
-				"pierce": 0.1
+                "rest": 0.03,
+                "aimed": 0.05,
+                "shower": 0.02,
+                "weak": 0.1,
+                "pierce": 0.1
             },
-			"loot": {
-				"none": 1
-			}
+            "loot": {
+                "none": 1
+            }
         },
         "mage1": {
             "name": "Mage",
@@ -942,7 +941,7 @@
             "stats": {
                 "hp": 20,
                 "mp": 30,
-				"dex": 5,
+                "dex": 5,
                 "str": 1,
                 "def": 2,
                 "spd": 6,
@@ -958,15 +957,15 @@
             },
             "strategy": {
                 "magic": 0.5,
-				"rest": 0.1,
-				"fire": 0.05,
-				"ice": 0.1,
-				"lightning": 0.15,
-				"plague": 0.1
+                "rest": 0.1,
+                "fire": 0.05,
+                "ice": 0.1,
+                "lightning": 0.15,
+                "plague": 0.1
             },
-			"loot": {
-				"none": 1
-			}
+            "loot": {
+                "none": 1
+            }
         },
         "warrior1": {
             "name": "Warrior",
@@ -976,7 +975,7 @@
             "stats": {
                 "hp": 40,
                 "mp": 15,
-				"dex": 4,
+                "dex": 4,
                 "str": 7,
                 "def": 9,
                 "spd": 2,
@@ -993,16 +992,16 @@
             },
             "strategy": {
                 "attack": 0.6,
-				"rest": 0.12,
-				"charge": 0.13,
-				"whirl": 0.05,
-				"roar": 0.03,
-				"empower": 0.05,
-				"tank": 0.02
+                "rest": 0.12,
+                "charge": 0.13,
+                "whirl": 0.05,
+                "roar": 0.03,
+                "empower": 0.05,
+                "tank": 0.02
             },
-			"loot": {
-				"none": 1
-			}
+            "loot": {
+                "none": 1
+            }
         },
         "banished wizard": {
             "name": "Banished Wizard",
@@ -1012,7 +1011,7 @@
             "stats": {
                 "hp": 80,
                 "mp": 80,
-				"dex": 24,
+                "dex": 24,
                 "str": 1,
                 "def": 5,
                 "spd": 15,
@@ -1037,7 +1036,6 @@
                 "wizard hat": 0.05
             }
         },
-		
         "troll": {
             "name": "Trololololl",
             "level": 1,
@@ -1046,7 +1044,7 @@
             "stats": {
                 "hp": 300,
                 "mp": 40,
-				"dex": 90,
+                "dex": 90,
                 "str": 1,
                 "def": 1,
                 "spd": 1,
@@ -1076,7 +1074,7 @@
             "stats": {
                 "hp": 90,
                 "mp": 50,
-				"dex": 8,
+                "dex": 8,
                 "str": 8,
                 "def": 8,
                 "spd": 10,
@@ -1113,7 +1111,7 @@
             "stats": {
                 "hp": 130,
                 "mp": 40,
-				"dex": 7,
+                "dex": 7,
                 "str": 10,
                 "def": 14,
                 "spd": 2,
@@ -1146,7 +1144,7 @@
                 "hp": 20,
                 "mp": 10,
                 "str": 4,
-				"dex": 1,
+                "dex": 1,
                 "def": 3,
                 "spd": 2,
                 "mag": 1
@@ -1170,7 +1168,7 @@
                 "hp": 35,
                 "mp": 22,
                 "str": 8,
-				"dex": 3,
+                "dex": 3,
                 "def": 8,
                 "spd": 4,
                 "mag": 1
@@ -1179,8 +1177,8 @@
                 "attack": 1,
                 "rest": 1,
                 "charge": 0,
-				"whirl": 0,
-				"roar": 0,
+                "whirl": 0,
+                "roar": 0,
                 "empower": 1,
                 "tank": 0,
                 "droar": 0,
@@ -1196,7 +1194,7 @@
                 "hp": 40,
                 "mp": 18,
                 "str": 10,
-				"dex": 8,
+                "dex": 8,
                 "def": 4,
                 "spd": 6,
                 "mag": 1
@@ -1212,79 +1210,81 @@
                 "attack": 1
             }
         },
-		"chi master": {
-			"name": "Chi Master",
-			"stats": {
-				"hp": 28,
-				"mp": 26,
-				"str": 6,
-				"dex": 4,
-				"def": 5,
-				"spd": 7,
-				"mag": 6
-			},
-			"skills": {
-				"punch": 1,
-				"rest": 1,
-				"chi": 1,
-				"focus": 0,
-				"blast": 0,
-				"strike": 0
-			},
-			"strategy": {
-				"punch": 1
-			}},
-		"scrapper": {
-			"name": "Scrapper",
-			"stats": {
-				"hp": 34,
-				"mp": 25,
-				"str": 8,
-				"dex": 7,
-				"def": 7,
-				"spd": 7,
-				"mag": 3
-			},
-			"skills": {
-				"punch": 1,
-				"rest": 1,
-				"chi": 1,
-				"focus": 0,
-				"blast": 0,
-				"strike": 0
-			},
-			"strategy": {
-				"punch": 1
-			}},
-		"monk": {
-			"name": "Monk",
-			"stats": {
-				"hp": 16,
-				"mp": 16,
-				"str": 5,
-				"def": 2,
-				"dex": 2,
-				"spd": 4,
-				"mag": 3
-			},
-			"skills": {
-				"punch": 1,
-				"rest": 1,
-				"chi": 0,
-				"focus": 0,
-				"blast": 0
-			},
-			"strategy": {
-				"punch": 1
-			}},
-			
+        "chi master": {
+            "name": "Chi Master",
+            "stats": {
+                "hp": 28,
+                "mp": 26,
+                "str": 6,
+                "dex": 4,
+                "def": 5,
+                "spd": 7,
+                "mag": 6
+            },
+            "skills": {
+                "punch": 1,
+                "rest": 1,
+                "chi": 1,
+                "focus": 0,
+                "blast": 0,
+                "strike": 0
+            },
+            "strategy": {
+                "punch": 1
+            }
+        },
+        "scrapper": {
+            "name": "Scrapper",
+            "stats": {
+                "hp": 34,
+                "mp": 25,
+                "str": 8,
+                "dex": 7,
+                "def": 7,
+                "spd": 7,
+                "mag": 3
+            },
+            "skills": {
+                "punch": 1,
+                "rest": 1,
+                "chi": 1,
+                "focus": 0,
+                "blast": 0,
+                "strike": 0
+            },
+            "strategy": {
+                "punch": 1
+            }
+        },
+        "monk": {
+            "name": "Monk",
+            "stats": {
+                "hp": 16,
+                "mp": 16,
+                "str": 5,
+                "def": 2,
+                "dex": 3,
+                "spd": 4,
+                "mag": 3
+            },
+            "skills": {
+                "punch": 1,
+                "rest": 1,
+                "chi": 0,
+                "focus": 0,
+                "blast": 0
+            },
+            "strategy": {
+                "punch": 1
+            }
+        },
         "bard": {
             "name": "Bard",
             "stats": {
                 "hp": 20,
                 "mp": 15,
                 "str": 1,
-				"dex": 1,
+                "dex": 1,
                 "def": 2,
                 "spd": 2,
                 "mag": 1
@@ -1308,7 +1308,7 @@
                 "hp": 32,
                 "mp": 24,
                 "str": 1,
-				"dex": 3,
+                "dex": 3,
                 "def": 3,
                 "spd": 3,
                 "mag": 1
@@ -1330,7 +1330,7 @@
             "stats": {
                 "hp": 24,
                 "mp": 30,
-				"dex": 2,
+                "dex": 2,
                 "str": 1,
                 "def": 5,
                 "spd": 4,
@@ -1354,7 +1354,7 @@
                 "hp": 26,
                 "mp": 28,
                 "str": 6,
-				"dex": 8,
+                "dex": 8,
                 "def": 4,
                 "spd": 8,
                 "mag": 1
@@ -1366,7 +1366,7 @@
                 "multi": 0,
                 "weak": 0,
                 "venom": 0,
-				"shower": 0,
+                "shower": 0,
                 "pierce": 0,
                 "trap": 0
             },
@@ -1381,7 +1381,7 @@
                 "mp": 24,
                 "str": 7,
                 "def": 6,
-				"dex": 5,
+                "dex": 5,
                 "spd": 6,
                 "mag": 1
             },
@@ -1390,7 +1390,7 @@
                 "rest": 1,
                 "charge": 1,
                 "shower": 0,
-				"aimed": 0,
+                "aimed": 0,
                 "weak": 0,
                 "pierce": 0,
                 "trap": 0
@@ -1403,7 +1403,7 @@
             "name": "Ranger",
             "stats": {
                 "hp": 10,
-				"dex": 4,
+                "dex": 4,
                 "mp": 20,
                 "str": 3,
                 "def": 1,
@@ -1429,7 +1429,7 @@
                 "hp": 35,
                 "mp": 25,
                 "str": 6,
-				"dex": 4,
+                "dex": 4,
                 "def": 7,
                 "spd": 4,
                 "mag": 6
@@ -1452,7 +1452,7 @@
             "stats": {
                 "hp": 30,
                 "mp": 30,
-				"dex": 3,
+                "dex": 3,
                 "str": 2,
                 "def": 4,
                 "spd": 3,
@@ -1462,9 +1462,9 @@
                 "magic": 1,
                 "rest": 1,
                 "heal": 1,
-				"ress": 0,
+                "ress": 0,
                 "bless": 0,
-				"fortify": 0,
+                "fortify": 0,
                 "holy": 0,
                 "judge": 0
             },
@@ -1478,7 +1478,7 @@
                 "hp": 15,
                 "mp": 15,
                 "str": 1,
-				"dex": 1,
+                "dex": 1,
                 "def": 4,
                 "spd": 1,
                 "mag": 4
@@ -1502,7 +1502,7 @@
                 "hp": 24,
                 "mp": 26,
                 "str": 6,
-				"dex": 8,
+                "dex": 8,
                 "def": 5,
                 "spd": 8,
                 "mag": 2
@@ -1512,7 +1512,7 @@
                 "rest": 1,
                 "sprint": 0,
                 "stab": 0,
-				"toxic": 0,
+                "toxic": 0,
                 "bleed": 1,
                 "sneak": 0
             },
@@ -1527,7 +1527,7 @@
                 "mp": 25,
                 "str": 9,
                 "def": 4,
-				"dex": 9,
+                "dex": 9,
                 "spd": 9,
                 "mag": 1
             },
@@ -1536,7 +1536,7 @@
                 "rest": 1,
                 "sprint": 0,
                 "stab": 1,
-				"bleed": 0,
+                "bleed": 0,
                 "hidden": 0
             },
             "strategy": {
@@ -1549,7 +1549,7 @@
                 "hp": 13,
                 "mp": 18,
                 "str": 2,
-				"dex": 4,
+                "dex": 4,
                 "def": 3,
                 "spd": 5,
                 "mag": 1
@@ -1572,7 +1572,7 @@
                 "hp": 22,
                 "mp": 34,
                 "str": 1,
-				"dex": 8,
+                "dex": 8,
                 "def": 3,
                 "spd": 6,
                 "mag": 9
@@ -1581,8 +1581,8 @@
                 "magic": 1,
                 "rest": 1,
                 "inferno": 0,
-				"ice": 0,
-				"fire": 1,
+                "ice": 0,
+                "fire": 1,
                 "gale": 0,
                 "lightning": 0,
                 "quake": 0
@@ -1597,7 +1597,7 @@
                 "hp": 34,
                 "mp": 28,
                 "str": 1,
-				"dex": 5,
+                "dex": 5,
                 "def": 3,
                 "spd": 5,
                 "mag": 6
@@ -1620,7 +1620,7 @@
             "stats": {
                 "hp": 10,
                 "mp": 20,
-				"dex": 3,
+                "dex": 3,
                 "str": 1,
                 "def": 2,
                 "spd": 2,
@@ -1632,7 +1632,8 @@
                 "fire": 0,
                 "ice": 0,
                 "lightning": 0,
-                "plague": 0
+                "plague": 0,
+                "arcane": 0
             },
             "strategy": {
                 "magic": 1
@@ -1659,14 +1660,21 @@
             "message": "~User~ punches ~Target~ in the face! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 7,
             "cost": 0,
-            "modifier": [10,15,20,25,30, 35, 40],
+            "modifier": [
+                10,
+                15,
+                20,
+                25,
+                30,
+                35,
+                40
+            ],
             "type": "physical",
             "target": "enemy",
             "effect": {
                 "snipe": true
             }
         },
-		
         "attack": {
             "name": "Attack",
             "info": "A regular physical attack that doesn't miss.",
@@ -1683,7 +1691,7 @@
         "rest": {
             "name": "Rest",
             "info": "Restores Mana.",
-            "message": "~User~ stop attacking for a while to restore their mana!",
+            "message": "~User~ stopped attacking for a while to restore their mana!",
             "levels": 4,
             "cost": 0,
             "type": "support",
@@ -1814,7 +1822,7 @@
             "levels": 5,
             "cost": 6,
             "type": "support",
-			"cast": 1,
+            "cast": 1,
             "target": "party",
             "targetCount": 10,
             "effect": {
@@ -1898,7 +1906,7 @@
             "message": "~User~ unleashes a powerful bash at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 6,
             "cost": 5,
-			"cast": 1,
+            "cast": 1,
             "modifier": [
                 60,
                 65,
@@ -1912,16 +1920,19 @@
         },
         "hidden": {
             "name": "Hidden Strike",
-			"alt": ["hidden strike"],
+            "alt": [
+                "hidden strike"
+            ],
             "info": "Stay hidden until the time is right... The target is on the move... Kill with one piercing blow... Mission accomplished.",
             "message": "~Target~ never saw ~User~ until it was too late..A quick, piercing slash and ~Target~ is left with ~Life~ HP after taking ~Damage~ damage.",
             "levels": 6,
             "cost": 15,
-			"cast": 3,
-			"requisites": {
-				"skill": {
-					"stab": 5
-				}},
+            "cast": 3,
+            "requisites": {
+                "skill": {
+                    "stab": 5
+                }
+            },
             "modifier": [
                 15,
                 20,
@@ -1932,9 +1943,9 @@
             ],
             "type": "physical",
             "target": "enemy",
-			"effect": {
-				"pierce": true
-			}
+            "effect": {
+                "pierce": true
+            }
         },
         "empower": {
             "name": "Empower",
@@ -2193,11 +2204,12 @@
             "info": "Shoots a poisoned Arrow with perfect precision at one target.",
             "message": "~User~ aims at ~Target~ and shoots an arrow! ~Target~ lost ~Damage~ HP and now has ~Life~! ~Target~ is poisoned!",
             "levels": 5,
-			"cast": 1,
-			"requisites": {
-				"skill": {
-					"aimed": 5
-			}},
+            "cast": 1,
+            "requisites": {
+                "skill": {
+                    "aimed": 5
+                }
+            },
             "cost": 6,
             "modifier": [
                 4,
@@ -2238,7 +2250,7 @@
             "levels": 5,
             "cost": 3,
             "modifier": [
-				40,
+                40,
                 45,
                 50,
                 55,
@@ -2255,14 +2267,14 @@
             "info": "Shoots several arrows to hit multiple enemies, takes a turn to ready your arrows.",
             "message": "~User~ shoots several arrows against their enemies, hitting ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
-			"cast": 1,
+            "cast": 1,
             "cost": 2,
             "modifier": [
                 30,
                 35,
                 40,
                 45,
-				50
+                50
             ],
             "type": "physical",
             "target": "enemy",
@@ -2276,18 +2288,19 @@
             "info": "Shoots several arrows to hit multiple enemies, and won't miss. You need time to ready your arrows!",
             "message": "~User~ shoots several arrows against his enemies, hitting ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
-			"cast": 1,
-			"requisites": {
-				"skill": {
-					"shower": 5
-			}},
+            "cast": 1,
+            "requisites": {
+                "skill": {
+                    "shower": 5
+                }
+            },
             "cost": 5,
             "modifier": [
                 60,
                 65,
                 70,
                 75,
-				80
+                80
             ],
             "type": "physical",
             "target": "enemy",
@@ -2304,14 +2317,14 @@
             "info": "Spin at high speeds to attack multiple targets. You spin wildly, so the time it takes to connect is lengthened.",
             "message": "~User~ spins at wild speeds, hitting ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
-			"cast": 1,
+            "cast": 1,
             "cost": 4,
             "modifier": [
                 40,
                 45,
                 50,
                 55,
-				60
+                60
             ],
             "type": "physical",
             "target": "enemy",
@@ -2501,7 +2514,7 @@
             "info": "An undeads dragon's powerful breath that hits multiple enemies. Doesn't always connect with the enemy.",
             "message": "~User~ breathes on ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
-			"cast": 2,
+            "cast": 2,
             "cost": 12,
             "requisites": {
                 "level": 35,
@@ -2529,12 +2542,12 @@
                     0.7
                 ],
                 "duration": [
-                        1,
-                        2,
-                        2,
-                        3,
-                        3
-                    ],
+                    1,
+                    2,
+                    2,
+                    3,
+                    3
+                ],
                 "target": {
                     "str": [
                         -10,
@@ -2593,10 +2606,11 @@
             "message": "~User~ heals ~Target~! ~Target~ gained ~Damage~ HP and now has ~Life~!",
             "levels": 5,
             "cost": 12,
-			"requisites": {
-				"skill": {
-					"heal": 5
-			}},
+            "requisites": {
+                "skill": {
+                    "heal": 5
+                }
+            },
             "modifier": [
                 -1,
                 -2,
@@ -2606,7 +2620,7 @@
             ],
             "type": "magical",
             "target": "party",
-			"targetCount": 12,
+            "targetCount": 12,
             "effect": {
                 "pierce": true,
                 "snipe": true
@@ -2618,11 +2632,12 @@
             "message": "~User~ roared at ~Target~, inflicting ~Damage~ damage. ~Target~'s defenses are stripped and is quaking in fear!",
             "levels": 5,
             "cost": 9,
-			"cast": 1,
-			"requisites": {
-				"skill": {
-					"roar": 5
-			}},
+            "cast": 1,
+            "requisites": {
+                "skill": {
+                    "roar": 5
+                }
+            },
             "modifier": [
                 20,
                 27,
@@ -2811,14 +2826,14 @@
             "message": "~User~ focuses his willpower and fires a blast of mana at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~! ~Target~ also lost some mana!",
             "levels": 5,
             "cost": 8,
-			"cast": 1,
-			"requisites": {
-				"skill": {
-					"focus": 2
-				}
-			},
+            "cast": 1,
+            "requisites": {
+                "skill": {
+                    "focus": 2
+                }
+            },
             "modifier": [
-				40,
+                40,
                 45,
                 50,
                 55,
@@ -2826,7 +2841,7 @@
             ],
             "type": "magical",
             "target": "enemy",
-			"targetCount": 3,
+            "targetCount": 3,
             "effect": {
                 "target": {
                     "mp": [
@@ -2889,7 +2904,13 @@
             "target": "enemy",
             "effect": {
                 "target": {
-				"duration": [3,3,4,4,5],
+                    "duration": [
+                        3,
+                        3,
+                        4,
+                        4,
+                        5
+                    ],
                     "mp": [
                         -8,
                         -10,
@@ -2897,7 +2918,13 @@
                         -14,
                         -16
                     ],
-					"mpdamage": [-1,-2,-3,-4,-5]
+                    "mpdamage": [
+                        -1,
+                        -2,
+                        -3,
+                        -4,
+                        -5
+                    ]
                 }
             }
         },
@@ -2910,15 +2937,14 @@
             "message": "~User~ sees ~Target~'s chi spots! ~User~ rushes ~Target~ and hits every single one, draining a huge chunk of mana. ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 6,
             "cost": 12,
-			"cast": 1,
+            "cast": 1,
             "modifier": [
                 40,
                 45,
                 50,
                 55,
                 60,
-				65
-				
+                65
             ],
             "type": "physical",
             "target": "enemy",
@@ -2930,7 +2956,7 @@
                         -30,
                         -30,
                         -40,
-						-50
+                        -50
                     ]
                 }
             }
@@ -3011,7 +3037,7 @@
             "info": "A magical attack that creates a windstorm and suspends the opponent in the air, making them slow to the point of being immobile, and, reducing physical attacks greatly. Takes two turns to charge.",
             "message": "~User~ created a wind storm with its wings and aimed it at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~! ~Target~ is now slower and less powerful!",
             "levels": 7,
-			"cast": 2,
+            "cast": 2,
             "cost": 15,
             "type": "support",
             "target": "enemy",
@@ -3019,9 +3045,10 @@
             "requisites": {
                 "speed": 40,
                 "mana": 60,
-				"skill": {
-					"ice": 5
-            }},
+                "skill": {
+                    "ice": 5
+                }
+            },
             "effect": {
                 "target": {
                     "str": [
@@ -3089,14 +3116,13 @@
             "info": "A magical attack that hits multiple enemies. Takes a turn to charge power.",
             "message": "~User~ shoots a Fire Ball at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
-			"cast": 1,
             "cost": 4,
             "modifier": [
+                25,
+                30,
                 35,
                 40,
-                45,
-                50,
-                55
+                45
             ],
             "type": "magical",
             "target": "enemy",
@@ -3110,12 +3136,13 @@
             "info": "A powerful quake caused by mages that damages most enemies enemies. Takes two turns to charge full power.",
             "message": "~User~ breaks the ground with a powerful smash. ~Target~ falls and hits the ground! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
-			"cast": 2,
+            "cast": 2,
             "cost": 9,
-			"requisites": {
-				"skill": {
-					"lightning": 5
-				}},
+            "requisites": {
+                "skill": {
+                    "lightning": 5
+                }
+            },
             "modifier": [
                 50,
                 60,
@@ -3133,11 +3160,12 @@
             "message": "~User~ shoots a Fire Ball at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~! ~Target~'s defenses were burned!",
             "levels": 5,
             "cost": 8,
-			"cast": 2,
-			"requisites": {
-				"skill": {
-					"fire": 5
-				}},
+            "cast": 2,
+            "requisites": {
+                "skill": {
+                    "fire": 5
+                }
+            },
             "modifier": [
                 50,
                 55,
@@ -3183,12 +3211,12 @@
             "message": "God answers ~User~'s prayer with a thunderous boom and a blinding light that surrounds ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
             "cost": 20,
-			"cast": 2,
+            "cast": 2,
             "requisites": {
                 "level": 35,
                 "mag": 30,
-				"mp": 35,
-				"hp": 200,
+                "mp": 35,
+                "hp": 200,
                 "skill": {
                     "holy": 5
                 }
@@ -3216,7 +3244,7 @@
             "message": "~User~ makes a lightning bolt pass through ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
             "cost": 5,
-			"cast": 1,
+            "cast": 1,
             "modifier": [
                 40,
                 45,
@@ -3251,7 +3279,13 @@
                         -65,
                         -70
                     ],
-					"hpdamage": [-5,-10,-15,-20,-25]
+                    "hpdamage": [
+                        -5,
+                        -10,
+                        -15,
+                        -20,
+                        -25
+                    ]
                 }
             }
         },
@@ -3469,13 +3503,12 @@
             "type": "usable",
             "level": 0,
             "cost": 20,
-            "message": "You drank a potion and restored 30 HP!",
+            "message": "You drank a potion and restored 30 HP and 10 MP!",
             "effect": {
                 "hp": 30,
-				"mp": 10
+                "mp": 10
             }
         },
-		
         "carrot": {
             "name": "Carrot",
             "info": "A tasty carrot with the leaves still intact. Can be eaten to restore 10 HP",
@@ -3682,7 +3715,7 @@
             "cost": 150,
             "effect": {
                 "str": 4,
-				"dex": 1,
+                "dex": 1,
                 "spd": -2,
                 "mag": 2
             }
@@ -3704,7 +3737,7 @@
             "cost": 60,
             "effect": {
                 "str": 3,
-				"dex": 3,
+                "dex": 3,
                 "spd": 5
             }
         },
@@ -3720,7 +3753,7 @@
             "cost": 100,
             "effect": {
                 "str": -30,
-				"dex": 100,
+                "dex": 100,
                 "spd": -10
             }
         },
@@ -3745,8 +3778,8 @@
             "cost": 500,
             "effect": {
                 "str": 7,
-				"def": 3,
-				"dex": -1,
+                "def": 3,
+                "dex": -1,
                 "mag": 6
             }
         },
@@ -3764,7 +3797,7 @@
             "cost": 600,
             "effect": {
                 "str": 5,
-				"dex": 5,
+                "dex": 5,
                 "spd": 5
             }
         },
@@ -3782,7 +3815,7 @@
             "cost": 600,
             "effect": {
                 "str": 5,
-				"dex": 5,
+                "dex": 5,
                 "spd": 5
             }
         },
@@ -3794,7 +3827,7 @@
                 "warrior",
                 "dragoon",
                 "paladin",
-				"monk",
+                "monk",
                 "guard",
                 "barbarian",
                 "cleric"
@@ -3804,7 +3837,7 @@
             "cost": 60,
             "effect": {
                 "def": 10,
-				"dex": -1,
+                "dex": -1,
                 "str": 2
             }
         },
@@ -3823,7 +3856,7 @@
             "cost": 240,
             "effect": {
                 "str": 6,
-				"dex": 7,
+                "dex": 7,
                 "spd": 8,
                 "def": -4
             }
@@ -3872,7 +3905,7 @@
             "effect": {
                 "str": 10,
                 "mag": 5,
-				"dex": 4,
+                "dex": 4,
                 "maxmp": 5,
                 "spd": -1
             }
@@ -3899,7 +3932,7 @@
             "cost": 1000,
             "effect": {
                 "str": 8,
-				"dex": 6,
+                "dex": 6,
                 "spd": 2,
                 "mag": 2,
                 "maxmp": 10,
@@ -3926,8 +3959,8 @@
             "effect": {
                 "str": 2,
                 "spd": 2,
-				"dex": 6,
-				"def": 5,
+                "dex": 6,
+                "def": 5,
                 "mag": 8,
                 "maxmp": 15,
                 "maxhp": 80
@@ -3942,20 +3975,32 @@
             "level": 5,
             "type": "equip",
             "slot": "body",
-			"classes": ["mage",
-				"wizard",
-				"monk",
-				"rogue",
-				"assassin","guard","monk","scrapper","chi master",
-				"ranger","marksman","cleric",
-				"ninja","warrior","paladin",
-				"bishop","necromancer","dragoon",
-				"barbarian"],
+            "classes": [
+                "mage",
+                "wizard",
+                "monk",
+                "rogue",
+                "assassin",
+                "guard",
+                "monk",
+                "scrapper",
+                "chi master",
+                "ranger",
+                "marksman",
+                "cleric",
+                "ninja",
+                "warrior",
+                "paladin",
+                "bishop",
+                "necromancer",
+                "dragoon",
+                "barbarian"
+            ],
             "cost": 900,
             "effect": {
                 "str": 5,
                 "def": 6,
-				"dex": -2,
+                "dex": -2,
                 "mag": 3,
                 "maxmp": 2,
                 "spd": -2
@@ -3963,16 +4008,18 @@
         },
         "suit": {
             "name": "Flesh Suit",
-			"alt": ["flesh suit"],
+            "alt": [
+                "flesh suit"
+            ],
             "info": "Oh... Oh why.. Who would make this... WHO WOULD WEAR THIS....?",
             "level": 5,
             "type": "equip",
             "slot": "body",
             "cost": 15000,
             "effect": {
-				"maxhp": 200,
+                "maxhp": 200,
                 "str": -5,
-				"dex": 12,
+                "dex": 12,
                 "def": -5,
                 "mag": -5,
                 "maxmp": -8,
@@ -3999,7 +4046,7 @@
             "effect": {
                 "str": 3,
                 "def": 5,
-				"dex": -1,
+                "dex": -1,
                 "mag": 2,
                 "maxmp": 2,
                 "spd": -2
@@ -4018,7 +4065,7 @@
             "effect": {
                 "str": 2,
                 "mag": 1,
-				"dex": -1,
+                "dex": -1,
                 "maxmp": 2,
                 "def": 3,
                 "spd": -1
@@ -4028,7 +4075,7 @@
             "name": "Crown of β",
             "alt": [
                 "crown of beta",
-				"beta"
+                "beta"
             ],
             "info": "There are those who experience the Game. Then there are those who experience the game before the game. This is the crown.. of BETA!",
             "level": 30,
@@ -4038,8 +4085,8 @@
             "effect": {
                 "str": 10,
                 "mag": 10,
-				"dex": 10,
-				"maxhp": 50,
+                "dex": 10,
+                "maxhp": 50,
                 "maxmp": 10,
                 "def": 10,
                 "spd": 10
@@ -4049,7 +4096,7 @@
             "name": "Crown of α",
             "alt": [
                 "crown of alpha",
-				"alpha"
+                "alpha"
             ],
             "info": "This crown is for those true to RPG, who have made it to Top 5.",
             "level": 90,
@@ -4059,8 +4106,8 @@
             "effect": {
                 "str": 30,
                 "mag": 30,
-				"dex": 10,
-				"maxhp": 200,
+                "dex": 10,
+                "maxhp": 200,
                 "maxmp": 30,
                 "def": 30,
                 "spd": 30
@@ -4094,7 +4141,7 @@
             "effect": {
                 "str": 10,
                 "def": -2,
-				"dex": -1,
+                "dex": -1,
                 "spd": -2,
                 "mag": -2
             }
@@ -4113,7 +4160,7 @@
             "effect": {
                 "str": -2,
                 "def": 10,
-				"dex": -1,
+                "dex": -1,
                 "spd": -2,
                 "mag": -2
             }
@@ -4133,7 +4180,7 @@
                 "str": -2,
                 "def": -2,
                 "spd": 10,
-				"dex": -1,
+                "dex": -1,
                 "mag": -2
             }
         },
@@ -4211,7 +4258,7 @@
             "cost": 250,
             "effect": {
                 "def": 2,
-				"dex": 5,
+                "dex": 5,
                 "mag": 8
             }
         },
@@ -4256,7 +4303,7 @@
                 "maxhp": 75,
                 "maxmp": 15,
                 "str": 2,
-				"dex": 10,
+                "dex": 10,
                 "def": 12,
                 "spd": 2,
                 "mag": 12
@@ -4271,7 +4318,7 @@
             "cost": 60,
             "effect": {
                 "def": 3,
-				"dex": 3,
+                "dex": 3,
                 "spd": 2
             }
         },
@@ -4285,7 +4332,7 @@
             "effect": {
                 "str": 15,
                 "mag": 10,
-				"dex": 6,
+                "dex": 6,
                 "def": -2,
                 "spd": 8
             }
@@ -4295,14 +4342,21 @@
             "info": "A hammer made out of..tightly packed bird feathers. It exudes a magical aura. Usable by upgraded clerics and warriors.",
             "level": 35,
             "type": "equip",
-			"classes": ["cleric", "paladin", "bishop","guard","dragoon","barbarian"],
+            "classes": [
+                "cleric",
+                "paladin",
+                "bishop",
+                "guard",
+                "dragoon",
+                "barbarian"
+            ],
             "slot": "rhand",
             "cost": 52000,
             "effect": {
                 "maxhp": 30,
                 "str": -4,
                 "spd": 3,
-				"dex": 6,
+                "dex": 6,
                 "mag": 12
             }
         },
@@ -4322,7 +4376,7 @@
                 "maxmp": 50,
                 "spd": 8,
                 "mag": 15,
-				"dex": 10,
+                "dex": 10,
                 "def": 5
             }
         },
@@ -4333,7 +4387,7 @@
             "type": "equip",
             "slot": "rhand",
             "classes": [
-				"bard",
+                "bard",
                 "poet",
                 "rocker"
             ],
@@ -4349,17 +4403,17 @@
             "type": "equip",
             "slot": "rhand",
             "classes": [
-				"bard",
+                "bard",
                 "poet",
                 "rocker"
             ],
             "cost": 100,
             "effect": {
                 "maxhp": 50,
-				"maxmp": 10,
-				"def": 2
+                "maxmp": 10,
+                "def": 2
             }
-        },		
+        },
         "sitar": {
             "name": "Sitar of Life",
             "info": "The Sitar of Life is an instrument that enhances the longevity of its musician.",
@@ -4393,7 +4447,7 @@
             "effect": {
                 "str": 28,
                 "mag": 8,
-				"dex": -3,
+                "dex": -3,
                 "spd": -4
             }
         },
@@ -4413,7 +4467,7 @@
             "effect": {
                 "str": 28,
                 "def": 8,
-				"dex": -2,
+                "dex": -2,
                 "spd": 18
             }
         },
@@ -4433,7 +4487,7 @@
             "effect": {
                 "str": 9,
                 "def": 24,
-				"dex": -4,
+                "dex": -4,
                 "mag": 3,
                 "spd": -8
             }
@@ -4453,7 +4507,7 @@
             "cost": 800,
             "effect": {
                 "str": 4,
-				"dex": -8,
+                "dex": -8,
                 "def": 22,
                 "spd": -8
             }
@@ -4474,27 +4528,28 @@
             "effect": {
                 "str": 5,
                 "def": 15,
-				"dex": -3,
+                "dex": -3,
                 "spd": -6
             }
         },
-		"dagger": {
-			"name": "Dagger",
-			"info": "A basic dagger made for rogues",
-			"level": 1,
-			"type": "equip",
-			"classes": [
-				"rogue",
-				"assassin",
-				"ninja"
-			],
-			"slot": "rhand",
-			"cost": 15,
-			"effect": {
-				"str": 1,
-				"dex": 3,
-				"spd": 3
-			}},
+        "dagger": {
+            "name": "Dagger",
+            "info": "A basic dagger made for rogues",
+            "level": 1,
+            "type": "equip",
+            "classes": [
+                "rogue",
+                "assassin",
+                "ninja"
+            ],
+            "slot": "rhand",
+            "cost": 15,
+            "effect": {
+                "str": 1,
+                "dex": 3,
+                "spd": 3
+            }
+        },
         "drclaw": {
             "name": "Dragon's Claw",
             "info": "A claw bathed in dragon's blood. Is said to never break. Usable by upgraded rogues.",
@@ -4508,7 +4563,7 @@
             "cost": 800,
             "effect": {
                 "str": 24,
-				"dex": -4,
+                "dex": -4,
                 "def": 3,
                 "spd": 6
             }
@@ -4520,7 +4575,7 @@
             "type": "equip",
             "classes": [
                 "barbarian",
-				"marksman",
+                "marksman",
                 "guard",
                 "dragoon",
                 "paladin"
@@ -4530,7 +4585,7 @@
             "effect": {
                 "str": 6,
                 "def": 20,
-				"dex": -2,
+                "dex": -2,
                 "mag": 2,
                 "spd": -3
             }
@@ -4551,7 +4606,7 @@
             "effect": {
                 "str": 2,
                 "def": 14,
-				"dex": 5,
+                "dex": 5,
                 "spd": 5
             }
         },
@@ -4562,7 +4617,7 @@
             "type": "equip",
             "classes": [
                 "barbarian",
-				"marksman",
+                "marksman",
                 "guard",
                 "dragoon",
                 "paladin"
@@ -4571,8 +4626,8 @@
             "cost": 900,
             "effect": {
                 "str": 3,
-				"dex": 3,
-				"spd": 2,
+                "dex": 3,
+                "spd": 2,
                 "def": 10
             }
         },
@@ -4592,7 +4647,7 @@
             "effect": {
                 "str": 18,
                 "def": 2,
-				"dex": 8,
+                "dex": 8,
                 "spd": 10
             }
         },
@@ -4605,15 +4660,15 @@
             "cost": 2000,
             "classes": [
                 "wizard",
-				"poet",
-				"rocker",
+                "poet",
+                "rocker",
                 "bishop",
                 "necromancer"
             ],
             "effect": {
                 "def": 14,
                 "mag": 15,
-				"dex": 8,
+                "dex": 8,
                 "spd": 8
             }
         },
@@ -4631,7 +4686,7 @@
             "effect": {
                 "str": 15,
                 "def": 2,
-				"dex": 10,
+                "dex": 10,
                 "spd": 15
             }
         },
@@ -4652,7 +4707,7 @@
             "effect": {
                 "str": 20,
                 "mag": 12,
-				"dex": 5,
+                "dex": 5,
                 "spd": 8
             }
         },
@@ -4673,7 +4728,7 @@
             "effect": {
                 "str": 10,
                 "def": 2,
-				"dex": 2,
+                "dex": 2,
                 "spd": -2
             }
         },
@@ -4686,7 +4741,7 @@
             "cost": 50,
             "effect": {
                 "def": 3,
-				"dex": 2,
+                "dex": 2,
                 "mag": 3
             }
         },
@@ -4700,9 +4755,9 @@
             "classes": [
                 "warrior",
                 "paladin",
-				"monk",
+                "monk",
                 "barbarian",
-				"bishop",
+                "bishop",
                 "guard",
                 "dragoon",
                 "cleric"
@@ -4710,7 +4765,7 @@
             "effect": {
                 "def": 6,
                 "str": 3,
-				"dex": -2,
+                "dex": -2,
                 "spd": -4
             }
         },
@@ -4731,7 +4786,7 @@
             "effect": {
                 "def": 5,
                 "mag": 10,
-				"dex": -1,
+                "dex": -1,
                 "spd": -4
             }
         },
@@ -4745,65 +4800,70 @@
             "effect": {
                 "def": 5,
                 "str": 4,
-				"dex": -1,
+                "dex": -1,
                 "spd": -1
             }
         }
     },
     "places": {
-		"tower f1": {
-			"name": "Tower, floor one",
-			"info": "The entrance and first floor of the Tower. Some old poets and bards tell tales of how mystical forces are at work in the Tower. Only one way to find out. (5+)",
-			"welcome": "You enter the first floor of the Tower. The room is large, yet desolate, except for a small group of people blocking the path of the staircase leading to f2.",
-			"type": "dungeon",
-			"access": [
-				"inn",
-				"tower f2"
-			],
-			"npc": {
-				"group": {
-					"message": "Warrior, Ranger, Mage: Who is it who dares to climb the tower? If you want to go further up the Tower, you'll have to beat us, kid. Prove that you won't just die when things get tough. When you're ready to challenge us, do /t group:battle.",
-					"notopic": "Warrior, Ranger, Mage: You're talking gibberish, kid.",
-					"your mom": {
-						"message": "Warrior, Ranger, Mage: Fuck off."
-					},
-					"fuck you": {
-						"message": "Warrior, Ranger, Mage: You're nothing but a stupid kid."
-					},
-					"battle": {
-						"message": "Warrior, Ranger, Mage: Ready, then? Let's do it.",
-						"denymsg": "Warrior, Ranger, Mage: We trust you. Go on ahead. Just don't prove us wrong.",
-						"effect": {
-						"events": {
-							"groupFight": true
-						},
-							"monsters": {
-								"ranger1": 1,
-								"warrior1": 1,
-								"mage1": 1
-							},
-							"items":{
-							"f2 key": 1}
-						},
-						"requisites": {
-						"events": {
-							"groupFight": false
-						}
-				}}}}},
-		"tower f2": {
-			"name": "Tower, floor two",
-			"info": "The second floor of the Tower.",
-			"welcome": "Entering the room, you notice a musty aroma in the air. THIS FLOOR IS NOT COMPLETE.",
-			"type": "dungeon",
-			"access": [
-				"tower f1"
-			],
-			"requisites": {
-			"key": {
-				"f2 key": 1
-			}
-			}},
-			
+        "tower f1": {
+            "name": "Tower, floor one",
+            "info": "The entrance and first floor of the Tower. Some old poets and bards tell tales of how mystical forces are at work in the Tower. Only one way to find out. (5+)",
+            "welcome": "You enter the first floor of the Tower. The room is large, yet desolate, except for a small group of people blocking the path of the staircase leading to f2.",
+            "type": "dungeon",
+            "access": [
+                "inn",
+                "tower f2"
+            ],
+            "npc": {
+                "group": {
+                    "message": "Warrior, Ranger, Mage: Who is it who dares to climb the tower? If you want to go further up the Tower, you'll have to beat us, kid. Prove that you won't just die when things get tough. When you're ready to challenge us, do /t group:battle.",
+                    "notopic": "Warrior, Ranger, Mage: You're talking gibberish, kid.",
+                    "your mom": {
+                        "message": "Warrior, Ranger, Mage: Fuck off."
+                    },
+                    "fuck you": {
+                        "message": "Warrior, Ranger, Mage: You're nothing but a stupid kid."
+                    },
+                    "battle": {
+                        "message": "Warrior, Ranger, Mage: Ready, then? Let's do it.",
+                        "denymsg": "Warrior, Ranger, Mage: We trust you. Go on ahead. Just don't prove us wrong.",
+                        "effect": {
+                            "events": {
+                                "groupFight": true
+                            },
+                            "monsters": {
+                                "ranger1": 1,
+                                "warrior1": 1,
+                                "mage1": 1
+                            },
+                            "items": {
+                                "f2 key": 1
+                            }
+                        },
+                        "requisites": {
+                            "events": {
+                                "groupFight": false
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "tower f2": {
+            "name": "Tower, floor two",
+            "info": "The second floor of the Tower.",
+            "welcome": "Entering the room, you notice a musty aroma in the air. THIS FLOOR IS NOT COMPLETE.",
+            "type": "dungeon",
+            "access": [
+                "tower f1"
+            ],
+            "requisites": {
+                "key": {
+                    "f2 key": 1
+                }
+            }
+        },
         "weaponry": {
             "name": "Equipment Shop",
             "info": "Buy basic stuff here.",
@@ -4853,7 +4913,7 @@
                                 "bishop",
                                 "wizard",
                                 "necromancer",
-								"monk",
+                                "monk",
                                 "paladin",
                                 "dragoon",
                                 "barbarian",
@@ -4920,9 +4980,10 @@
                             }
                         }
                     }
-				}}},
-
-		"temple": {
+                }
+            }
+        },
+        "temple": {
             "name": "Holy Temple",
             "info": "A place for clerics of all kinds.",
             "welcome": "Priest: Hello there, child. You can /talk to the Bishop, Paladin, or me to figure out what it is you want to do.",
@@ -5017,7 +5078,8 @@
                                 "str": 2
                             }
                         }
-                    }},
+                    }
+                },
                 "paladin": {
                     "message": "Paladin: Hello, I am a Paladin. I have high strength and defense and can use more weapons than a cleric can, but have less healing abilities. That doesn't mean I can't use a quick heal to rejuvinate myself or an ally! If you want to be a Paladin, type /talk paladin:upgrade when you have 10,000 gold and are level 30.",
                     "notopic": "Paladin: What? I'm a paladin, not a doctor!",
@@ -5063,9 +5125,9 @@
                             "gold": 10000
                         }
                     }
-                
+                }
             }
-        }},
+        },
         "library": {
             "name": "Arcane Library",
             "info": "A place for mages of all kinds.",
@@ -5677,7 +5739,7 @@
                         "acceptmsg": "Brawler: Thanks! Here is/are ~Count~ ~Item~(s) for ~Price~ Gold.",
                         "sell": {
                             "selixer": 5000,
-							"armor": 15
+                            "armor": 15
                         },
                         "requisites": {
                             "classes": [
@@ -5946,7 +6008,7 @@
                 "weaponry",
                 "grave",
                 "forest",
-				"tower f1"
+                "tower f1"
             ],
             "content": {
                 "slime:slime": 0.4,
@@ -6038,52 +6100,55 @@
             "requisites": {
                 "level": 11
             },
-			"npc": {
-				"mort": {
-					"message": "Mort the Digger: Hello... You must be a new adventurer.. I have a couple favors to ask of you... Why yes... I need you to bring me 50 rotten fleshes.. Why? Well, I don't see how that's any of your concern... do /t mort:feast when you have them. I... also need you to clear out my graveyard. There are too many zombies and skeletons roaming around... They're not letting me sleep... Start by doing /t mort:pets.",
-					"notopic": "Mort the Digger: ...",
-					"feast": {
-						"message": "Mort the Digger: Ahahaha... Thank you! I shall indeed have a feast tonight...",
-						"denymsg": "Mort the Digger: More... Bring me more flesh...",
-						"effect": {
-							"exp": 10000,
-							"gold": 500,
-							"items": {
-							"rotten flesh": -50,
-							"suit": 1
-							},
-						"events": {
-							"fleshQuest": true
-							}
-						},
-						"requisites": {
-							"items": {
-								"rotten flesh": 50
-								},
-							"events": {
-								"fleshQuest": false
-								}
-						}
-					},
-					"pets": {
-						"message": "Mort the Digger: ...Thank you for clearing up the graveyard... My pets always make such a ruckus...",
-						"denymsg": "Mort the Digger: My pets are still out there moaning..",
-						"effect": {
-							"exp": 14000,
-							"gold": 500,
-							"events": {
-								"zombieKilling": true
-							}
-						},
-						"requisites": {
-							"events": {
-								"zombieKilling": false
-							},
-							"hunt": {
-								"zombie": 15,
-								"skeleton": 15
-							}
-				}}}},
+            "npc": {
+                "mort": {
+                    "message": "Mort the Digger: Hello... You must be a new adventurer.. I have a couple favors to ask of you... Why yes... I need you to bring me 50 rotten fleshes.. Why? Well, I don't see how that's any of your concern... do /t mort:feast when you have them. I... also need you to clear out my graveyard. There are too many zombies and skeletons roaming around... They're not letting me sleep... Start by doing /t mort:pets.",
+                    "notopic": "Mort the Digger: ...",
+                    "feast": {
+                        "message": "Mort the Digger: Ahahaha... Thank you! I shall indeed have a feast tonight...",
+                        "denymsg": "Mort the Digger: More... Bring me more flesh...",
+                        "effect": {
+                            "exp": 10000,
+                            "gold": 500,
+                            "items": {
+                                "rotten flesh": -50,
+                                "suit": 1
+                            },
+                            "events": {
+                                "fleshQuest": true
+                            }
+                        },
+                        "requisites": {
+                            "items": {
+                                "rotten flesh": 50
+                            },
+                            "events": {
+                                "fleshQuest": false
+                            }
+                        }
+                    },
+                    "pets": {
+                        "message": "Mort the Digger: ...Thank you for clearing up the graveyard... My pets always make such a ruckus...",
+                        "denymsg": "Mort the Digger: My pets are still out there moaning..",
+                        "effect": {
+                            "exp": 14000,
+                            "gold": 500,
+                            "events": {
+                                "zombieKilling": true
+                            }
+                        },
+                        "requisites": {
+                            "events": {
+                                "zombieKilling": false
+                            },
+                            "hunt": {
+                                "zombie": 15,
+                                "skeleton": 15
+                            }
+                        }
+                    }
+                }
+            },
             "content": {
                 "skeleton:zombie": 0.3,
                 "skeleton:skeleton:skeleton": 0.3,
@@ -6350,10 +6415,5 @@
                 "*rock": 0.05
             }
         }
-    },
-    "classHelp": [
-        "*** ************************************** ***",
-        "±Game: Insert Class Help here",
-        "*** ************************************** ***"
-    ]
+    }
 }

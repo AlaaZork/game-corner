@@ -794,7 +794,7 @@
             "name": "Necromancer",
             "level": 1,
             "exp": 3000,
-            "gold": 500,
+            "gold": 300,
             "stats": {
                 "hp": 80,
                 "mp": 150,
@@ -1674,7 +1674,7 @@
             },
             "growth": {
                 "maxhp": 1,
-    			"maxmp": 1
+				"maxmp": 1
             },
             "skills": {
                 "magic": 1,
@@ -4931,6 +4931,7 @@
                 "arena",
                 "temple",
                 "library",
+				"center",
                 "den",
                 "hideout"
             ],
@@ -5768,7 +5769,7 @@
         "center": {
             "name": "Meditation Center",
             "info": "A place for monks of all kinds.",
-            "welcome": "Brawler: 'Sup. You can /talk to the chi master, scrapper, or me to figure out what it is you want to do.",
+            "welcome": "Brawler: 'Sup. You can /talk to the master, scrapper, or me to figure out what it is you want to do.",
             "type": "service",
             "access": [
                 "inn",
@@ -5866,7 +5867,7 @@
                     "notopic": "chi master: Sorry buddy, I haven't a clue what you're talking about.",
                     "upgrade": {
                         "message": "chi master: Congratulations, now you're a chi master!",
-                        "denymsg": "chi master: Sorry, friend. You need to be level 30 warrior and have 10,000 gold to become a barbarian.",
+                        "denymsg": "chi master: Sorry, friend. You need to be level 30 Monk and have 10,000 gold to become a Chi Master.",
                         "effect": {
                             "gold": -10000,
                             "resetStats": true,
@@ -6065,7 +6066,6 @@
                 "weaponry",
                 "grave",
                 "forest",
-                "center",
                 "tower f1"
             ],
             "content": {
@@ -6091,7 +6091,34 @@
                         }
                     }
                 },
-				
+				"wiper": {
+					"message": "Tyerest the Wiper: Uh.. Oh.. Uhhhhhh.. Oh yeah! I'm Tyerest. I like giving people a second chance, so feel free to take a one-time reset with /t wiper:free, on the house! After that though... The price is quite steep... 75,000 gold steep. So, uh... like... Idr. Be smart. Oh, and the command is /t wiper:reset",
+					"notopic": "Tyerest the Wiper: Uh... Do I know you?",
+					"free": {
+						"message": "Tyerest the Wiper: Oh yes... You came for, uh..  Something. I don't remember. One sec, I'll reset your skills and stats while I try to remember...",
+						"denymsg": "Tyerest the Wiper: What... WHAT. WHAT! WHAT!!??! WHAAAAAAAT!!!",
+						"effect": {
+							"resetStats": true,
+							"resetSkills": true,
+							"events": {
+								"freeReset": true
+								}
+							},
+						"requisites": {
+							"events": {
+								"freeReset": false
+							}}},
+					"reset": {
+						"message": "Tyerest the Wiper: Oh, right. You came for that thing. With that person. With the hair? Teeth? Please... no... Not again... Okay, brb, resetting you to level 1.",
+						"denymsg": "Tyerest the Wiper: Do you really want to be level 1 again? I have that power, you know.",
+						"effect": {
+							"resetStats": true,
+							"resetSkills": true,
+							"gold": -75000
+							},
+						"requisites": {
+							"gold": 75000
+						}}},
                 "ron": {
                     "message": "Ron the Questgiver: Hello there! I have quests for new adventurers. If you bring me 75 venoms, I can give you a new weapon. Just type /talk ron:venom.",
                     "notopic": "Ron the Questgiver: Wuh... what? I have too many quests for this!",

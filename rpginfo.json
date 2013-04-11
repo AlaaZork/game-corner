@@ -6091,7 +6091,7 @@
                         }
                     }
                 },
-				"
+				
                 "ron": {
                     "message": "Ron the Questgiver: Hello there! I have quests for new adventurers. If you bring me 75 venoms, I can give you a new weapon. Just type /talk ron:venom.",
                     "notopic": "Ron the Questgiver: Wuh... what? I have too many quests for this!",

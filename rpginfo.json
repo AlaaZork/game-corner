@@ -1299,6 +1299,7 @@
                 "focus": 0,
                 "blast": 0,
 				"boil": 0,
+				"barrage": 0,
                 "strike": 0
             },
             "strategy": {
@@ -2293,6 +2294,29 @@
             "name": "Charge",
             "info": "A stronger physical attack, which has a chance to stun enemies.",
             "message": "~User~ unleashes a powerful bash at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
+            "levels": 6,
+            "cost": 5,
+            "cast": 1,
+            "modifier": [
+                60,
+                65,
+                70,
+                75,
+                80,
+                90
+            ],
+            "type": "physical",
+			"effect": {
+				"targetChance": 0.18,
+				"target": {
+					"delay": 1
+					}},
+            "target": "enemy"
+        },
+        "barrage": {
+            "name": "Barrage",
+            "info": "A series of rapid fire punches which has a chance to stun enemies.",
+            "message": "~User~ unleashes a powerful barrage of punches at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 6,
             "cost": 5,
             "cast": 1,
@@ -3344,7 +3368,7 @@
                         -30,
                         -30,
                         -40,
-                        -50
+                        -40
                     ]
                 }
             }

@@ -1262,7 +1262,7 @@
                 "rest": 1,
                 "chi": 1,
                 "focus": 0,
-    			"aura": 0,
+				"aura": 0,
                 "blast": 0,
                 "strike": 0
             },
@@ -3559,7 +3559,7 @@
                 }
             }
         },
-        "judg": {
+        "judge": {
             "name": "Judgment",
             "alt": [
                 "judgment"

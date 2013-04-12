@@ -378,10 +378,10 @@
                 "mag": 15
             },
             "skills": {
-                "pollencrim": 1,
-                "pollenazur": 1,
-                "pollensaff": 1,
-                "pollenemer": 1,
+    			"pollencrim": 1,
+				"pollenazur": 1,
+				"pollensaff": 1,
+				"pollenemer": 1,
                 "crouch": 1,
                 "pounce": 1,
                 "heal": 3
@@ -558,7 +558,7 @@
                 "hp": 1050,
                 "dex": 70,
                 "mp": 400,
-                "str": 36,
+                "str": 18,
                 "def": 28,
                 "spd": 40,
                 "mag": 32
@@ -658,8 +658,8 @@
                 "bpollen": 0.025,
                 "ypollen": 0.025,
                 "gpollen": 0.025,
-                "drums": 0.1,
-                "crest": 0.1,
+				"drums": 0.1,
+				"crest": 0.1,
                 "moldy toast": 0.1,
                 "none": 0.55
             }
@@ -1264,7 +1264,7 @@
                 "rest": 1,
                 "chi": 1,
                 "focus": 0,
-                "aura": 0,
+				"aura": 0,
                 "blast": 0,
                 "strike": 0
             },
@@ -1297,7 +1297,7 @@
                 "chi": 1,
                 "focus": 0,
                 "blast": 0,
-                "boil": 0,
+				"boil": 0,
                 "strike": 0
             },
             "strategy": {
@@ -1350,7 +1350,7 @@
                 "ruin": 0,
                 "regen": 0,
                 "prejudice": 0,
-                "chaos": 0,
+				"chaos": 0,
                 "puff": 0
             },
             "strategy": {
@@ -1440,7 +1440,7 @@
                 "multi": 0,
                 "weak": 0,
                 "venom": 0,
-                "eagle": 0,
+				"eagle": 0,
                 "shower": 0,
                 "pierce": 0,
                 "trap": 0
@@ -1535,8 +1535,8 @@
                 "heal": 0,
                 "whirl": 0,
                 "bless": 0,
-                "tank": 0,
-                "aura": 0,
+				"tank": 0,
+				"aura": 0,
                 "holy": 0
             },
             "strategy": {
@@ -1569,7 +1569,7 @@
                 "ress": 0,
                 "bless": 0,
                 "fortify": 0,
-                "aura": 0,
+				"aura": 0,
                 "holy": 0,
                 "judge": 0
             },
@@ -1630,7 +1630,7 @@
                 "stab": 0,
                 "toxic": 0,
                 "bleed": 1,
-                "step": 0,
+				"step": 0,
                 "sneak": 0
             },
             "strategy": {
@@ -1666,7 +1666,7 @@
                 "sprint": 0,
                 "stab": 1,
                 "bleed": 0,
-                "step": 0,
+				"step": 0,
                 "hidden": 0
             },
             "strategy": {
@@ -1725,7 +1725,7 @@
                 "ice": 0,
                 "fire": 1,
                 "gale": 0,
-                "arcane": 0,
+				"arcane": 0,
                 "mastery": 0,
                 "lightning": 0,
                 "quake": 0
@@ -1755,9 +1755,9 @@
                 "plague": 1,
                 "drain": 0,
                 "decay": 0,
-                "arcane": 0,
+				"arcane": 0,
                 "ress": 0,
-                "seal": 0,
+				"seal": 0,
                 "nbreath": 0
             },
             "strategy": {
@@ -1945,16 +1945,14 @@
                 ]
             }
         },
-        "eagle": {
-            "name": "Eagle Strike",
-            "alt": [
-                "eagle Strike"
-            ],
-            "info": "A sniper must be swift, and his eyes must be true. This skill slightly increases dexterity and speed.",
-            "levels": 8,
-            "type": "passive",
-            "effect": {
-                "dex": [
+		"eagle": {
+			"name": "Eagle Strike",
+			"alt": ["eagle Strike"],
+			"info": "A sniper must be swift, and his eyes must be true. This skill slightly increases dexterity and speed.",
+			"levels": 8,
+			"type": "passive",
+			"effect": {
+		      "dex": [
                     2,
                     4,
                     6,
@@ -1974,8 +1972,8 @@
                     14,
                     16
                 ]
-            }
-        },
+			}},
+		
         "mastery": {
             "name": "Magic Mastery",
             "alt": [
@@ -2177,61 +2175,31 @@
             "hitDead": "only",
             "effect": {}
         },
-        "chaos": {
-            "name": "Song of Chaos",
-            "alt": [
-                "song of chaos"
-            ],
-            "info": "A strange song that may increase defense and regenerate health, make enemies start losing health and not act for 1 turn, nothing at all, or all of them at once, but it takes 1 turn to see it's effects, if any.",
-            "message": "~User~ plays a strange song, from a distant land.. but what does it to to ~Target~? Or to ~User~...",
-            "levels": 6,
-            "type": "support",
-            "cast": 1,
-            "cost": 7,
-            "target": "enemy",
-            "targetCount": 10,
-            "effect": {
-                "duration": [
-                    4,
-                    4,
-                    5,
-                    5,
-                    6,
-                    6
-                ],
-                "targetChance": 0.34,
-                "userChance": 0.34,
-                "target": {
-                    "delay": 1,
-                    "hpdamage": [
-                        -10,
-                        -20,
-                        -30,
-                        -40,
-                        -50,
-                        -60
-                    ]
-                },
-                "user": {
-                    "hpdamage": [
-                        4,
-                        8,
-                        12,
-                        16,
-                        20,
-                        24
-                    ],
-                    "def": [
-                        5,
-                        10,
-                        15,
-                        20,
-                        25,
-                        30
-                    ]
-                }
-            }
-        },
+		"chaos": {
+			"name": "Song of Chaos",
+			"alt": ["song of chaos"],
+			"info": "A strange song that may increase defense and regenerate health, make enemies start losing health and not act for 1 turn, nothing at all, or all of them at once, but it takes 1 turn to see it's effects, if any.",
+			"message": "~User~ plays a strange song, from a distant land.. but what does it to to ~Target~? Or to ~User~...",
+			"levels": 6,
+			"type": "support",
+			"cast": 1,
+			"cost": 7,
+			"target": "enemy",
+			"targetCount": 10,
+			"effect": {
+				"duration": [4,4,5,5,6,6],
+				"targetChance": 0.34,
+				"userChance": 0.34,
+				"target": {
+					"delay": 1,
+					"hpdamage": [-10,-20,-30,-40,-50,-60]
+				},
+				"user": {
+					"hpdamage": [4,8,12,16,20,24],
+					"def": [5,10,15,20,25,30]
+				}}},
+			
+			
         "regen": {
             "name": "Song of Regen",
             "alt": [
@@ -2336,12 +2304,11 @@
                 90
             ],
             "type": "physical",
-            "effect": {
-                "targetChance": 33,
-                "target": {
-                    "delay": 1
-                }
-            },
+			"effect": {
+				"targetChance": 18,
+				"target": {
+					"delay": 1
+					}},
             "target": "enemy"
         },
         "hidden": {
@@ -2546,7 +2513,7 @@
             "target": "self",
             "effect": {
                 "user": {
-                    "focus": true,
+					"focus": true,
                     "str": [
                         -8,
                         -8,
@@ -2623,6 +2590,7 @@
                 }
             }
         },
+
         "venom": {
             "name": "Venom Shot",
             "alt": [
@@ -2667,6 +2635,7 @@
                 "snipe": true
             }
         },
+
         "stab": {
             "name": "Backstab",
             "alt": [
@@ -2906,8 +2875,8 @@
                 }
             },
             "effect": {
-                "targetChance": 0.4,
-                "userChance": 0.4,
+				"targetChance": 0.4,
+				"userChance": 0.4,
                 "user": {
                     "str": [
                         3,
@@ -3101,11 +3070,11 @@
             "target": "enemy",
             "cost": 5,
             "modifier": [
-                1,
+                1.5,
                 2,
+                2.5,
                 3,
-                4,
-                5
+                3.5
             ],
             "effect": {
                 "pierce": true
@@ -3609,7 +3578,7 @@
             "target": "enemy",
             "targetCount": 10,
             "effect": {
-                "targetChance": 0.45,
+				"targetChance": 0.45,
                 "duration": [
                     5,
                     6,
@@ -4024,8 +3993,8 @@
             "name": "Troll Medallion",
             "info": "A medallion stolen from a royal Troll. It increases life span and can even help recover mana",
             "type": "equip",
-            "cost": 0,
-            "level": 5,
+			"cost": 0,
+			"level": 5,
             "slot": "pendant",
             "effect": {
                 "maxhp": 45,
@@ -4152,7 +4121,7 @@
             "info": "A rare, slimy sword. Usable by most, but not all.",
             "level": 1,
             "type": "equip",
-            "classes": [
+			"classes": [
                 "mage",
                 "wizard",
                 "monk",
@@ -4213,7 +4182,7 @@
             "cost": 100,
             "effect": {
                 "str": -30,
-                "def": -30,
+				"def": -30,
                 "dex": 100,
                 "spd": -10
             }
@@ -4496,7 +4465,7 @@
             "slot": "body",
             "cost": 15000,
             "effect": {
-                "maxhp": 200,
+                "maxhp": 110,
                 "str": -5,
                 "dex": 12,
                 "def": -5,
@@ -4661,19 +4630,19 @@
                 "mag": 10
             }
         },
-        "crest": {
-            "name": "Woodland Crest",
-            "info": "increases defense drastically, but slows the user down.",
-            "type": "equip",
-            "level": 24,
-            "cost": 1,
-            "slot": "pendant",
-            "effect": {
-                "def": 18,
-                "spd": -8,
-                "dex": -3
-            }
-        },
+		"crest": {
+			"name": "Woodland Crest",
+			"info": "increases defense drastically, but slows the user down.",
+			"type": "equip",
+			"level": 24,
+			"cost": 1,
+			"slot": "pendant",
+			"effect": {
+				"def": 18,
+				"spd": -8,
+				"dex": -3
+			}},
+				
         "petal": {
             "name": "Petal",
             "info": "Shield raising HP and Spd, but lowering Def.",
@@ -4695,27 +4664,19 @@
                 "def": -3
             }
         },
-        "drums": {
-            "name": "Forest Drums",
-            "alt": [
-                "drum",
-                "forest drums"
-            ],
-            "info": "The beat of the forest is imbued in these drums. It increases health and defense to the musician who plays it.",
-            "type": "equip",
-            "level": 20,
-            "classes": [
-                "bard",
-                "rocker",
-                "poet"
-            ],
-            "slot": "2-hands",
-            "message": "~User~ plays the drums of the forest with passion!",
-            "effect": {
-                "maxhp": 85,
-                "def": 14
-            }
-        },
+		"drums": {
+			"name": "Forest Drums",
+			"alt": ["drum", "forest drums"],
+			"info": "The beat of the forest is imbued in these drums. It increases health and defense to the musician who plays it.",
+			"type": "equip",
+			"level": 20,
+			"classes": ["bard", "rocker", "poet"],
+			"slot": "2-hands",
+			"message": "~User~ plays the drums of the forest with passion!",
+			"effect": {
+				"maxhp": 85,
+				"def": 14
+			}},
         "stem": {
             "name": "Stem",
             "info": "Staff raising Mana and Mag, but lowering Str.",
@@ -6661,15 +6622,15 @@
                             }
                         },
                         "requisites": {
-                            "items": {
-                                "troll bow": 20,
-                                "rock": 30,
-                                "moldy toast": 20
-                            },
+							"items": {
+								"troll bow": 20,
+								"rock": 30,
+								"moldy toast": 20
+							},
                             "events": {
                                 "trollWeps": false
-                            }
-                        }
+								}
+								}
                     }
                 }
             },

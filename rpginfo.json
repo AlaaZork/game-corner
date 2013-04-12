@@ -1348,6 +1348,7 @@
                 "ruin": 0,
                 "regen": 0,
                 "prejudice": 0,
+				"chaos": 0,
                 "puff": 0
             },
             "strategy": {
@@ -1721,6 +1722,7 @@
                 "ice": 0,
                 "fire": 1,
                 "gale": 0,
+				"arcane": 0,
                 "mastery": 0,
                 "lightning": 0,
                 "quake": 0
@@ -2169,6 +2171,31 @@
             "hitDead": "only",
             "effect": {}
         },
+		"chaos": {
+			"name": "Song of Chaos",
+			"alt": ["song of chaos"],
+			"info": "A strange song that may increase defense and regenerate health, make enemies start losing health and not act for 1 turn, nothing at all, or all of them at once, but it takes 1 turn to see it's effects, if any.",
+			"message": "~User~ plays a strange song, from a distant land.. but what does it to to ~Target~? Or to ~User~...",
+			"levels": 6,
+			"type": "support",
+			"cast": 1,
+			"cost": 7,
+			"target": "enemy",
+			"targetCount": 10,
+			"effect": {
+				"duration": [4,4,5,5,6,6],
+				"targetChance": 0.34,
+				"userChance": 0.34,
+				"target": {
+					"delay": 1,
+					"hpdamage": [-10,-20,-30,-40,-50,-60]
+				},
+				"user": {
+					"hpdamage": [4,8,12,16,20,24],
+					"def": [5,10,15,20,25,30]
+				}}},
+			
+			
         "regen": {
             "name": "Song of Regen",
             "alt": [
@@ -2234,7 +2261,7 @@
             "info": "A soothing lullaby that puts enemies to sleep, lowering their speed and raising their defense slightly.",
             "messaeg": "~User~ plays a soft song that puts his enemies to sleep.",
             "levels": 5,
-            "cost": 4,
+            "cost": 3,
             "type": "support",
             "target": "enemy",
             "targetCount": 10,
@@ -2553,6 +2580,7 @@
                 }
             }
         },
+
         "venom": {
             "name": "Venom Shot",
             "alt": [

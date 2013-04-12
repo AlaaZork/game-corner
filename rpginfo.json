@@ -378,13 +378,13 @@
                 "mag": 5
             },
             "skills": {
-                "rpollen": 1,
-                "bpollen": 1,
-                "ypollen": 1,
-                "gpollen": 1,
+				"pollencrim": 1,
+				"pollenazur": 1,
+				"pollensaff": 1,
+				"pollenemer": 1,
                 "crouch": 1,
                 "pounce": 1,
-                "heal": 1
+                "heal": 3
             },
             "strategy": {
                 "pollencrim": 0.1,
@@ -3951,6 +3951,8 @@
             "name": "Troll Medallion",
             "info": "A medallion stolen from a royal Troll. It increases life span and can even help recover mana",
             "type": "equip",
+			"cost": 0,
+			"level": 5,
             "slot": "pendant",
             "effect": {
                 "maxhp": 45,
@@ -6455,7 +6457,7 @@
             ],
             "npc": {
                 "craig": {
-                    "message": "Craig: Salutations, traveler. I heard from the innkeeper that there was new meat. Maybe you were hot stuff over there at Hill with those rabbits, but c'mon. Things are gonna get tough, but I'm here to help you through it! Type /t craig:train and I'll give you some monsters to kill for me. Type /t craig:troll when you've collected 10 troll bows, 20 rocks, and 10 moldy toasts.",
+                    "message": "Craig: Salutations, traveler. I heard from the innkeeper that there was new meat. Maybe you were hot stuff over there at Hill with those rabbits, but c'mon. Things are gonna get tough, but I'm here to help you through it! Type /t craig:train and I'll give you some monsters to kill for me. Type /t craig:troll when you've collected 20 troll bows, 30 rocks, and 20 moldy toasts.",
                     "notopic": "Craig: Naw man, get it right. It's Craig with a C.",
                     "train": {
                         "message": "Craig: Alright. It's time to kill some cave monsters. I need you to defeat seven slimes, three skeletons, five trolls, one ork, and one bat.",
@@ -6487,10 +6489,10 @@
                             "exp": 5000,
                             "gold": 100,
                             "items": {
-                                "troll bow": -10,
-                                "rock": -20,
-                                "toast": 10,
-                                "Troll Medallion": 1
+                                "troll bow": -20,
+                                "rock": -30,
+                                "moldy toast": -20,
+                                "medal": 1
                             },
                             "events": {
                                 "trollWeps": true
@@ -6499,14 +6501,8 @@
                         "requisites": {
                             "events": {
                                 "trollWeps": false
-                            },
-                            "items": {
-                                "troll bow": 10,
-                                "rock": 20,
-                                "toast": 10
-                            },
-                            "level": 5
-                        }
+								}
+								}
                     }
                 }
             },

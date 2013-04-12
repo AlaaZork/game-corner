@@ -35,6 +35,7 @@
             "defense": 1,
             "damage": 1.1,
             "critical": 1.5,
+            "passive": 2,
             "party": 6
         },
         "leveling": {
@@ -5371,7 +5372,7 @@
                     "sell": {
                         "message": "Priest: I will buy all your potions. Use /talk owner:sell:itemName for that..",
                         "nosellmsg": "Priest: This item is satanic and we won't buy it!",
-                        "noitemmsg": "Priest: You don't have ~Ammount~ ~Item~(s) to sell me, brother!",
+                        "noitemmsg": "Priest: You don't have ~Count~ ~Item~(s) to sell me, brother!",
                         "denymsg": "Priest: Do you even lift, brother? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Priest: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -5470,7 +5471,7 @@
                     "sell": {
                         "message": "Priest: I will buy all your potions. Use /talk owner:sell:itemName for that..",
                         "nosellmsg": "Priest: This item is satanic and we won't buy it!",
-                        "noitemmsg": "Priest: You don't have ~Ammount~ ~Item~(s) to sell me, brother!",
+                        "noitemmsg": "Priest: You don't have ~Count~ ~Item~(s) to sell me, brother!",
                         "denymsg": "Priest: Do you even lift, brother? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Priest: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -5615,7 +5616,7 @@
                     "sell": {
                         "message": "Magician: I will buy any item. Use /talk magician:sell:itemName for that..",
                         "nosellmsg": "Magician: This item isn't what we want right now.",
-                        "noitemmsg": "Magician: You don't have ~Ammount~ ~Item~(s) to sell me, friend!",
+                        "noitemmsg": "Magician: You don't have ~Count~ ~Item~(s) to sell me, friend!",
                         "denymsg": "Magician: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Magician: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -5760,7 +5761,7 @@
                     "sell": {
                         "message": "Hipster Musician: I will buy any item. Use /talk musician:sell:itemName for that..",
                         "nosellmsg": "Hipster Musician: This item is broken and we won't buy it!",
-                        "noitemmsg": "Hipster Musician: You don't have ~Ammount~ ~Item~(s) to sell me, bro!",
+                        "noitemmsg": "Hipster Musician: You don't have ~Count~ ~Item~(s) to sell me, bro!",
                         "denymsg": "Hipster Musician: Do you even lift, bro? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Hipster Musician: There you are, man! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -5905,7 +5906,7 @@
                     "sell": {
                         "message": "Archer: I will buy any item. Use /talk archer:sell:itemName for that..",
                         "nosellmsg": "Archer: This item is broken and we won't buy it!",
-                        "noitemmsg": "Archer: You don't have ~Ammount~ ~Item~(s) to sell me, friend!",
+                        "noitemmsg": "Archer: You don't have ~Count~ ~Item~(s) to sell me, friend!",
                         "denymsg": "Archer: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Archer: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -6050,7 +6051,7 @@
                     "sell": {
                         "message": "Swordsman: I will buy any item. Use /talk swordsman:sell:itemName for that..",
                         "nosellmsg": "Swordsman: This item is broken and we won't buy it!",
-                        "noitemmsg": "Swordsman: You don't have ~Ammount~ ~Item~(s) to sell me, friend!",
+                        "noitemmsg": "Swordsman: You don't have ~Count~ ~Item~(s) to sell me, friend!",
                         "denymsg": "Swordsman: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Swordsman: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -6194,7 +6195,7 @@
                     "sell": {
                         "message": "Brawler: I will buy most items. Use /talk brawler:sell:itemName for that.",
                         "nosellmsg": "Brawler: This item is broken and we won't buy it!",
-                        "noitemmsg": "Brawler: You don't have ~Ammount~ ~Item~(s) to sell me, friend!",
+                        "noitemmsg": "Brawler: You don't have ~Count~ ~Item~(s) to sell me, friend!",
                         "denymsg": "Brawler: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Brawler: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -6339,7 +6340,7 @@
                     "sell": {
                         "message": "Thief: I will buy any item. Use /talk thief:sell:itemName for that..",
                         "nosellmsg": "Thief: This item isn't what we want right now.",
-                        "noitemmsg": "Thief: You don't have ~Ammount~ ~Item~(s) to sell me, friend!",
+                        "noitemmsg": "Thief: You don't have ~Count~ ~Item~(s) to sell me, friend!",
                         "denymsg": "Thief: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Thief: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {

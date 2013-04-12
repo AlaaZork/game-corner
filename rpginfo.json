@@ -35,7 +35,6 @@
             "defense": 1,
             "damage": 1.1,
             "critical": 1.5,
-            "passive": 2,
             "party": 6
         },
         "leveling": {
@@ -210,7 +209,7 @@
                 "venom": 0.15,
                 "rock": 0.1,
                 "moldy toast": 0.1,
-                "selixer": 0.05,
+                "selixir": 0.05,
                 "sword": 0.02,
                 "dagger": 0.03,
                 "shield": 0.05,
@@ -379,10 +378,10 @@
                 "mag": 15
             },
             "skills": {
-				"pollencrim": 1,
-				"pollenazur": 1,
-				"pollensaff": 1,
-				"pollenemer": 1,
+                "pollencrim": 1,
+                "pollenazur": 1,
+                "pollensaff": 1,
+                "pollenemer": 1,
                 "crouch": 1,
                 "pounce": 1,
                 "heal": 3
@@ -472,7 +471,7 @@
             },
             "loot": {
                 "fhammer": 0.005,
-                "melixer": 0.2,
+                "melixir": 0.2,
                 "sitar": 0.1,
                 "none": 0.695
             }
@@ -505,7 +504,7 @@
             },
             "loot": {
                 "fhammer": 0.01,
-                "melixer": 0.2,
+                "melixir": 0.2,
                 "sitar": 0.1,
                 "none": 0.68,
                 "ferobe": 0.01
@@ -599,7 +598,7 @@
                 "hp": 1300,
                 "mp": 120,
                 "dex": 50,
-                "str": 25,
+                "str": 20,
                 "def": 50,
                 "spd": 38,
                 "mag": 30
@@ -621,7 +620,7 @@
                 "sitar": 0.05,
                 "feather": 0.1,
                 "none": 0.4,
-                "melixer": 0.3,
+                "melixir": 0.3,
                 "talons": 0.1
             }
         },
@@ -659,7 +658,9 @@
                 "bpollen": 0.025,
                 "ypollen": 0.025,
                 "gpollen": 0.025,
-                "moldy toast": 0.3,
+                "drums": 0.1,
+                "crest": 0.1,
+                "moldy toast": 0.1,
                 "none": 0.55
             }
         },
@@ -827,7 +828,7 @@
             "loot": {
                 "none": 0.5,
                 "wizards staff": 0.11,
-                "selixer": 0.1,
+                "selixir": 0.1,
                 "earth staff": 0.13,
                 "wizard hat": 0.11,
                 "catacomb key": 0.05
@@ -864,7 +865,7 @@
                 "rest": 0.05
             },
             "loot": {
-                "selixer": 0.5,
+                "selixir": 0.5,
                 "wizards staff": 0.15,
                 "earth staff": 0.15,
                 "wizard hat": 0.15,
@@ -904,7 +905,7 @@
                 "udshield": 0.15,
                 "udhelmet": 0.15,
                 "rotten flesh": 0.2,
-                "melixer": 0.2
+                "melixir": 0.2
             }
         },
         "ranger1": {
@@ -1041,7 +1042,7 @@
             "loot": {
                 "none": 0.6,
                 "wizards staff": 0.05,
-                "selixer": 0.3,
+                "selixir": 0.3,
                 "wizard hat": 0.05
             }
         },
@@ -1107,7 +1108,7 @@
                 "none": 0.3,
                 "reapers fangr": 0.01,
                 "reapers fangl": 0.01,
-                "selixer": 0.1,
+                "selixir": 0.1,
                 "potion": 0.18,
                 "venom": 0.4
             }
@@ -1263,7 +1264,7 @@
                 "rest": 1,
                 "chi": 1,
                 "focus": 0,
-				"aura": 0,
+                "aura": 0,
                 "blast": 0,
                 "strike": 0
             },
@@ -1296,7 +1297,7 @@
                 "chi": 1,
                 "focus": 0,
                 "blast": 0,
-				"boil": 0,
+                "boil": 0,
                 "strike": 0
             },
             "strategy": {
@@ -1349,7 +1350,7 @@
                 "ruin": 0,
                 "regen": 0,
                 "prejudice": 0,
-				"chaos": 0,
+                "chaos": 0,
                 "puff": 0
             },
             "strategy": {
@@ -1439,7 +1440,7 @@
                 "multi": 0,
                 "weak": 0,
                 "venom": 0,
-				"eagle": 0,
+                "eagle": 0,
                 "shower": 0,
                 "pierce": 0,
                 "trap": 0
@@ -1534,7 +1535,8 @@
                 "heal": 0,
                 "whirl": 0,
                 "bless": 0,
-				"aura": 0,
+                "tank": 0,
+                "aura": 0,
                 "holy": 0
             },
             "strategy": {
@@ -1567,7 +1569,7 @@
                 "ress": 0,
                 "bless": 0,
                 "fortify": 0,
-				"aura": 0,
+                "aura": 0,
                 "holy": 0,
                 "judge": 0
             },
@@ -1628,7 +1630,7 @@
                 "stab": 0,
                 "toxic": 0,
                 "bleed": 1,
-				"step": 0,
+                "step": 0,
                 "sneak": 0
             },
             "strategy": {
@@ -1664,7 +1666,7 @@
                 "sprint": 0,
                 "stab": 1,
                 "bleed": 0,
-				"step": 0,
+                "step": 0,
                 "hidden": 0
             },
             "strategy": {
@@ -1723,7 +1725,7 @@
                 "ice": 0,
                 "fire": 1,
                 "gale": 0,
-				"arcane": 0,
+                "arcane": 0,
                 "mastery": 0,
                 "lightning": 0,
                 "quake": 0
@@ -1753,8 +1755,9 @@
                 "plague": 1,
                 "drain": 0,
                 "decay": 0,
+                "arcane": 0,
                 "ress": 0,
-				"seal": 0,
+                "seal": 0,
                 "nbreath": 0
             },
             "strategy": {
@@ -1942,14 +1945,16 @@
                 ]
             }
         },
-		"eagle": {
-			"name": "Eagle Strike",
-			"alt": ["eagle Strike"],
-			"info": "A sniper must be swift, and his eyes must be true. This skill slightly increases dexterity and speed.",
-			"levels": 8,
-			"type": "passive",
-			"effect": {
-		      "dex": [
+        "eagle": {
+            "name": "Eagle Strike",
+            "alt": [
+                "eagle Strike"
+            ],
+            "info": "A sniper must be swift, and his eyes must be true. This skill slightly increases dexterity and speed.",
+            "levels": 8,
+            "type": "passive",
+            "effect": {
+                "dex": [
                     2,
                     4,
                     6,
@@ -1969,8 +1974,8 @@
                     14,
                     16
                 ]
-			}},
-		
+            }
+        },
         "mastery": {
             "name": "Magic Mastery",
             "alt": [
@@ -2071,24 +2076,24 @@
             "type": "passive",
             "effect": {
                 "hpdamage": [
-                    5,
-                    10,
-                    15,
+                    1,
+                    4,
+                    8,
+                    12,
+                    16,
                     20,
-                    25,
-                    30,
-                    35,
-                    40
+                    24,
+                    28
                 ],
                 "mpdamage": [
                     1,
+                    1,
+                    2,
                     2,
                     3,
+                    3,
                     4,
-                    5,
-                    6,
-                    7,
-                    8
+                    4
                 ]
             }
         },
@@ -2172,31 +2177,61 @@
             "hitDead": "only",
             "effect": {}
         },
-		"chaos": {
-			"name": "Song of Chaos",
-			"alt": ["song of chaos"],
-			"info": "A strange song that may increase defense and regenerate health, make enemies start losing health and not act for 1 turn, nothing at all, or all of them at once, but it takes 1 turn to see it's effects, if any.",
-			"message": "~User~ plays a strange song, from a distant land.. but what does it to to ~Target~? Or to ~User~...",
-			"levels": 6,
-			"type": "support",
-			"cast": 1,
-			"cost": 7,
-			"target": "enemy",
-			"targetCount": 10,
-			"effect": {
-				"duration": [4,4,5,5,6,6],
-				"targetChance": 0.34,
-				"userChance": 0.34,
-				"target": {
-					"delay": 1,
-					"hpdamage": [-10,-20,-30,-40,-50,-60]
-				},
-				"user": {
-					"hpdamage": [4,8,12,16,20,24],
-					"def": [5,10,15,20,25,30]
-				}}},
-			
-			
+        "chaos": {
+            "name": "Song of Chaos",
+            "alt": [
+                "song of chaos"
+            ],
+            "info": "A strange song that may increase defense and regenerate health, make enemies start losing health and not act for 1 turn, nothing at all, or all of them at once, but it takes 1 turn to see it's effects, if any.",
+            "message": "~User~ plays a strange song, from a distant land.. but what does it to to ~Target~? Or to ~User~...",
+            "levels": 6,
+            "type": "support",
+            "cast": 1,
+            "cost": 7,
+            "target": "enemy",
+            "targetCount": 10,
+            "effect": {
+                "duration": [
+                    4,
+                    4,
+                    5,
+                    5,
+                    6,
+                    6
+                ],
+                "targetChance": 0.34,
+                "userChance": 0.34,
+                "target": {
+                    "delay": 1,
+                    "hpdamage": [
+                        -10,
+                        -20,
+                        -30,
+                        -40,
+                        -50,
+                        -60
+                    ]
+                },
+                "user": {
+                    "hpdamage": [
+                        4,
+                        8,
+                        12,
+                        16,
+                        20,
+                        24
+                    ],
+                    "def": [
+                        5,
+                        10,
+                        15,
+                        20,
+                        25,
+                        30
+                    ]
+                }
+            }
+        },
         "regen": {
             "name": "Song of Regen",
             "alt": [
@@ -2287,7 +2322,7 @@
         },
         "charge": {
             "name": "Charge",
-            "info": "A stronger physical attack.",
+            "info": "A stronger physical attack, which has a chance to stun enemies.",
             "message": "~User~ unleashes a powerful bash at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 6,
             "cost": 5,
@@ -2301,6 +2336,12 @@
                 90
             ],
             "type": "physical",
+            "effect": {
+                "targetChance": 33,
+                "target": {
+                    "delay": 1
+                }
+            },
             "target": "enemy"
         },
         "hidden": {
@@ -2497,7 +2538,7 @@
         },
         "tank": {
             "name": "Tank",
-            "info": "Greatly increases Defense, but reduces Strength",
+            "info": "Greatly increases Defense, but reduces Strength. Enemies will target you as well.",
             "message": "~User~ is now ready to take any hit!",
             "levels": 5,
             "cost": 3,
@@ -2505,6 +2546,7 @@
             "target": "self",
             "effect": {
                 "user": {
+                    "focus": true,
                     "str": [
                         -8,
                         -8,
@@ -2581,7 +2623,6 @@
                 }
             }
         },
-
         "venom": {
             "name": "Venom Shot",
             "alt": [
@@ -2844,10 +2885,10 @@
         },
         "smite": {
             "name": "Smite",
-            "info": "Attack that improves own strength and reduces an enemy's magic. Low mana cost.",
-            "message": "~User~'s holy might is unparalleled! ~User~ swings his weapon at ~Target~, leaving him mentally crippled! ~Target~ lost ~Damage~ HP and now has ~Life~! ~Target~ lost magic power!",
+            "info": "Attack that has a chance to improve own strength and reduces an enemy's magic.",
+            "message": "~User~'s holy might is unparalleled! ~User~ swings his weapon at ~Target~, leaving him mentally crippled! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
-            "cost": 1,
+            "cost": 4,
             "modifier": [
                 1.1,
                 1.2,
@@ -2865,21 +2906,19 @@
                 }
             },
             "effect": {
+                "targetChance": 0.4,
+                "userChance": 0.4,
                 "user": {
                     "str": [
-                        5,
-                        10,
-                        15,
-                        20,
-                        25
+                        3,
+                        6,
+                        9,
+                        12,
+                        15
                     ]
                 },
                 "duration": [
-                    5,
-                    5,
-                    5,
-                    5,
-                    5
+                    2
                 ],
                 "target": {
                     "mag": [
@@ -3080,7 +3119,7 @@
             "info": "Increases a party member's attributes.",
             "message": "~User~ blessed ~Target~! ~Target~ got stronger!",
             "levels": 5,
-            "cost": 3,
+            "cost": 4,
             "type": "support",
             "target": "party",
             "effect": {
@@ -3526,11 +3565,11 @@
             "alt": [
                 "earthquake"
             ],
-            "info": "A powerful quake caused by mages that damages most enemies enemies. Takes two turns to charge full power.",
+            "info": "A powerful quake caused by mages that damages most enemies. Takes two turns to charge full power.",
             "message": "~User~ breaks the ground with a powerful smash. ~Target~ falls and hits the ground! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
             "cast": 2,
-            "cost": 9,
+            "cost": 10,
             "requisites": {
                 "skill": {
                     "lightning": 5
@@ -3549,27 +3588,28 @@
         },
         "inferno": {
             "name": "Inferno",
-            "info": "A massive inferno that hits multiple enemies. Leaves a slight burn that decreases defense. Takes two turns to charge.",
-            "message": "~User~ shoots a Fire Ball at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~! ~Target~'s defenses were burned!",
+            "info": "A massive inferno that hits multiple enemies. Might leave slight burn that decreases defense. Takes one turns to charge.",
+            "message": "~User~ shoots a massive Fire Ball at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~! The burns!",
             "levels": 5,
             "cost": 8,
-            "cast": 2,
+            "cast": 1,
             "requisites": {
                 "skill": {
                     "fire": 5
                 }
             },
             "modifier": [
+                35,
+                40,
+                45,
                 50,
-                55,
-                60,
-                65,
-                70
+                55
             ],
             "type": "magical",
             "target": "enemy",
             "targetCount": 10,
             "effect": {
+                "targetChance": 0.45,
                 "duration": [
                     5,
                     6,
@@ -3622,10 +3662,7 @@
                 90
             ],
             "type": "magical",
-            "effect": {
-                "pierce": true
-            },
-            "targetCount": 10,
+            "targetCount": 3,
             "target": "enemy"
         },
         "lightning": {
@@ -3876,7 +3913,7 @@
             "message": "RAWR. ~User~ pounces on ~Target~! ~Target~ is pinned and slowed down! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 1,
             "cost": 3,
-            "modifier": 1,
+            "modifier": 20,
             "type": "physical",
             "target": "enemy",
             "effect": {
@@ -3987,8 +4024,8 @@
             "name": "Troll Medallion",
             "info": "A medallion stolen from a royal Troll. It increases life span and can even help recover mana",
             "type": "equip",
-			"cost": 0,
-			"level": 5,
+            "cost": 0,
+            "level": 5,
             "slot": "pendant",
             "effect": {
                 "maxhp": 45,
@@ -4035,21 +4072,8 @@
                 "def": 1
             }
         },
-        "elixer": {
-            "name": "Small Elixer",
-            "info": "Heals a decent amount of HP and MP",
-            "type": "usable",
-            "level": 0,
-            "cost": 150,
-            "message": "You drank a potion and restored 150 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
-            "effect": {
-                "hp": 150,
-                "mana": 150,
-                "mp": 150
-            }
-        },
         "selixer": {
-            "name": "Small Elixer",
+            "name": "Small elixir",
             "info": "Heals a decent amount of HP and MP",
             "type": "usable",
             "level": 0,
@@ -4061,8 +4085,21 @@
                 "mp": 150
             }
         },
-        "melixer": {
-            "name": "Medium Elixer",
+        "selixir": {
+            "name": "Small elixir",
+            "info": "Heals a decent amount of HP and MP",
+            "type": "usable",
+            "level": 0,
+            "cost": 150,
+            "message": "You drank a potion and restored 150 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
+            "effect": {
+                "hp": 150,
+                "mana": 150,
+                "mp": 150
+            }
+        },
+        "melixir": {
+            "name": "Medium elixir",
             "info": "Heals a medium amount of HP and MP",
             "type": "usable",
             "level": 0,
@@ -4074,8 +4111,8 @@
                 "mp": 500
             }
         },
-        "lelixer": {
-            "name": "Large Elixer",
+        "lelixir": {
+            "name": "Large elixir",
             "info": "Heals a medium amount of HP and MP",
             "type": "usable",
             "level": 0,
@@ -4115,7 +4152,7 @@
             "info": "A rare, slimy sword. Usable by most, but not all.",
             "level": 1,
             "type": "equip",
-			"classes": [
+            "classes": [
                 "mage",
                 "wizard",
                 "monk",
@@ -4176,7 +4213,7 @@
             "cost": 100,
             "effect": {
                 "str": -30,
-				"def": -30,
+                "def": -30,
                 "dex": 100,
                 "spd": -10
             }
@@ -4624,6 +4661,19 @@
                 "mag": 10
             }
         },
+        "crest": {
+            "name": "Woodland Crest",
+            "info": "increases defense drastically, but slows the user down.",
+            "type": "equip",
+            "level": 24,
+            "cost": 1,
+            "slot": "pendant",
+            "effect": {
+                "def": 18,
+                "spd": -8,
+                "dex": -3
+            }
+        },
         "petal": {
             "name": "Petal",
             "info": "Shield raising HP and Spd, but lowering Def.",
@@ -4643,6 +4693,27 @@
                 "maxhp": 35,
                 "spd": 7,
                 "def": -3
+            }
+        },
+        "drums": {
+            "name": "Forest Drums",
+            "alt": [
+                "drum",
+                "forest drums"
+            ],
+            "info": "The beat of the forest is imbued in these drums. It increases health and defense to the musician who plays it.",
+            "type": "equip",
+            "level": 20,
+            "classes": [
+                "bard",
+                "rocker",
+                "poet"
+            ],
+            "slot": "2-hands",
+            "message": "~User~ plays the drums of the forest with passion!",
+            "effect": {
+                "maxhp": 85,
+                "def": 14
             }
         },
         "stem": {
@@ -5342,7 +5413,7 @@
                             "shield": 10,
                             "staff": 15,
                             "armor": 15,
-                            "selixer": 5000
+                            "selixir": 5000
                         },
                         "requisites": {
                             "classes": [
@@ -5372,7 +5443,7 @@
                     "sell": {
                         "message": "Priest: I will buy all your potions. Use /talk owner:sell:itemName for that..",
                         "nosellmsg": "Priest: This item is satanic and we won't buy it!",
-                        "noitemmsg": "Priest: You don't have ~Count~ ~Item~(s) to sell me, brother!",
+                        "noitemmsg": "Priest: You don't have ~Ammount~ ~Item~(s) to sell me, brother!",
                         "denymsg": "Priest: Do you even lift, brother? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Priest: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -5458,7 +5529,7 @@
                         "sell": {
                             "staff": 15,
                             "armor": 15,
-                            "selixer": 5000
+                            "selixir": 5000
                         },
                         "requisites": {
                             "classes": [
@@ -5471,7 +5542,7 @@
                     "sell": {
                         "message": "Priest: I will buy all your potions. Use /talk owner:sell:itemName for that..",
                         "nosellmsg": "Priest: This item is satanic and we won't buy it!",
-                        "noitemmsg": "Priest: You don't have ~Count~ ~Item~(s) to sell me, brother!",
+                        "noitemmsg": "Priest: You don't have ~Ammount~ ~Item~(s) to sell me, brother!",
                         "denymsg": "Priest: Do you even lift, brother? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Priest: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -5603,7 +5674,7 @@
                         "sell": {
                             "bow": 15,
                             "staff": 50,
-                            "selixer": 5000
+                            "selixir": 5000
                         },
                         "requisites": {
                             "classes": [
@@ -5616,7 +5687,7 @@
                     "sell": {
                         "message": "Magician: I will buy any item. Use /talk magician:sell:itemName for that..",
                         "nosellmsg": "Magician: This item isn't what we want right now.",
-                        "noitemmsg": "Magician: You don't have ~Count~ ~Item~(s) to sell me, friend!",
+                        "noitemmsg": "Magician: You don't have ~Ammount~ ~Item~(s) to sell me, friend!",
                         "denymsg": "Magician: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Magician: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -5748,7 +5819,7 @@
                         "sell": {
                             "bow": 15,
                             "bone bow": 500,
-                            "selixer": 5000
+                            "selixir": 5000
                         },
                         "requisites": {
                             "classes": [
@@ -5761,7 +5832,7 @@
                     "sell": {
                         "message": "Hipster Musician: I will buy any item. Use /talk musician:sell:itemName for that..",
                         "nosellmsg": "Hipster Musician: This item is broken and we won't buy it!",
-                        "noitemmsg": "Hipster Musician: You don't have ~Count~ ~Item~(s) to sell me, bro!",
+                        "noitemmsg": "Hipster Musician: You don't have ~Ammount~ ~Item~(s) to sell me, bro!",
                         "denymsg": "Hipster Musician: Do you even lift, bro? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Hipster Musician: There you are, man! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -5893,7 +5964,7 @@
                         "sell": {
                             "bow": 15,
                             "bone bow": 500,
-                            "selixer": 5000
+                            "selixir": 5000
                         },
                         "requisites": {
                             "classes": [
@@ -5906,7 +5977,7 @@
                     "sell": {
                         "message": "Archer: I will buy any item. Use /talk archer:sell:itemName for that..",
                         "nosellmsg": "Archer: This item is broken and we won't buy it!",
-                        "noitemmsg": "Archer: You don't have ~Count~ ~Item~(s) to sell me, friend!",
+                        "noitemmsg": "Archer: You don't have ~Ammount~ ~Item~(s) to sell me, friend!",
                         "denymsg": "Archer: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Archer: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -6038,7 +6109,7 @@
                         "sell": {
                             "sword": 15,
                             "shield": 500,
-                            "selixer": 5000
+                            "selixir": 5000
                         },
                         "requisites": {
                             "classes": [
@@ -6051,7 +6122,7 @@
                     "sell": {
                         "message": "Swordsman: I will buy any item. Use /talk swordsman:sell:itemName for that..",
                         "nosellmsg": "Swordsman: This item is broken and we won't buy it!",
-                        "noitemmsg": "Swordsman: You don't have ~Count~ ~Item~(s) to sell me, friend!",
+                        "noitemmsg": "Swordsman: You don't have ~Ammount~ ~Item~(s) to sell me, friend!",
                         "denymsg": "Swordsman: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Swordsman: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -6181,7 +6252,7 @@
                         "nogoldmsg": "Brawler: What do you take me for!? I need ~Price~ Gold to sell you this!",
                         "acceptmsg": "Brawler: Thanks! Here is/are ~Count~ ~Item~(s) for ~Price~ Gold.",
                         "sell": {
-                            "selixer": 5000,
+                            "selixir": 5000,
                             "armor": 15
                         },
                         "requisites": {
@@ -6195,7 +6266,7 @@
                     "sell": {
                         "message": "Brawler: I will buy most items. Use /talk brawler:sell:itemName for that.",
                         "nosellmsg": "Brawler: This item is broken and we won't buy it!",
-                        "noitemmsg": "Brawler: You don't have ~Count~ ~Item~(s) to sell me, friend!",
+                        "noitemmsg": "Brawler: You don't have ~Ammount~ ~Item~(s) to sell me, friend!",
                         "denymsg": "Brawler: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Brawler: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -6327,7 +6398,7 @@
                         "sell": {
                             "bow": 15,
                             "staff": 50,
-                            "selixer": 5000
+                            "selixir": 5000
                         },
                         "requisites": {
                             "classes": [
@@ -6340,7 +6411,7 @@
                     "sell": {
                         "message": "Thief: I will buy any item. Use /talk thief:sell:itemName for that..",
                         "nosellmsg": "Thief: This item isn't what we want right now.",
-                        "noitemmsg": "Thief: You don't have ~Count~ ~Item~(s) to sell me, friend!",
+                        "noitemmsg": "Thief: You don't have ~Ammount~ ~Item~(s) to sell me, friend!",
                         "denymsg": "Thief: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Thief: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
@@ -6590,10 +6661,15 @@
                             }
                         },
                         "requisites": {
+                            "items": {
+                                "troll bow": 20,
+                                "rock": 30,
+                                "moldy toast": 20
+                            },
                             "events": {
                                 "trollWeps": false
-								}
-								}
+                            }
+                        }
                     }
                 }
             },
@@ -6728,7 +6804,7 @@
                 "necrolord:zdragon": 0.05,
                 "necrolord:necromancer:zdragon": 0.02,
                 "*earth staff": 0.01,
-                "*selixer": 0.01,
+                "*selixir": 0.01,
                 "*rotten flesh": 0.03
             }
         },

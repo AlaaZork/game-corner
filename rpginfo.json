@@ -2306,7 +2306,7 @@
             ],
             "type": "physical",
 			"effect": {
-				"targetChance": 18,
+				"targetChance": 0.18,
 				"target": {
 					"delay": 1
 					}},

@@ -366,16 +366,16 @@
         "dandylion": {
             "name": "Dandylion",
             "level": 1,
-            "exp": 8000,
+            "exp": 7000,
             "gold": 200,
             "stats": {
                 "hp": 1000,
                 "mp": 200,
-                "dex": 3,
-                "str": 2,
-                "def": 1,
+                "dex": 10,
+                "str": 20,
+                "def": 20,
                 "spd": 10,
-                "mag": 5
+                "mag": 15
             },
             "skills": {
 				"pollencrim": 1,
@@ -636,7 +636,7 @@
                 "str": 5,
                 "def": 40,
                 "spd": 5,
-                "mag": 40
+                "mag": 30
             },
             "skills": {
                 "attack": 1,
@@ -674,13 +674,13 @@
                 "str": 14,
                 "def": 40,
                 "spd": 10,
-                "mag": 60
+                "mag": 50
             },
             "skills": {
                 "attack": 1,
                 "rest": 4,
-                "heal": 5,
-                "charge": 5,
+                "heal": 3,
+                "charge": 3,
                 "deflate": 3
             },
             "strategy": {
@@ -3379,6 +3379,13 @@
                         -9,
                         -11
                     ],
+                    "dex": [
+                        -3,
+                        -5,
+                        -7,
+                        -9,
+                        -11
+                    ],
                     "spd": [
                         -3,
                         -5,
@@ -4076,9 +4083,27 @@
         },
         "slime sword": {
             "name": "Slime Sword",
-            "info": "A rare, slimy sword",
+            "info": "A rare, slimy sword. Usable by most, but not all.",
             "level": 1,
             "type": "equip",
+			"classes": [
+                "mage",
+                "wizard",
+                "monk",
+                "rogue",
+                "assassin",
+                "guard",
+                "ranger",
+                "marksman",
+                "cleric",
+                "ninja",
+                "warrior",
+                "paladin",
+                "bishop",
+                "necromancer",
+                "dragoon",
+                "barbarian"
+            ],
             "slot": "rhand",
             "message": "~User~ strikes ~Target~ with a slimy sword! Ewww... ~Target~ lost ~Damage~ and now has ~Life~!",
             "cost": 150,
@@ -4122,6 +4147,7 @@
             "cost": 100,
             "effect": {
                 "str": -30,
+				"def": -30,
                 "dex": 100,
                 "spd": -10
             }
@@ -4235,6 +4261,24 @@
             "info": "A small shield",
             "level": 1,
             "type": "equip",
+            "classes": [
+                "mage",
+                "wizard",
+                "monk",
+                "rogue",
+                "assassin",
+                "guard",
+                "ranger",
+                "marksman",
+                "cleric",
+                "ninja",
+                "warrior",
+                "paladin",
+                "bishop",
+                "necromancer",
+                "dragoon",
+                "barbarian"
+            ],
             "slot": "lhand",
             "cost": 60,
             "effect": {
@@ -4672,9 +4716,27 @@
         },
         "venom blade": {
             "name": "Venom Blade",
-            "info": "A green sword made of the venoms from various monsters. Crafted for the left hand, and for all classes.",
-            "level": 5,
+            "info": "A green sword made of the venoms from various monsters. Crafted for the left hand, and for most classes.",
+            "level": 10,
             "type": "equip",
+            "classes": [
+                "mage",
+                "wizard",
+                "monk",
+                "rogue",
+                "assassin",
+                "guard",
+                "ranger",
+                "marksman",
+                "cleric",
+                "ninja",
+                "warrior",
+                "paladin",
+                "bishop",
+                "necromancer",
+                "dragoon",
+                "barbarian"
+            ],
             "slot": "lhand",
             "cost": 100,
             "effect": {

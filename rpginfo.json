@@ -23,6 +23,13 @@
                 "bow": 1
             }
         },
+        "equipment": {
+            "rhand": "Right Hand",
+            "lhand": "Left Hand",
+            "pendant": "Pendant",
+            "body": "Body",
+            "head": "Head"
+        },
         "battle": {
             "evasion": 1.125,
             "defense": 1,
@@ -872,11 +879,11 @@
             "stats": {
                 "hp": 1500,
                 "mp": 150,
-                "str": 20,
-                "dex": 20,
-                "def": 20,
-                "spd": 20,
-                "mag": 20
+                "str": 21,
+                "dex": 21,
+                "def": 21,
+                "spd": 21,
+                "mag": 21
             },
             "skills": {
                 "attack": 1,
@@ -1178,7 +1185,11 @@
                 "mag": 1
             },
             "growth": {
-                "def": 1,
+                "def": [
+                    0,
+                    0,
+                    1
+                ],
                 "maxhp": 1
             },
             "skills": {
@@ -1208,7 +1219,11 @@
                 "mag": 1
             },
             "growth": {
-                "str": 1,
+                "str": [
+                    0,
+                    0,
+                    1
+                ],
                 "maxhp": 1
             },
             "skills": {
@@ -1216,6 +1231,7 @@
                 "rest": 1,
                 "charge": 1,
                 "roar": 0,
+                "boil": 0,
                 "whirl": 0
             },
             "strategy": {
@@ -1235,13 +1251,18 @@
             },
             "growth": {
                 "maxhp": 1,
-                "dex": 1
+                "dex": [
+                    0,
+                    0,
+                    1
+                ]
             },
             "skills": {
                 "punch": 1,
                 "rest": 1,
                 "chi": 1,
                 "focus": 0,
+    			"aura": 0,
                 "blast": 0,
                 "strike": 0
             },
@@ -1262,7 +1283,11 @@
             },
             "growth": {
                 "maxhp": 1,
-                "str": 1
+                "str": [
+                    0,
+                    0,
+                    1
+                ]
             },
             "skills": {
                 "punch": 1,
@@ -1270,6 +1295,7 @@
                 "chi": 1,
                 "focus": 0,
                 "blast": 0,
+				"boil": 0,
                 "strike": 0
             },
             "strategy": {
@@ -1367,7 +1393,11 @@
             },
             "growth": {
                 "maxhp": 1,
-                "def": 1
+                "def": [
+                    0,
+                    0,
+                    1
+                ]
             },
             "skills": {
                 "attack": 1,
@@ -1396,6 +1426,7 @@
                 "maxhp": 1,
                 "dex": [
                     0,
+                    0,
                     1
                 ]
             },
@@ -1406,6 +1437,7 @@
                 "multi": 0,
                 "weak": 0,
                 "venom": 0,
+				"eagle": 0,
                 "shower": 0,
                 "pierce": 0,
                 "trap": 0
@@ -1427,7 +1459,11 @@
             },
             "growth": {
                 "maxhp": 1,
-                "def": 1
+                "def": [
+                    0,
+                    0,
+                    1
+                ]
             },
             "skills": {
                 "attack": 1,
@@ -1483,7 +1519,11 @@
             },
             "growth": {
                 "maxhp": 1,
-                "str": 1
+                "str": [
+                    0,
+                    0,
+                    1
+                ]
             },
             "skills": {
                 "attack": 1,
@@ -1492,6 +1532,7 @@
                 "heal": 0,
                 "whirl": 0,
                 "bless": 0,
+				"aura": 0,
                 "holy": 0
             },
             "strategy": {
@@ -1511,7 +1552,11 @@
             },
             "growth": {
                 "maxhp": 1,
-                "def": 1
+                "def": [
+                    0,
+                    0,
+                    1
+                ]
             },
             "skills": {
                 "magic": 1,
@@ -1520,6 +1565,7 @@
                 "ress": 0,
                 "bless": 0,
                 "fortify": 0,
+				"aura": 0,
                 "holy": 0,
                 "judge": 0
             },
@@ -1567,7 +1613,11 @@
             },
             "growth": {
                 "maxhp": 1,
-                "dex": 1
+                "dex": [
+                    0,
+                    0,
+                    1
+                ]
             },
             "skills": {
                 "attack": 1,
@@ -1576,6 +1626,7 @@
                 "stab": 0,
                 "toxic": 0,
                 "bleed": 1,
+				"step": 0,
                 "sneak": 0
             },
             "strategy": {
@@ -1589,13 +1640,21 @@
                 "mp": 25,
                 "str": 9,
                 "def": 4,
-                "dex": 9,
+                "dex": 7,
                 "spd": 9,
                 "mag": 1
             },
             "growth": {
-                "str": 1,
-                "dex": 1
+                "str": [
+                    0,
+                    0,
+                    1
+                ],
+                "dex": [
+                    0,
+                    0,
+                    1
+                ]
             },
             "skills": {
                 "attack": 1,
@@ -1603,6 +1662,7 @@
                 "sprint": 0,
                 "stab": 1,
                 "bleed": 0,
+				"step": 0,
                 "hidden": 0
             },
             "strategy": {
@@ -1648,7 +1708,11 @@
             },
             "growth": {
                 "maxmp": 1,
-                "dex": 1
+                "dex": [
+                    0,
+                    0,
+                    1
+                ]
             },
             "skills": {
                 "magic": 1,
@@ -1657,6 +1721,7 @@
                 "ice": 0,
                 "fire": 1,
                 "gale": 0,
+                "mastery": 0,
                 "lightning": 0,
                 "quake": 0
             },
@@ -1686,6 +1751,7 @@
                 "drain": 0,
                 "decay": 0,
                 "ress": 0,
+				"seal": 0,
                 "nbreath": 0
             },
             "strategy": {
@@ -1812,6 +1878,217 @@
                 ]
             }
         },
+        "boil": {
+            "name": "Blood Boil",
+            "alt": [
+                "blood boil"
+            ],
+            "info": "Anger runs through your veins. Madness is all you see. You will shed your defenses and slowly lose hp in order to drastically increase speed, dexterity, and strength.",
+            "levels": 8,
+            "type": "passive",
+            "effect": {
+                "str": [
+                    4,
+                    8,
+                    12,
+                    16,
+                    20,
+                    24,
+                    28,
+                    32
+                ],
+                "def": [
+                    -2,
+                    -4,
+                    -6,
+                    -8,
+                    -10,
+                    -12,
+                    -14,
+                    -16
+                ],
+                "spd": [
+                    4,
+                    8,
+                    12,
+                    16,
+                    20,
+                    24,
+                    28,
+                    32
+                ],
+                "dex": [
+                    3,
+                    6,
+                    9,
+                    12,
+                    15,
+                    18,
+                    21,
+                    24
+                ],
+                "hpdamage": [
+                    -9,
+                    -18,
+                    -27,
+                    -36,
+                    -45,
+                    -54,
+                    -63,
+                    -72
+                ]
+            }
+        },
+		"eagle": {
+			"name": "Eagle Strike",
+			"alt": ["eagle Strike"],
+			"info": "A sniper must be swift, and his eyes must be true. This skill slightly increases dexterity and speed.",
+			"levels": 8,
+			"type": "passive",
+			"effect": {
+		      "dex": [
+                    2,
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ],
+                "spd": [
+                    2,
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ]
+			}},
+		
+        "mastery": {
+            "name": "Magic Mastery",
+            "alt": [
+                "magic mastery"
+            ],
+            "info": "The path of a powerful magician knows no boundaries. Train in the way of the mystic arts to increase magic and dexterity.",
+            "levels": 8,
+            "type": "passive",
+            "effect": {
+                "mag": [
+                    2,
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ],
+                "dex": [
+                    2,
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    14,
+                    16
+                ]
+            }
+        },
+        "step": {
+            "name": "Quick Step",
+            "alt": [
+                "quick step"
+            ],
+            "info": "Increase your motion, hone your footwork, and increase speed and dexterity.",
+            "levels": 8,
+            "type": "passive",
+            "effect": {
+                "spd": [
+                    3,
+                    6,
+                    9,
+                    12,
+                    15,
+                    18,
+                    21,
+                    24
+                ],
+                "dex": [
+                    3,
+                    6,
+                    9,
+                    12,
+                    15,
+                    18,
+                    21,
+                    24
+                ]
+            }
+        },
+        "seal": {
+            "name": "Blood Seal",
+            "alt": [
+                "blood seal"
+            ],
+            "info": "A mage's path into the dark side has some benefits... You will gain health every turn, as well as some slight mana regeneration.",
+            "levels": 8,
+            "type": "passive",
+            "effect": {
+                "hpdamage": [
+                    5,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    35,
+                    40
+                ],
+                "mpdamage": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ]
+            }
+        },
+        "aura": {
+            "name": "Aura",
+            "info": "A holy aura that rejuvinates health and mana points.",
+            "levels": 8,
+            "type": "passive",
+            "effect": {
+                "hpdamage": [
+                    5,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    35,
+                    40
+                ],
+                "mpdamage": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ]
+            }
+        },
         "drain": {
             "name": "Drain",
             "info": "A necromancer's touch that drains dead targets of life force.",
@@ -1916,11 +2193,11 @@
                         3
                     ],
                     "hpdamage": [
-                        2,
                         3,
                         5,
                         10,
-                        20
+                        20,
+                        30
                     ]
                 }
             }
@@ -2121,7 +2398,7 @@
                 "berserker roar",
                 "berserker"
             ],
-            "info": "Drastically reduces the defense and speed of the user and all enemies.",
+            "info": "Drastically reduces the defense and speed of all enemies, but loses some slight speed and defense as well.",
             "message": "~User~ lets out a savage roar, causing all enemies to quake with fear.",
             "levels": 5,
             "cost": 6,
@@ -2131,18 +2408,18 @@
             "effect": {
                 "user": {
                     "spd": [
-                        -8,
-                        -16,
-                        -24,
-                        -32,
-                        -40
+                        -3,
+                        -6,
+                        -9,
+                        -12,
+                        -15
                     ],
                     "def": [
+                        -2,
+                        -4,
+                        -6,
                         -8,
-                        -16,
-                        -24,
-                        -32,
-                        -40
+                        -10
                     ]
                 },
                 "target": {
@@ -3282,10 +3559,10 @@
                 }
             }
         },
-        "judge": {
-            "name": "Judgement",
+        "judg": {
+            "name": "Judgment",
             "alt": [
-                "judgement"
+                "judgment"
             ],
             "info": "A powerful burst of holy light surrounds multiple enemies, causing much piercing damage... Takes two turns to charge.",
             "message": "God answers ~User~'s prayer with a thunderous boom and a blinding light that surrounds ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
@@ -3668,6 +3945,16 @@
             "cost": 100,
             "effect": {
                 "spd": -30
+            }
+        },
+        "medal": {
+            "name": "Troll Medallion",
+            "info": "A medallion stolen from a royal Troll. It increases life span and can even help recover mana",
+            "type": "equip",
+            "slot": "pendant",
+            "effect": {
+                "maxhp": 45,
+                "mpabsorb": 0.001
             }
         },
         "wizards staff": {
@@ -4348,15 +4635,14 @@
         },
         "talons": {
             "name": "Talons",
-            "info": "A set of cassowary talons substantially increasing all stats. Usable by the rogue and ranger.",
+            "info": "A set of cassowary talons substantially increasing all stats. Usable by the rogues.",
             "level": 24,
             "type": "equip",
             "slot": "2-hands",
             "classes": [
                 "rogue",
                 "assassin",
-                "ninja",
-                "ranger"
+                "ninja"
             ],
             "cost": 50000,
             "effect": {
@@ -6136,7 +6422,7 @@
                         "message": "Ron the Questgiver: Thanks! Here's a venom blade for your troubles.",
                         "denymsg": "Ron the Questgiver: You don't have 75 venoms! What is this? Gtfo!",
                         "effect": {
-                            "exp": 1000,
+                            "exp": 40000,
                             "events": {
                                 "venomquest": true
                             },
@@ -6167,6 +6453,63 @@
                 "inn",
                 "cave b1"
             ],
+            "npc": {
+                "craig": {
+                    "message": "Craig: Salutations, traveler. I heard from the innkeeper that there was new meat. Maybe you were hot stuff over there at Hill with those rabbits, but c'mon. Things are gonna get tough, but I'm here to help you through it! Type /t craig:train and I'll give you some monsters to kill for me. Type /t craig:troll when you've collected 10 troll bows, 20 rocks, and 10 moldy toasts.",
+                    "notopic": "Craig: Naw man, get it right. It's Craig with a C.",
+                    "train": {
+                        "message": "Craig: Alright. It's time to kill some cave monsters. I need you to defeat seven slimes, three skeletons, five trolls, one ork, and one bat.",
+                        "denymsg": "Craig: You can do it. I know you can!",
+                        "effect": {
+                            "exp": 8000,
+                            "gold": 400,
+                            "events": {
+                                "caveHunt": true
+                            }
+                        },
+                        "requisites": {
+                            "hunt": {
+                                "slime": 7,
+                                "troll": 5,
+                                "skeleton": 3,
+                                "ork": 1,
+                                "bat": 1
+                            },
+                            "events": {
+                                "caveHunt": false
+                            }
+                        }
+                    },
+                    "troll": {
+                        "message": "Craig: Good! These are items that no one should have. If you find any more, dump them or sell them. Or use them to tease a friend!",
+                        "denymsg": "Craig: I know you may find some... weapons down there. Trust me, don't use them. The trolls aren't known for their craftsmanship and those weapons do more harm than good.",
+                        "effect": {
+                            "exp": 5000,
+                            "gold": 100,
+                            "items": {
+                                "troll bow": -10,
+                                "rock": -20,
+                                "toast": 10,
+                                "Troll Medallion": 1
+                            },
+                            "events": {
+                                "trollWeps": true
+                            }
+                        },
+                        "requisites": {
+                            "events": {
+                                "trollWeps": false
+                            },
+                            "items": {
+                                "troll bow": 10,
+                                "rock": 20,
+                                "toast": 10
+                            },
+                            "level": 5
+                        }
+                    }
+                }
+            },
             "content": {
                 "skeleton:slime": 0.2,
                 "slime:slime:slime:slime": 0.1,
@@ -6376,7 +6719,7 @@
                 "tamer:tamer:tamer:tamer:tamer:tamer:dandylion": 0.1,
                 "bluebird:bluebird:bluebird:dandylion:dandylion": 0.2,
                 "dandylion:dandylion:dandylion:dandylion:dandylion:dandylion": 0.1,
-                "bluebird:bluebird:bluebird:bluebird:bluebird": 0.1,
+                "bluebird:bluebird:bluebird:bluebird": 0.1,
                 "casso:casso:casso": 0.09,
                 "casso:bluebird:dandylion:tamer:tamer:dirt:dirt": 0.08,
                 "casso:casso:casso:casso:casso:casso:dirt:dirt:dirt:dirt": 0.07,
@@ -6520,7 +6863,7 @@
         "±Game: A Mage's power comes from their magic and their mastery of special abilities! Most magic requires time to cast, but mages can lower this time, weaken enemies, and defend themselves so that the enemy won't even cause damage. At level 30, can become a Wizard or a Necromancer.",
         "±Game: Capable of breaking through the toughest of defenses, a Rogue specializes in different abilities meant to do one thing: kill. Whether it be high impact damage, piercing, or damage over time, a rogue can specialize in any killing technique. Of course, such power means that a rogue won't be too defensive. Can upgrade into an Assassin or a Ninja at level 30.",
         "±Game: The holy Cleric can heal and bless allies and itself during battle. Keeping allies alive can be the tipping point in battles. A cleric can use holy attacks, capable of doing serious damage to enemies. At level 30, upgrades to a Bishop or a Paladin.",
-        "±Game: The gentle Bard is a team player. It isn't a surprise that a Bard's abilities revolve around team protection and rejuvination. A Bard isn't left without offense though. A Bard's song can cause his enemies' ears to bleed and death will come to those who oppose them... or even help them. At level 30, can upgrade to a poet or a Rocker.",
+        "±Game: The gentle Bard is a team player. It isn't a surprise that a Bard's abilities revolve around team protection and rejuvination. The bard shouldn't increase strength of magic, because his moves do not use such trivialities. A Bard isn't left without offense though. A Bard's song can cause his enemies' ears to bleed and death will come to those who oppose them... or even help them. At level 30, can upgrade to a poet or a Rocker.",
         "±Game: A Monk's power comes from his heart-- and his fists. Monks are incapable of wielding weapons, but their punching skills can become stronger. A monk has the ability to destroy enemy's mana with his fists, as well as cause enemies to become disoriented. Once a Monk becomes level 30, he can upgrade to a Scrapper or a Chi Master.",
         "*** ************************************** ***"
     ]

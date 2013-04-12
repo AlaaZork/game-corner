@@ -1936,14 +1936,14 @@
                     24
                 ],
                 "hpdamage": [
-                    -9,
-                    -18,
-                    -27,
-                    -36,
-                    -45,
-                    -54,
-                    -63,
-                    -72
+                    -2,
+                    -4,
+                    -8,
+                    -10,
+                    -14,
+                    -15,
+                    -17,
+                    -20
                 ]
             }
         },
@@ -2048,24 +2048,24 @@
             "type": "passive",
             "effect": {
                 "hpdamage": [
-                    -2,
-                    3,
-                    8,
-                    13,
-                    18,
-                    23,
-                    28,
-                    33
+                    1,
+                    5,
+                    10,
+                    15,
+                    20,
+                    25,
+                    30,
+                    35
                 ],
                 "mpdamage": [
                     1,
+                    1,
+                    2,
                     2,
                     3,
+                    3,
                     4,
-                    5,
-                    6,
-                    7,
-                    8
+                    4
                 ]
             }
         },
@@ -3535,7 +3535,7 @@
             "info": "A magical attack that hits multiple enemies. Takes a turn to charge power.",
             "message": "~User~ shoots a Fire Ball at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
-            "cost": 4,
+            "cost": 6,
             "modifier": [
                 25,
                 30,
@@ -6311,7 +6311,7 @@
                     }
                 },
                 "master": {
-                    "message": "chi master: Hello, I am a Chi Master. I have lower stats than the Scrapper overall, but my skills are more centered around mana manipulation on the enemy and self. If you want to be a Chi Master, type /talk master:upgrade when you have 10,000 gold and are level 30.",
+                    "message": "chi master: Hello, I am a Chi Master. I have lower stats than the Scrapper overall, but my skills are more centered around mana manipulation on the enemy and self. I will also passively gain health and mana with a magical aura. If you want to be a Chi Master, type /talk master:upgrade when you have 10,000 gold and are level 30.",
                     "notopic": "chi master: Sorry buddy, I haven't a clue what you're talking about.",
                     "upgrade": {
                         "message": "chi master: Congratulations, now you're a chi master!",

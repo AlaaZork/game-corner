@@ -378,7 +378,7 @@
                 "mag": 15
             },
             "skills": {
-    			"pollencrim": 1,
+				"pollencrim": 1,
 				"pollenazur": 1,
 				"pollensaff": 1,
 				"pollenemer": 1,
@@ -558,7 +558,7 @@
                 "hp": 1050,
                 "dex": 70,
                 "mp": 400,
-                "str": 18,
+                "str": 24,
                 "def": 28,
                 "spd": 40,
                 "mag": 32
@@ -634,7 +634,7 @@
                 "mp": 100,
                 "dex": 55,
                 "str": 5,
-                "def": 40,
+                "def": 30,
                 "spd": 5,
                 "mag": 30
             },
@@ -802,7 +802,7 @@
         "necromancer": {
             "name": "Necromancer",
             "level": 1,
-            "exp": 3000,
+            "exp": 2750,
             "gold": 300,
             "stats": {
                 "hp": 80,
@@ -2097,7 +2097,7 @@
         },
         "drain": {
             "name": "Drain",
-            "info": "A necromancer's touch that drains dead targets of life force.",
+            "info": "A necromancer's touch that drains a dead target of life force.",
             "message": "~User~ touches ~Target~'s corpse and steals his life force.",
             "levels": 5,
             "cost": 0,
@@ -2114,11 +2114,11 @@
                         10
                     ],
                     "hp": [
-                        20,
-                        40,
-                        60,
-                        80,
-                        100
+                        600,
+                        700,
+                        800,
+                        900,
+                        1000
                     ]
                 },
                 "target": {
@@ -4052,6 +4052,19 @@
                 "hp": 150,
                 "mana": 150,
                 "mp": 150
+            }
+        },
+        "melixer": {
+            "name": "Medium elixir",
+            "info": "Heals a medium amount of HP and MP",
+            "type": "usable",
+            "level": 0,
+            "cost": 150,
+            "message": "You drank a potion and restored 500 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
+            "effect": {
+                "hp": 500,
+                "mana": 500,
+                "mp": 500
             }
         },
         "selixir": {
@@ -6571,7 +6584,7 @@
         },
         "cave": {
             "name": "Dark Cave",
-            "info": "A cave where darkness reigns. Dangerous monsters may lurk around. (level 5-12)",
+            "info": "A cave where darkness reigns. Dangerous monsters may lurk around, but a friendly man waves at you. He seems to want to talk to you. (level 5-12)",
             "welcome": "The darkness is absolute here. You can barely see what's ahead of you! You have heard tales of creatures killing adventurers who enter.",
             "type": "dungeon",
             "access": [

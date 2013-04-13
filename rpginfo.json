@@ -43,7 +43,8 @@
                 "flying": 1.5,
                 "earth": 0,
                 "wood": 0.75,
-                "dragon": 1.05
+				"water": 1.5,
+                "dragon": 0.95
             },
             "ice": {
                 "flying": 1.5,
@@ -71,11 +72,13 @@
             },
             "dark": {
                 "holy": 1.5,
-                "dark": 0.75
+                "dark": 0.75,
+				"dragon": 0.9
             },
             "holy": {
                 "holy": 0.75,
-                "dark": 1.5
+                "dark": 1.5,
+				"dragon": 0.9
             },
             "metal": {
                 "ground": 0.75,
@@ -1487,7 +1490,7 @@
         "merchant": {
             "name": "Merchant",
             "stats": {
-                "hp": 24,
+                "hp": 18,
                 "mp": 4,
                 "str": 3,
                 "dex": 3,
@@ -1499,7 +1502,53 @@
                 "maxhp": 1
             },
             "skills": {
+                "attack": 1,
+				"spider": 0
+            },
+            "strategy": {
                 "attack": 1
+            }
+        },
+        "alchemist": {
+            "name": "Alchemist",
+            "stats": {
+                "hp": 28,
+                "mp": 8,
+                "str": 4,
+                "dex": 5,
+                "def": 5,
+                "spd": 4,
+                "mag": 7
+            },
+            "growth": {
+                "maxhp": 1,
+				"mag": 1
+            },
+            "skills": {
+                "attack": 1
+            },
+            "strategy": {
+                "attack": 1
+            }
+        },
+        "engineer": {
+            "name": "Engineer",
+            "stats": {
+                "hp": 28,
+                "mp": 8,
+                "str": 7,
+                "dex": 5,
+                "def": 5,
+                "spd": 4,
+                "mag": 4
+            },
+            "growth": {
+                "maxhp": 1,
+				"str": 1
+            },
+            "skills": {
+                "attack": 1,
+				"spider": 1
             },
             "strategy": {
                 "attack": 1
@@ -1915,6 +1964,42 @@
                 "magic": 1
             }
         },
+  "paragon": {
+            "name": "Paragon",
+            "stats": {
+                "hp": 47,
+                "mp": 51,
+                "str": 19,
+                "dex": 8,
+                "def": 16,
+                "spd": 9,
+                "mag": 18
+            },
+            "growth": {
+                "maxmp": 1,
+                "str": [
+                    0,
+                    0,
+                    1
+                ],
+                "mag": [0,0,0,0,2]
+            },
+            "skills": {
+                "magic": 1,
+                "rest": 1,
+                "inferno": 0,
+                "ice": 0,
+                "fire": 1,
+                "gale": 0,
+                "arcane": 0,
+                "mastery": 0,
+                "lightning": 0,
+                "quake": 0
+            },
+            "strategy": {
+                "magic": 1
+            }
+        },
         "necromancer": {
             "name": "Necromancer",
             "stats": {
@@ -2011,7 +2096,7 @@
         "attack": {
             "name": "Attack",
             "info": "A regular physical attack that doesn't miss.",
-            "message": "~User~ attacks ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
+            "message": "~User~ attacks ~Target~! ~Target~ lost <b>~Damage~</b> HP and now has <b>~Life~</b>!",
             "levels": 1,
             "cost": 0,
             "modifier": 10,
@@ -3919,11 +4004,11 @@
                 ],
                 "target": {
                     "def": [
-                        -6,
+                        -4,
+                        -8,
                         -12,
-                        -18,
-                        -24,
-                        -30
+                        -16,
+                        -20
                     ],
                     "hpdamage": [
                         -5,
@@ -3966,6 +4051,20 @@
             "targetCount": 3,
             "target": "enemy"
         },
+		"spider": {
+			"name": "Mechanical Spiders",
+			"alt": ["mechanical spiders", "spiders"],
+			"info": "Send a swarm of metal, mechanical spiders that attacks your enemies multiple times.",
+			"message": "~User~ sends a swarm of mechanical at ~Target~. ~Target~ lost ~Damage~ HP and now has ~Life~.",
+			"levels": 5,
+			"cost": 0,
+			"element": "metal",
+			"modifier": [10,15,20,25,30],
+			"target": "enemy",
+			"effect": {
+				"multihit": [2,2,2,3,3],
+				"itemCost": "scrap"
+			}},
         "lightning": {
             "name": "Lightning Bolt",
             "alt": [
@@ -4382,7 +4481,7 @@
             "type": "usable",
             "level": 0,
             "cost": 150,
-            "message": "You drank a potion and restored 150 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
+            "message": "You drank a small elixir and restored 150 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
             "effect": {
                 "hp": 150,
                 "mana": 150,
@@ -4395,7 +4494,7 @@
             "type": "usable",
             "level": 0,
             "cost": 150,
-            "message": "You drank a potion and restored 500 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
+            "message": "You drank a medium elixir and restored 500 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
             "effect": {
                 "hp": 500,
                 "mana": 500,
@@ -4408,7 +4507,7 @@
             "type": "usable",
             "level": 0,
             "cost": 150,
-            "message": "You drank a potion and restored 150 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
+            "message": "You drank a small elixir and restored 150 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
             "effect": {
                 "hp": 150,
                 "mana": 150,
@@ -4421,7 +4520,7 @@
             "type": "usable",
             "level": 0,
             "cost": 150,
-            "message": "You drank a potion and restored 500 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
+            "message": "You drank a medium elixir and restored 500 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
             "effect": {
                 "hp": 500,
                 "mana": 500,
@@ -4434,7 +4533,7 @@
             "type": "usable",
             "level": 0,
             "cost": 150,
-            "message": "You drank a potion and restored 1000 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
+            "message": "You drank a large elixir and restored 1000 HP and MP, so now you have ~Life~ HP and ~Mana~ MP!!",
             "effect": {
                 "hp": 1000,
                 "mana": 1000,
@@ -4536,6 +4635,14 @@
                 "spd": -10
             }
         },
+		"scrap": {
+			"name": "Scrap",
+			"info": "Pieces of scrap that Merchants use to create basic machines",
+			"level": 1,
+			"type": "fuel",
+			"cost": 2
+		},
+			
         "berserker staff": {
             "name": "Berserker Staff",
             "info": "A staff that was supposedly made for the wizards of the Golem and Orc tribes. Can be used by warriors as well.",
@@ -7491,13 +7598,14 @@
     },
     "classHelp": [
         "*** ************************************** ***",
-        "±Game: The Warrior is a class which revolves Strength and Defense, using physical brawn and fortitude to defeat enemies at the cost of speed and dexterity. Each warrior has a high selection of items to choose from, as well as being able to play aggressively or defensively. Can upgrade into a Barbarian or Dragoon at level 30.",
-        "±Game: The Ranger's bows are their livelihood. Each of their attacks strike with true passion, and with an arsenal of skills, a ranger can be quite deadly. At level 30, a Ranger can become a Marksman or a Guard.",
-        "±Game: A Mage's power comes from their magic and their mastery of special abilities! Most magic requires time to cast, but mages can lower this time, weaken enemies, and defend themselves so that the enemy won't even cause damage. At level 30, can become a Wizard or a Necromancer.",
-        "±Game: Capable of breaking through the toughest of defenses, a Rogue specializes in different abilities meant to do one thing: kill. Whether it be high impact damage, piercing, or damage over time, a rogue can specialize in any killing technique. Of course, such power means that a rogue won't be too defensive. Can upgrade into an Assassin or a Ninja at level 30.",
-        "±Game: The holy Cleric can heal and bless allies and itself during battle. Keeping allies alive can be the tipping point in battles. A cleric can use holy attacks, capable of doing serious damage to enemies. At level 30, upgrades to a Bishop or a Paladin.",
-        "±Game: The gentle Bard is a team player. It isn't a surprise that a Bard's abilities revolve around team protection and rejuvination. The bard shouldn't increase strength of magic, because his moves do not use such trivialities. A Bard isn't left without offense though. A Bard's song can cause his enemies' ears to bleed and death will come to those who oppose them... or even help them. At level 30, can upgrade to a poet or a Rocker.",
-        "±Game: A Monk's power comes from his heart-- and his fists. Monks are incapable of wielding weapons, but their punching skills can become stronger. A monk has the ability to destroy enemy's mana with his fists, as well as cause enemies to become disoriented. Once a Monk becomes level 30, he can upgrade to a Scrapper or a Chi Master.",
+        "±Warrior: The Warrior is a class which revolves Strength and Defense, using physical brawn and fortitude to defeat enemies at the cost of speed and dexterity. Each warrior has a high selection of items to choose from, as well as being able to play aggressively or defensively. Can upgrade into a Barbarian or Dragoon at level 30.",
+        "±Ranger: The Ranger's bows are their livelihood. Each of their attacks strike with true passion, and with an arsenal of skills, a ranger can be quite deadly. At level 30, a Ranger can become a Marksman or a Guard.",
+        "±Mage: A Mage's power comes from their magic and their mastery of special abilities! Most magic requires time to cast, but mages can lower this time, weaken enemies, and defend themselves so that the enemy won't even cause damage. At level 30, can become a Wizard or a Necromancer.",
+        "±Rogue: Capable of breaking through the toughest of defenses, a Rogue specializes in different abilities meant to do one thing: kill. Whether it be high impact damage, piercing, or damage over time, a rogue can specialize in any killing technique. Of course, such power means that a rogue won't be too defensive. Can upgrade into an Assassin or a Ninja at level 30.",
+        "±Cleric: The holy Cleric can heal and bless allies and itself during battle. Keeping allies alive can be the tipping point in battles. A cleric can use holy attacks, capable of doing serious damage to enemies. At level 30, upgrades to a Bishop or a Paladin.",
+        "±Bard: The gentle Bard is a team player. It isn't a surprise that a Bard's abilities revolve around team protection and rejuvination. The bard shouldn't increase strength of magic, because his moves do not use such trivialities. A Bard isn't left without offense though. A Bard's song can cause his enemies' ears to bleed and death will come to those who oppose them... or even help them. At level 30, can upgrade to a poet or a Rocker.",
+        "±Monk: A Monk's power comes from his heart-- and his fists. Monks are incapable of wielding weapons, but their punching skills can become stronger. A monk has the ability to destroy enemy's mana with his fists, as well as cause enemies to become disoriented. Once a Monk becomes level 30, he can upgrade to a Scrapper or a Chi Master.",
+        "±Merchant: Merchants specialize in skills that draw power from items instead of mana. Their skills will consume an item, but they will passively gain more money than other classes to make up for that. At level 30, a Merchant may become an Alchemist or an Engineer.",
         "*** ************************************** ***"
     ]
 }

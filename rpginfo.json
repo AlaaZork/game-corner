@@ -729,7 +729,7 @@
         "casso": {
             "name": "Cassowary",
             "level": 1,
-            "exp": 20000,
+            "exp": 15000,
             "element": "flying",
             "gold": 1400,
             "stats": {
@@ -1525,7 +1525,7 @@
                 "life": 0,
                 "ruin": 0,
                 "regen": 0,
-    			"tune": 0,
+				"tune": 0,
                 "prejudice": 0,
                 "chaos": 0,
 				"tune": 0,
@@ -7317,7 +7317,7 @@
                 "bluebird:bluebird:bluebird:bluebird": 0.1,
                 "casso:casso:casso": 0.09,
                 "casso:bluebird:dandylion:tamer:tamer:dirt:dirt": 0.08,
-                "casso:casso:casso:casso:casso:casso:dirt:dirt:dirt:dirt": 0.07,
+                "casso:casso:casso:casso:casso:dirt:dirt:dirt:dirt": 0.07,
                 "casso:casso:casso:casso:bluebird:bluebird:dandylion:dandylion:tamer:tamer:dirt:dirt:dirt:dirt:dirt:dirt": 0.06
             }
         },

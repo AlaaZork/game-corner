@@ -1525,6 +1525,7 @@
                 "life": 0,
                 "ruin": 0,
                 "regen": 0,
+                "tune": 0,
                 "prejudice": 0,
                 "chaos": 0,
                 "puff": 0
@@ -1552,6 +1553,8 @@
                 "rest": 1,
                 "life": 0,
                 "ruin": 1,
+                "tune": 0,
+                "discord": 0,
                 "regen": 0,
                 "prejudice": 0
             },
@@ -1581,6 +1584,7 @@
             "skills": {
                 "attack": 1,
                 "rest": 1,
+                "tune": 0,
                 "life": 1,
                 "regen": 0,
                 "prejudice": 0,
@@ -2051,11 +2055,13 @@
                 "duration": [
                     5
                 ],
-				"dex": [2,
+                "dex": [
+                    2,
                     4,
                     6,
                     8,
-                    10],
+                    10
+                ],
                 "def": [
                     4,
                     8,
@@ -2261,6 +2267,50 @@
             "type": "passive",
             "effect": {
                 "defenseElement": "dark",
+                "hpdamage": [
+                    4,
+                    6,
+                    8,
+                    10,
+                    12,
+                    14,
+                    16,
+                    18
+                ],
+                "mpdamage": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    2,
+                    2,
+                    2,
+                    2
+                ]
+            }
+        },
+        "discord": {
+            "name": "Riff of Discord",
+            "info": "ZZZZZZZZRRRRRRRR! The riff that will make an enemy go mad. You will deal a good amount of direct damage to a single victim",
+            "levels": 5,
+            "type": "support",
+            "cost": 8,
+            "effect": {
+                "hp": [
+                    -30,
+                    -60,
+                    -90,
+                    -120,
+                    -150
+                ]
+            }
+        },
+        "tune": {
+            "name": "Fine Tuning",
+            "info": "Every musician must keep his instrument tuned at all times. Doing so, you will passively regenerate health and mana per turn to allow you to play your songs.",
+            "levels": 8,
+            "type": "passive",
+            "effect": {
                 "hpdamage": [
                     4,
                     6,
@@ -4565,6 +4615,8 @@
                 "dragoon",
                 "paladin",
                 "monk",
+                "scrapper",
+                "chi master",
                 "guard",
                 "barbarian",
                 "cleric"
@@ -5773,6 +5825,7 @@
                 "library",
                 "center",
                 "den",
+                "hall",
                 "hideout"
             ],
             "npc": {
@@ -6204,8 +6257,8 @@
                         "nogoldmsg": "Hipster Musician: I'm sorry, bro, I need ~Price~ Gold to sell you this.",
                         "acceptmsg": "Hipster Musician: Thank you, bro. Here is/are ~Count~ ~Item~(s) for ~Price~ Gold.",
                         "sell": {
-                            "bow": 15,
-                            "bone bow": 500,
+                            "kazoo": 15,
+                            "bracelet": 500,
                             "selixir": 5000
                         },
                         "requisites": {
@@ -6997,7 +7050,7 @@
         },
         "cave": {
             "name": "Dark Cave",
-            "info": "A cave where darkness reigns. Dangerous monsters may lurk around, but a friendly man waves at you. He seems to want to talk to you. (level 5-12)",
+            "info": "A cave where darkness reigns. Dangerous monsters may lurk around, but a friendly man waves at you. He seems to want to talk to you. (level 5+)",
             "welcome": "The darkness is absolute here. You can barely see what's ahead of you! You have heard tales of creatures killing adventurers who enter.",
             "type": "dungeon",
             "access": [
@@ -7380,7 +7433,7 @@
         },
         "cave b2": {
             "name": "Dark Cave B2",
-            "info": "The lower levels of the cave. This is where golems reside. People tell stoies of a civilized society of Golems. Some even speak of a golem king, but no one was really sure...  (level 9-13)",
+            "info": "The lower levels of the cave. This is where golems reside. People tell stoies of a civilized society of Golems. Some even speak of a golem king, but no one was really sure...  (level 10+)",
             "welcome": "You have made your way deep into the caves where golems reside. People speak of a golem king and a society based around defending him. No one knows for sure.",
             "type": "dungeon",
             "access": [
@@ -7413,12 +7466,12 @@
         },
         "cave b1": {
             "name": "Dark Cave B1",
-            "info": "The lower levels of the cave. Many aloof adventurers' bodies may be found here, as well as some of their belongings. (level 9-13)",
+            "info": "The lower levels of the cave. Many aloof adventurers' bodies may be found here, as well as some of their belongings. (level 9+)",
             "welcome": "You have made your way to the lower levels of the cave. Only the strongest of adventurers can survive here.",
             "type": "dungeon",
             "access": [
                 "cave",
-				"cave b2"
+                "cave b2"
             ],
             "requisites": {
                 "level": 9

@@ -1525,9 +1525,10 @@
                 "life": 0,
                 "ruin": 0,
                 "regen": 0,
-                "tune": 0,
+    			"tune": 0,
                 "prejudice": 0,
                 "chaos": 0,
+				"tune": 0,
                 "puff": 0
             },
             "strategy": {
@@ -1553,8 +1554,8 @@
                 "rest": 1,
                 "life": 0,
                 "ruin": 1,
-                "tune": 0,
-                "discord": 0,
+				"tune": 0,
+				"discord": 0,
                 "regen": 0,
                 "prejudice": 0
             },
@@ -1584,7 +1585,7 @@
             "skills": {
                 "attack": 1,
                 "rest": 1,
-                "tune": 0,
+				"tune": 0,
                 "life": 1,
                 "regen": 0,
                 "prejudice": 0,
@@ -2055,13 +2056,11 @@
                 "duration": [
                     5
                 ],
-                "dex": [
-                    2,
+				"dex": [2,
                     4,
                     6,
                     8,
-                    10
-                ],
+                    10],
                 "def": [
                     4,
                     8,
@@ -2289,22 +2288,15 @@
                 ]
             }
         },
-        "discord": {
-            "name": "Riff of Discord",
-            "info": "ZZZZZZZZRRRRRRRR! The riff that will make an enemy go mad. You will deal a good amount of direct damage to a single victim",
-            "levels": 5,
-            "type": "support",
-            "cost": 8,
-            "effect": {
-                "hp": [
-                    -30,
-                    -60,
-                    -90,
-                    -120,
-                    -150
-                ]
-            }
-        },
+		"discord": {
+			"name": "Riff of Discord",
+			"info": "ZZZZZZZZRRRRRRRR! The riff that will make an enemy go mad. You will deal a good amount of direct damage to a single victim",
+			"levels": 5,
+			"type": "support",
+			"cost": 8,
+			"effect": {
+				"hp": [-30,-60,-90,-120,-150]
+			}},
         "tune": {
             "name": "Fine Tuning",
             "info": "Every musician must keep his instrument tuned at all times. Doing so, you will passively regenerate health and mana per turn to allow you to play your songs.",
@@ -4615,8 +4607,8 @@
                 "dragoon",
                 "paladin",
                 "monk",
-                "scrapper",
-                "chi master",
+				"scrapper",
+				"chi master",
                 "guard",
                 "barbarian",
                 "cleric"
@@ -5825,7 +5817,7 @@
                 "library",
                 "center",
                 "den",
-                "hall",
+				"hall",
                 "hideout"
             ],
             "npc": {
@@ -6238,9 +6230,9 @@
             ],
             "requisites": {
                 "classes": [
-                    "ranger",
-                    "marksman",
-                    "guard"
+                    "bard",
+                    "rocker",
+                    "poet"
                 ]
             },
             "npc": {
@@ -7471,7 +7463,7 @@
             "type": "dungeon",
             "access": [
                 "cave",
-                "cave b2"
+				"cave b2"
             ],
             "requisites": {
                 "level": 9

@@ -34,60 +34,61 @@
             "evasion": 1.125,
             "defense": 1,
             "damage": 1.1,
-			"passive": 2,
+            "passive": 2,
             "critical": 1.5,
             "party": 6
         },
-		"elements": {
-			"lightning": {
-				"flying": 1.5,
-				"earth": 0,
-				"wood": 0.75,
-				"dragon": 1.05
-			},
-			"ice": {
-				"flying": 1.5,
-				"metal": 0.75,
-				"dragon": 1.25
-			},
-			"fire": {
-				"fire": 0.75,
-				"water": 0.25,
-				"wood": 1.5,
-				"earth": 0.25,
-				"metal": 1.1,
-				"dragon": 0.9
-			},
-			"water": {
-				"fire": 1.5,
-				"wood": 0.5,
-				"dragon": 0.9,
-				"earth": 1.5,
-				"water": 0.75
-			},
-			"dragon": {
-				"dragon": 1.25,
-				"metal": 0.75
-			},
-			"dark": {
-				"holy": 1.5,
-				"dark": 0.75
-			},
-			"holy": {
-				"holy": 0.75,
-				"dark": 1.5
-			},
-			"metal": {
-				"ground": 0.75,
-				"ice": 1.5,
-				"flying": 1.1
-			},
-			"flying": {
-				"ground": 0.75,
-				"wood": 1.5,
-				"metal": 0.9,
-				"dragon": 0.9
-			}},
+        "elements": {
+            "lightning": {
+                "flying": 1.5,
+                "earth": 0,
+                "wood": 0.75,
+                "dragon": 1.05
+            },
+            "ice": {
+                "flying": 1.5,
+                "metal": 0.75,
+                "dragon": 1.25
+            },
+            "fire": {
+                "fire": 0.75,
+                "water": 0.25,
+                "wood": 1.5,
+                "earth": 0.25,
+                "metal": 1.1,
+                "dragon": 0.9
+            },
+            "water": {
+                "fire": 1.5,
+                "wood": 0.5,
+                "dragon": 0.9,
+                "earth": 1.5,
+                "water": 0.75
+            },
+            "dragon": {
+                "dragon": 1.25,
+                "metal": 0.75
+            },
+            "dark": {
+                "holy": 1.5,
+                "dark": 0.75
+            },
+            "holy": {
+                "holy": 0.75,
+                "dark": 1.5
+            },
+            "metal": {
+                "ground": 0.75,
+                "ice": 1.5,
+                "flying": 1.1
+            },
+            "flying": {
+                "ground": 0.75,
+                "wood": 1.5,
+                "metal": 0.9,
+                "dragon": 0.9
+            }
+        },
         "leveling": {
             "hp": 8,
             "mp": 4,
@@ -203,7 +204,7 @@
             "level": 1,
             "exp": 9,
             "gold": 4,
-			"element": "water",
+            "element": "water",
             "stats": {
                 "dex": 1,
                 "hp": 30,
@@ -233,7 +234,7 @@
             "level": 10,
             "exp": 300,
             "gold": 8,
-			"element": "earth",
+            "element": "earth",
             "stats": {
                 "hp": 50,
                 "dex": 1,
@@ -420,7 +421,7 @@
             "name": "Dandylion",
             "level": 1,
             "exp": 7000,
-			"element": "wood",
+            "element": "wood",
             "gold": 200,
             "stats": {
                 "hp": 1000,
@@ -432,10 +433,10 @@
                 "mag": 15
             },
             "skills": {
-				"pollencrim": 1,
-				"pollenazur": 1,
-				"pollensaff": 1,
-				"pollenemer": 1,
+                "pollencrim": 1,
+                "pollenazur": 1,
+                "pollensaff": 1,
+                "pollenemer": 1,
                 "crouch": 1,
                 "pounce": 1,
                 "heal": 3
@@ -464,7 +465,7 @@
             "level": 60,
             "exp": 250000,
             "gold": 18000,
-			"element": "dragon",
+            "element": "dragon",
             "stats": {
                 "hp": 8000,
                 "dex": 40,
@@ -504,7 +505,7 @@
             "name": "Mage Bird",
             "level": 45,
             "exp": 10500,
-			"element": "flying",
+            "element": "flying",
             "gold": 4000,
             "stats": {
                 "hp": 1400,
@@ -537,7 +538,7 @@
             "level": 58,
             "exp": 10000,
             "gold": 5000,
-			"element": "flying",
+            "element": "flying",
             "stats": {
                 "hp": 2800,
                 "dex": 65,
@@ -572,7 +573,7 @@
             "level": 48,
             "exp": 20000,
             "gold": 2300,
-			"element": "flying",
+            "element": "flying",
             "stats": {
                 "hp": 805,
                 "mp": 1000,
@@ -611,7 +612,7 @@
             "name": "Wyvern",
             "level": 45,
             "exp": 19000,
-			"element": "dragon",
+            "element": "dragon",
             "gold": 5000,
             "stats": {
                 "hp": 1050,
@@ -653,7 +654,7 @@
             "level": 50,
             "exp": 24000,
             "gold": 3500,
-			"element": "flying",
+            "element": "flying",
             "stats": {
                 "hp": 1300,
                 "mp": 120,
@@ -689,7 +690,7 @@
             "level": 1,
             "exp": 6000,
             "gold": 800,
-			"element": "flying",
+            "element": "flying",
             "stats": {
                 "hp": 400,
                 "mp": 100,
@@ -719,8 +720,8 @@
                 "bpollen": 0.025,
                 "ypollen": 0.025,
                 "gpollen": 0.025,
-				"drums": 0.1,
-				"crest": 0.1,
+                "drums": 0.1,
+                "crest": 0.1,
                 "moldy toast": 0.1,
                 "none": 0.55
             }
@@ -729,7 +730,7 @@
             "name": "Cassowary",
             "level": 1,
             "exp": 20000,
-			"element": "flying",
+            "element": "flying",
             "gold": 1400,
             "stats": {
                 "hp": 2500,
@@ -770,7 +771,7 @@
             "level": 1,
             "exp": 300,
             "gold": 40,
-			"element": "dark",
+            "element": "dark",
             "stats": {
                 "hp": 80,
                 "mp": 40,
@@ -806,7 +807,7 @@
             "level": 1,
             "exp": 500,
             "gold": 50,
-			"element": "dark",
+            "element": "dark",
             "stats": {
                 "hp": 100,
                 "mp": 10,
@@ -836,7 +837,7 @@
             "level": 1,
             "exp": 800,
             "gold": 140,
-			"element": "earth",
+            "element": "earth",
             "stats": {
                 "hp": 70,
                 "mp": 40,
@@ -849,21 +850,21 @@
             "skills": {
                 "attack": 1,
                 "empower": 1,
-				"tank": 1,
+                "tank": 1,
                 "charge": 2
             },
             "strategy": {
                 "attack": 0.5,
                 "empower": 0.2,
-				"tank": 0.1,
+                "tank": 0.1,
                 "charge": 0.2
             },
             "loot": {
                 "none": 0.8,
-				"earth lance": 0.02,
-				"earth shield": 0.02,
-				"small axe": 0.02,
-				"bracelet": 0.02,
+                "earth lance": 0.02,
+                "earth shield": 0.02,
+                "small axe": 0.02,
+                "bracelet": 0.02,
                 "berserker staff": 0.02,
                 "reapers fangr": 0.02,
                 "reapers fangl": 0.02,
@@ -875,7 +876,7 @@
             "level": 1,
             "exp": 1500,
             "gold": 250,
-			"element": "earth",
+            "element": "earth",
             "stats": {
                 "hp": 120,
                 "mp": 50,
@@ -888,21 +889,21 @@
             "skills": {
                 "attack": 1,
                 "empower": 2,
-				"tank": 3,
+                "tank": 3,
                 "charge": 3
             },
             "strategy": {
                 "attack": 0.4,
                 "empower": 0.2,
-				"tank": 0.2,
+                "tank": 0.2,
                 "charge": 0.2
             },
             "loot": {
                 "none": 0.55,
-				"earth lance": 0.05,
-				"earth shield": 0.05,
-				"small axe": 0.05,
-				"bracelet": 0.05,
+                "earth lance": 0.05,
+                "earth shield": 0.05,
+                "small axe": 0.05,
+                "bracelet": 0.05,
                 "berserker staff": 0.05,
                 "reapers fangr": 0.05,
                 "reapers fangl": 0.05,
@@ -914,7 +915,7 @@
             "level": 1,
             "exp": 2500,
             "gold": 250,
-			"element": "earth",
+            "element": "earth",
             "stats": {
                 "hp": 200,
                 "mp": 50,
@@ -936,10 +937,10 @@
             },
             "loot": {
                 "none": 0.3,
-				"earth shield": 0.1,
-				"earth lance": 0.1,
-				"small axe": 0.1,
-				"bracelet": 0.01,
+                "earth shield": 0.1,
+                "earth lance": 0.1,
+                "small axe": 0.1,
+                "bracelet": 0.01,
                 "reapers fangr": 0.1,
                 "reapers fangl": 0.1,
                 "golem armor": 0.05
@@ -948,7 +949,7 @@
         "necromancer": {
             "name": "Necromancer",
             "level": 1,
-			"element": "dark",
+            "element": "dark",
             "exp": 2750,
             "gold": 300,
             "stats": {
@@ -985,7 +986,7 @@
             "name": "Necrolord",
             "level": 1,
             "exp": 24000,
-			"element": "dark",
+            "element": "dark",
             "gold": 400,
             "stats": {
                 "hp": 350,
@@ -1026,7 +1027,7 @@
             "level": 20,
             "exp": 20000,
             "gold": 2000,
-			"element": "dark",
+            "element": "dark",
             "stats": {
                 "hp": 1500,
                 "mp": 150,
@@ -1062,7 +1063,7 @@
             "level": 4,
             "exp": 100,
             "gold": 50,
-			"element": "metal",
+            "element": "metal",
             "stats": {
                 "hp": 25,
                 "mp": 25,
@@ -1131,7 +1132,7 @@
             "name": "Warrior",
             "level": 4,
             "exp": 100,
-			"element": "metal",
+            "element": "metal",
             "gold": 50,
             "stats": {
                 "hp": 40,
@@ -1231,7 +1232,7 @@
             "name": "Giant Bat",
             "level": 1,
             "exp": 500,
-			"element": "flying",
+            "element": "flying",
             "gold": 80,
             "stats": {
                 "hp": 90,
@@ -1386,7 +1387,7 @@
                 "charge": 1,
                 "roar": 0,
                 "boil": 0,
-				"determination": 0,
+                "determination": 0,
                 "whirl": 0
             },
             "strategy": {
@@ -1417,7 +1418,7 @@
                 "rest": 1,
                 "chi": 1,
                 "focus": 0,
-				"aura": 0,
+                "aura": 0,
                 "blast": 0,
                 "strike": 0
             },
@@ -1450,8 +1451,8 @@
                 "chi": 1,
                 "focus": 0,
                 "blast": 0,
-				"boil": 0,
-				"barrage": 0,
+                "boil": 0,
+                "barrage": 0,
                 "strike": 0
             },
             "strategy": {
@@ -1483,26 +1484,27 @@
                 "punch": 1
             }
         },
-		"merchant": {
-			"name": "Merchant",
-			"stats": {
-				"hp": 24,
-				"mp": 4,
-				"str": 3,
-				"dex": 3,
-				"def": 2,
-				"spd": 2,
-				"mag": 3
-			},
-			"growth": {
-				"maxhp": 1
-			},
-			"skills": {
-				"attack": 1
-			},
-			"strategy": {
-				"attack": 1
-			}},
+        "merchant": {
+            "name": "Merchant",
+            "stats": {
+                "hp": 24,
+                "mp": 4,
+                "str": 3,
+                "dex": 3,
+                "def": 2,
+                "spd": 2,
+                "mag": 3
+            },
+            "growth": {
+                "maxhp": 1
+            },
+            "skills": {
+                "attack": 1
+            },
+            "strategy": {
+                "attack": 1
+            }
+        },
         "bard": {
             "name": "Bard",
             "stats": {
@@ -1524,7 +1526,7 @@
                 "ruin": 0,
                 "regen": 0,
                 "prejudice": 0,
-				"chaos": 0,
+                "chaos": 0,
                 "puff": 0
             },
             "strategy": {
@@ -1614,7 +1616,7 @@
                 "multi": 0,
                 "weak": 0,
                 "venom": 0,
-				"eagle": 0,
+                "eagle": 0,
                 "shower": 0,
                 "pierce": 0,
                 "trap": 0
@@ -1709,8 +1711,8 @@
                 "heal": 0,
                 "whirl": 0,
                 "bless": 0,
-				"tank": 0,
-				"aura": 0,
+                "tank": 0,
+                "aura": 0,
                 "holy": 0
             },
             "strategy": {
@@ -1743,7 +1745,7 @@
                 "ress": 0,
                 "bless": 0,
                 "fortify": 0,
-				"aura": 0,
+                "aura": 0,
                 "holy": 0,
                 "judge": 0
             },
@@ -1804,7 +1806,7 @@
                 "stab": 0,
                 "toxic": 0,
                 "bleed": 1,
-				"step": 0,
+                "step": 0,
                 "sneak": 0
             },
             "strategy": {
@@ -1840,7 +1842,7 @@
                 "sprint": 0,
                 "stab": 1,
                 "bleed": 0,
-				"step": 0,
+                "step": 0,
                 "hidden": 0
             },
             "strategy": {
@@ -1899,7 +1901,7 @@
                 "ice": 0,
                 "fire": 1,
                 "gale": 0,
-				"arcane": 0,
+                "arcane": 0,
                 "mastery": 0,
                 "lightning": 0,
                 "quake": 0
@@ -1929,9 +1931,9 @@
                 "plague": 1,
                 "drain": 0,
                 "decay": 0,
-				"arcane": 0,
+                "arcane": 0,
                 "ress": 0,
-				"seal": 0,
+                "seal": 0,
                 "nbreath": 0
             },
             "strategy": {
@@ -2038,7 +2040,7 @@
             "alt": [
                 "song of life"
             ],
-            "info": "A beautiful song that increases team's defense",
+            "info": "A beautiful song that increases team's defense and increases dexterity.",
             "message": "~User~ plays a lovely melody, increasing his team's fortitude",
             "levels": 5,
             "cost": 3,
@@ -2049,6 +2051,11 @@
                 "duration": [
                     5
                 ],
+				"dex": [2,
+                    4,
+                    6,
+                    8,
+                    10],
                 "def": [
                     4,
                     8,
@@ -2119,14 +2126,16 @@
                 ]
             }
         },
-		"eagle": {
-			"name": "Eagle Strike",
-			"alt": ["eagle Strike"],
-			"info": "A sniper must be swift, and his eyes must be true. This skill slightly increases dexterity and speed.",
-			"levels": 8,
-			"type": "passive",
-			"effect": {
-		      "dex": [
+        "eagle": {
+            "name": "Eagle Strike",
+            "alt": [
+                "eagle Strike"
+            ],
+            "info": "A sniper must be swift, and his eyes must be true. This skill slightly increases dexterity and speed.",
+            "levels": 8,
+            "type": "passive",
+            "effect": {
+                "dex": [
                     2,
                     4,
                     6,
@@ -2146,8 +2155,8 @@
                     14,
                     16
                 ]
-			}},
-		
+            }
+        },
         "mastery": {
             "name": "Magic Mastery",
             "alt": [
@@ -2210,17 +2219,38 @@
                 ]
             }
         },
-		"dragon": {
-			"name": "Dragon Armor",
-			"alt": ["dragon armor"],
-			"info": "Be one with the Dragon. You will gain their armor, giving your their resistances and weaknesses. Your defense and health will also slightly increase",
-			"levels": 8,
-			"type": "passive",
-			"effect": {
-				"maxhp": [4,8,12,16,20,24,28,32],
-				"defenseElement": "dragon",
-				"def": [1,2,3,4,5,6,7,8]
-			}},
+        "dragon": {
+            "name": "Dragon Armor",
+            "alt": [
+                "dragon armor"
+            ],
+            "info": "Be one with the Dragon. You will gain their armor, giving your their resistances and weaknesses. Your defense and health will also slightly increase",
+            "levels": 8,
+            "type": "passive",
+            "effect": {
+                "maxhp": [
+                    4,
+                    8,
+                    12,
+                    16,
+                    20,
+                    24,
+                    28,
+                    32
+                ],
+                "defenseElement": "dragon",
+                "def": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ]
+            }
+        },
         "seal": {
             "name": "Blood Seal",
             "alt": [
@@ -2230,7 +2260,7 @@
             "levels": 8,
             "type": "passive",
             "effect": {
-				"defenseElement": "dark",
+                "defenseElement": "dark",
                 "hpdamage": [
                     4,
                     6,
@@ -2259,7 +2289,7 @@
             "levels": 8,
             "type": "passive",
             "effect": {
-				"defenseElement": "holy",
+                "defenseElement": "holy",
                 "hpdamage": [
                     4,
                     6,
@@ -2362,31 +2392,61 @@
             "hitDead": "only",
             "effect": {}
         },
-		"chaos": {
-			"name": "Song of Chaos",
-			"alt": ["song of chaos"],
-			"info": "A strange song that may increase defense and regenerate health, make enemies start losing health and not act for 1 turn, nothing at all, or all of them at once, but it takes 1 turn to see it's effects, if any.",
-			"message": "~User~ plays a strange song, from a distant land.. but what does it to to ~Target~? Or to ~User~...",
-			"levels": 6,
-			"type": "support",
-			"cast": 1,
-			"cost": 7,
-			"target": "enemy",
-			"targetCount": 10,
-			"effect": {
-				"duration": [4,4,5,5,6,6],
-				"targetChance": 0.34,
-				"userChance": 0.34,
-				"target": {
-					"delay": 1,
-					"hpdamage": [-10,-20,-30,-40,-50,-60]
-				},
-				"user": {
-					"hpdamage": [4,8,12,16,20,24],
-					"def": [5,10,15,20,25,30]
-				}}},
-			
-			
+        "chaos": {
+            "name": "Song of Chaos",
+            "alt": [
+                "song of chaos"
+            ],
+            "info": "A strange song that may increase defense and regenerate health, make enemies start losing health and not act for 1 turn, nothing at all, or all of them at once, but it takes 1 turn to see it's effects, if any.",
+            "message": "~User~ plays a strange song, from a distant land.. but what does it to to ~Target~? Or to ~User~...",
+            "levels": 6,
+            "type": "support",
+            "cast": 1,
+            "cost": 7,
+            "target": "enemy",
+            "targetCount": 10,
+            "effect": {
+                "duration": [
+                    4,
+                    4,
+                    5,
+                    5,
+                    6,
+                    6
+                ],
+                "targetChance": 0.34,
+                "userChance": 0.34,
+                "target": {
+                    "delay": 1,
+                    "hpdamage": [
+                        -10,
+                        -20,
+                        -30,
+                        -40,
+                        -50,
+                        -60
+                    ]
+                },
+                "user": {
+                    "hpdamage": [
+                        4,
+                        8,
+                        12,
+                        16,
+                        20,
+                        24
+                    ],
+                    "def": [
+                        5,
+                        10,
+                        15,
+                        20,
+                        25,
+                        30
+                    ]
+                }
+            }
+        },
         "regen": {
             "name": "Song of Regen",
             "alt": [
@@ -2463,7 +2523,7 @@
                         -5,
                         -9,
                         -14,
-                       -20
+                        -20
                     ],
                     "spd": [
                         -10,
@@ -2491,11 +2551,12 @@
                 90
             ],
             "type": "physical",
-			"effect": {
-				"targetChance": 0.18,
-				"target": {
-					"delay": 1
-					}},
+            "effect": {
+                "targetChance": 0.18,
+                "target": {
+                    "delay": 1
+                }
+            },
             "target": "enemy"
         },
         "barrage": {
@@ -2514,11 +2575,12 @@
                 90
             ],
             "type": "physical",
-			"effect": {
-				"targetChance": 0.18,
-				"target": {
-					"delay": 1
-					}},
+            "effect": {
+                "targetChance": 0.18,
+                "target": {
+                    "delay": 1
+                }
+            },
             "target": "enemy"
         },
         "hidden": {
@@ -2723,7 +2785,7 @@
             "target": "self",
             "effect": {
                 "user": {
-					"focus": true,
+                    "focus": true,
                     "str": [
                         -8,
                         -8,
@@ -2800,7 +2862,6 @@
                 }
             }
         },
-
         "venom": {
             "name": "Venom Shot",
             "alt": [
@@ -2845,7 +2906,6 @@
                 "snipe": true
             }
         },
-
         "stab": {
             "name": "Backstab",
             "alt": [
@@ -3068,7 +3128,7 @@
             "message": "~User~'s holy might is unparalleled! ~User~ swings his weapon at ~Target~, leaving him mentally crippled! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
             "cost": 4,
-			"element": "holy",
+            "element": "holy",
             "modifier": [
                 1.1,
                 1.2,
@@ -3086,8 +3146,8 @@
                 }
             },
             "effect": {
-				"targetChance": 0.4,
-				"userChance": 0.4,
+                "targetChance": 0.4,
+                "userChance": 0.4,
                 "user": {
                     "str": [
                         3,
@@ -3119,14 +3179,14 @@
             "info": "An undead dragon's powerful breath that hits multiple enemies. Doesn't always connect with the enemy, but has a dark aura.",
             "message": "~User~ breathes on ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
-			"element": "dark",
+            "element": "dark",
             "cast": 2,
             "cost": 20,
             "requisites": {
                 "hp": 300,
                 "skill": {
                     "plague": 5,
-					"seal": 4
+                    "seal": 4
                 }
             },
             "modifier": [
@@ -3280,7 +3340,7 @@
             "levels": 5,
             "type": "physical",
             "target": "enemy",
-			"element": "dragon",
+            "element": "dragon",
             "cost": 5,
             "modifier": [
                 1.5,
@@ -3463,7 +3523,7 @@
             "message": "~User~'s Holy Light hits ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~! ~Target~ also lost a bit of mana!",
             "levels": 5,
             "cost": 6,
-			"element": "holy",
+            "element": "holy",
             "modifier": [
                 15,
                 25,
@@ -3529,14 +3589,24 @@
                 }
             }
         },
-		"determination": {
-			"name": "Determination",
-			"info": "A passive skill gained by those who refuse to die. Your life span shall increase, and with it, your chances to kill.",
-			"levels": 8,
-			"type": "passive",
-			"effect": {
-				"maxhp": [30,60,90,120,150,180,210,240]
-			}},
+        "determination": {
+            "name": "Determination",
+            "info": "A passive skill gained by those who refuse to die. Your life span shall increase, and with it, your chances to kill.",
+            "levels": 8,
+            "type": "passive",
+            "effect": {
+                "maxhp": [
+                    30,
+                    60,
+                    90,
+                    120,
+                    150,
+                    180,
+                    210,
+                    240
+                ]
+            }
+        },
         "strike": {
             "name": "Chi Strike",
             "alt": [
@@ -3612,7 +3682,7 @@
             "info": "A magical attack that makes target more vulnerable.",
             "message": "~User~ summons several Ice Shards and send them flying at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~! ~Target~ is more vulnerable now!",
             "levels": 5,
-			"element": "ice",
+            "element": "ice",
             "cost": 5,
             "modifier": [
                 20,
@@ -3733,7 +3803,7 @@
             "info": "A magical attack that hits multiple enemies.",
             "message": "~User~ shoots a Fire Ball at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
-			"element": "fire",
+            "element": "fire",
             "cost": 6,
             "modifier": [
                 25,
@@ -3754,7 +3824,7 @@
             "info": "A powerful earthquake caused by mages that damages most enemies. Takes two turns to charge full power.",
             "message": "~User~ breaks the ground with a powerful smash. ~Target~ falls and hits the ground! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
-			"element": "earth",
+            "element": "earth",
             "cast": 2,
             "cost": 10,
             "requisites": {
@@ -3779,7 +3849,7 @@
             "message": "~User~ shoots a massive Fire Ball at ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~! The burns!",
             "levels": 5,
             "cost": 8,
-			"element": "fire",
+            "element": "fire",
             "cast": 1,
             "requisites": {
                 "skill": {
@@ -3797,7 +3867,7 @@
             "target": "enemy",
             "targetCount": 10,
             "effect": {
-				"targetChance": 0.45,
+                "targetChance": 0.45,
                 "duration": [
                     5,
                     6,
@@ -3831,7 +3901,7 @@
             "info": "A powerful burst of holy light surrounds multiple enemies, causing much piercing damage... Takes two turns to charge.",
             "message": "God answers ~User~'s prayer with a thunderous boom and a blinding light that surrounds ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
-			"element": "holy",
+            "element": "holy",
             "cost": 20,
             "cast": 2,
             "requisites": {
@@ -3863,7 +3933,7 @@
             "message": "~User~ makes a lightning bolt pass through ~Target~! ~Target~ lost ~Damage~ HP and now has ~Life~!",
             "levels": 5,
             "cost": 5,
-			"element": "lightning",
+            "element": "lightning",
             "cast": 1,
             "modifier": [
                 40,
@@ -4183,7 +4253,7 @@
             "name": "Sword",
             "info": "A small sword",
             "level": 1,
-			"element": "metal",
+            "element": "metal",
             "classes": [
                 "warrior",
                 "barbarian",
@@ -4203,7 +4273,7 @@
             "name": "Rock",
             "info": "A big rock",
             "level": 1,
-			"element": "earth",
+            "element": "earth",
             "type": "equip",
             "slot": "rhand",
             "message": "~User~ strikes ~Target~ with a rock! ~Target~ lost ~Damage~ and now has ~Life~!",
@@ -4216,8 +4286,8 @@
             "name": "Troll Medallion",
             "info": "A medallion stolen from a royal Troll. It increases life span and can even help recover mana",
             "type": "equip",
-			"cost": 0,
-			"level": 5,
+            "cost": 0,
+            "level": 5,
             "slot": "pendant",
             "effect": {
                 "maxhp": 45,
@@ -4357,8 +4427,8 @@
             "info": "A rare, slimy sword. Usable by most, but not all.",
             "level": 1,
             "type": "equip",
-			"element": "water",
-			"classes": [
+            "element": "water",
+            "classes": [
                 "mage",
                 "wizard",
                 "monk",
@@ -4419,7 +4489,7 @@
             "cost": 100,
             "effect": {
                 "str": -30,
-				"def": -30,
+                "def": -30,
                 "dex": 100,
                 "spd": -10
             }
@@ -4532,7 +4602,7 @@
             "name": "Shield",
             "info": "A small shield",
             "level": 1,
-			"element": "metal",
+            "element": "metal",
             "type": "equip",
             "classes": [
                 "mage",
@@ -4563,7 +4633,7 @@
             "info": "Generic body armor for basic adventurers",
             "level": 1,
             "type": "equip",
-			"element": "metal",
+            "element": "metal",
             "slot": "body",
             "cost": 60,
             "effect": {
@@ -4577,7 +4647,7 @@
             ],
             "info": "This undead sword is imbued with a dark essence. Usable by warriors, rogues, and mages.",
             "level": 12,
-			"element": "dark",
+            "element": "dark",
             "classes": [
                 "warrior",
                 "rogue",
@@ -4606,7 +4676,7 @@
             ],
             "info": "The blade of a Necrolord. Life spirit seems to be imbued with this weapon. Usable by warriors, rogues, and rangers.",
             "level": 19,
-			"element": "dark",
+            "element": "dark",
             "classes": [
                 "warrior",
                 "rogue",
@@ -4623,7 +4693,7 @@
                 "str": 8,
                 "dex": 6,
                 "spd": 2,
-				"hpabsorb": 0.02,
+                "hpabsorb": 0.02,
                 "mag": 2,
                 "maxmp": 10,
                 "maxhp": 100
@@ -4637,7 +4707,7 @@
             ],
             "info": "The staff of a Necrolord. Life spirit seems to be imbued with this weapon. Usable by mages and clerics.",
             "level": 19,
-			"element": "dark",
+            "element": "dark",
             "type": "equip",
             "classes": [
                 "mage",
@@ -4652,7 +4722,7 @@
                 "spd": 2,
                 "dex": 6,
                 "def": 5,
-				"hpabsorb": 0.02,
+                "hpabsorb": 0.02,
                 "mag": 8,
                 "maxmp": 15,
                 "maxhp": 80
@@ -4666,7 +4736,7 @@
             "info": "Hmm... this is heavier than it looks.",
             "level": 11,
             "type": "equip",
-			"element": "dark",
+            "element": "dark",
             "slot": "body",
             "classes": [
                 "mage",
@@ -4726,7 +4796,7 @@
             ],
             "info": "This has cool paintings of... skulls?",
             "level": 11,
-			"element": "dark",
+            "element": "dark",
             "type": "equip",
             "classes": [
                 "warrior",
@@ -4755,7 +4825,7 @@
             "level": 11,
             "type": "equip",
             "slot": "head",
-			"element": "dark",
+            "element": "dark",
             "cost": 900,
             "effect": {
                 "str": 2,
@@ -4810,7 +4880,7 @@
             "info": "Increases Str stat.",
             "type": "equip",
             "slot": "body",
-			"element": "wood",
+            "element": "wood",
             "level": 1,
             "cost": 200,
             "message": "You coated yourself in Dandelion pollen! It tingles!",
@@ -4829,7 +4899,7 @@
             ],
             "info": "Increases Def stat.",
             "type": "equip",
-			"element": "wood",
+            "element": "wood",
             "slot": "body",
             "level": 1,
             "cost": 200,
@@ -4849,7 +4919,7 @@
             ],
             "info": "Increases Spd stat.",
             "type": "equip",
-			"element": "wood",
+            "element": "wood",
             "slot": "body",
             "level": 1,
             "cost": 200,
@@ -4869,7 +4939,7 @@
             ],
             "info": "Increases Mag stat.",
             "type": "equip",
-			"element": "wood",
+            "element": "wood",
             "slot": "body",
             "level": 1,
             "cost": 200,
@@ -4881,26 +4951,26 @@
                 "mag": 10
             }
         },
-		"crest": {
-			"name": "Woodland Crest",
-			"info": "increases defense drastically, but slows the user down.",
-			"type": "equip",
-			"level": 24,
-			"element": "wood",
-			"cost": 1,
-			"slot": "pendant",
-			"effect": {
-				"def": 18,
-				"spd": -8,
-				"dex": -3
-			}},
-				
+        "crest": {
+            "name": "Woodland Crest",
+            "info": "increases defense drastically, but slows the user down.",
+            "type": "equip",
+            "level": 24,
+            "element": "wood",
+            "cost": 1,
+            "slot": "pendant",
+            "effect": {
+                "def": 18,
+                "spd": -8,
+                "dex": -3
+            }
+        },
         "petal": {
             "name": "Petal",
             "info": "Plant-like Shield raising HP and Spd, but lowering Def.",
             "type": "equip",
             "level": 15,
-			"element": "wood",
+            "element": "wood",
             "cost": 100,
             "classes": [
                 "mage",
@@ -4917,26 +4987,34 @@
                 "def": -3
             }
         },
-		"drums": {
-			"name": "Forest Drums",
-			"alt": ["drum", "forest drums"],
-			"info": "The beat of the forest is imbued in these drums. It increases health and defense to the musician who plays it.",
-			"type": "equip",
-			"level": 20,
-			"element": "wood",
-			"classes": ["bard", "rocker", "poet"],
-			"slot": "2-hands",
-			"message": "~User~ plays the drums of the forest with passion!",
-			"effect": {
-				"maxhp": 85,
-				"def": 14
-			}},
+        "drums": {
+            "name": "Forest Drums",
+            "alt": [
+                "drum",
+                "forest drums"
+            ],
+            "info": "The beat of the forest is imbued in these drums. It increases health and defense to the musician who plays it.",
+            "type": "equip",
+            "level": 20,
+            "element": "wood",
+            "classes": [
+                "bard",
+                "rocker",
+                "poet"
+            ],
+            "slot": "2-hands",
+            "message": "~User~ plays the drums of the forest with passion!",
+            "effect": {
+                "maxhp": 85,
+                "def": 14
+            }
+        },
         "stem": {
             "name": "Stem",
             "info": "Plant-like Staff raising Mana and Mag, but lowering Str.",
             "type": "equip",
             "level": 15,
-			"element": "wood",
+            "element": "wood",
             "cost": 100,
             "classes": [
                 "mage",
@@ -4988,7 +5066,7 @@
             "level": 10,
             "type": "equip",
             "slot": "head",
-			"element": "flying",
+            "element": "flying",
             "cost": 5000,
             "effect": {
                 "maxhp": 40,
@@ -5002,7 +5080,7 @@
             "level": 24,
             "type": "equip",
             "slot": "2-hands",
-			"element": "flying",
+            "element": "flying",
             "classes": [
                 "rogue",
                 "assassin",
@@ -5065,80 +5143,86 @@
                 "spd": 8
             }
         },
-		"earth lance": {
-			"name": "Earth Lance",
-			"info": "A lance created from mounds of Earth, for the Golem people.",
-			"level": 6,
-			"element": "earth",
-			"type": "equip",
-			"classes": [
+        "earth lance": {
+            "name": "Earth Lance",
+            "info": "A lance created from mounds of Earth, for the Golem people.",
+            "level": 6,
+            "element": "earth",
+            "type": "equip",
+            "classes": [
                 "paladin",
                 "guard",
-				"warrior",
+                "warrior",
                 "dragoon",
-                "barbarian"],
-			"slot": "rhand",
-			"effect": {
-				"str": 8,
-				"def": 3,
-				"dex": -1,
-				"spd": -1
-			}},
-		"bracelet": {
-			"name": "Singing Bracelet",
-			"info": "A bracelet made just for bards that increases health and evasion.",
-			"level": 6,
-			"type": "equip",
-			"classes": [
-                "bard"],
-			"slot": "pendant",
-			"effect": {
-				"maxhp": 24,
-				"evasion": 10
-			}},
-		
-		"earth shield": {
-			"name": "Earth Shield",
-			"info": "A shield created from mounds of Earth, for the Golem people.",
-			"level": 6,
-			"element": "earth",
-			"type": "equip",
-			"classes": [
+                "barbarian"
+            ],
+            "slot": "rhand",
+            "effect": {
+                "str": 8,
+                "def": 3,
+                "dex": -1,
+                "spd": -1
+            }
+        },
+        "bracelet": {
+            "name": "Singing Bracelet",
+            "info": "A bracelet made just for bards that increases health and evasion.",
+            "level": 6,
+            "type": "equip",
+            "classes": [
+                "bard"
+            ],
+            "slot": "pendant",
+            "effect": {
+                "maxhp": 30,
+                "evasion": 20
+            }
+        },
+        "earth shield": {
+            "name": "Earth Shield",
+            "info": "A shield created from mounds of Earth, for the Golem people.",
+            "level": 6,
+            "element": "earth",
+            "type": "equip",
+            "classes": [
                 "paladin",
                 "guard",
-				"warrior",
+                "warrior",
                 "dragoon",
-                "barbarian"],
-			"slot": "lhand",
-			"effect": {
-				"str": 2,
-				"def": 8,
-				"dex": -1,
-				"spd": -1
-			}},
-		"small axe": {
-			"name": "Small Axe",
-			"info": "A small, versatile axe that is used in the left hand.",
-			"level": 6,
-			"element": "earth",
-			"type": "equip",
-			"classes": [
+                "barbarian"
+            ],
+            "slot": "lhand",
+            "effect": {
+                "str": 2,
+                "def": 8,
+                "dex": -1,
+                "spd": -1
+            }
+        },
+        "small axe": {
+            "name": "Small Axe",
+            "info": "A small, versatile axe that is used in the left hand.",
+            "level": 6,
+            "element": "earth",
+            "type": "equip",
+            "classes": [
                 "paladin",
                 "guard",
-				"warrior",
+                "warrior",
                 "dragoon",
-                "barbarian"],
-			"slot": "lhand",
-			"effect": {
-				"str": 6,
-				"dex": 3
-			}},
-		
+                "barbarian"
+            ],
+            "slot": "lhand",
+            "effect": {
+                "str": 6,
+                "dex": 3
+            }
+        },
         "fhammer": {
             "name": "Feather Hammer",
             "info": "A hammer made out of..tightly packed bird feathers. It exudes a magical aura. Usable by upgraded clerics and warriors.",
             "level": 35,
-			"element": "flying",
+            "element": "flying",
             "type": "equip",
             "classes": [
                 "cleric",
@@ -5164,7 +5248,7 @@
             "level": 35,
             "slot": "body",
             "type": "equip",
-			"element": "flying",
+            "element": "flying",
             "cost": 160000,
             "classes": [
                 "wizard",
@@ -5234,7 +5318,7 @@
             "name": "Dragonlord Sword",
             "info": "The sword of a Dragonlord. It holds pure power, but weighs more than it appears.",
             "level": 5,
-			"element": "metal",
+            "element": "metal",
             "type": "equip",
             "classes": [
                 "paladin",
@@ -5255,7 +5339,7 @@
             "name": "Dragonlord Bow",
             "info": "The bow of a Dragonlord. The bow itself is one of the most durable in the lands.",
             "level": 5,
-			"element": "metal",
+            "element": "metal",
             "type": "equip",
             "classes": [
                 "marksman",
@@ -5276,7 +5360,7 @@
             "name": "Dragonlord Armor",
             "info": "Dragonlord armor created to defend against the mightiest of attacks.",
             "level": 40,
-			"element": "metal",
+            "element": "metal",
             "type": "equip",
             "slot": "body",
             "classes": [
@@ -5299,7 +5383,7 @@
             "info": "The mighty shield of a Dragonlord. Holds much defense at the cost of speed.",
             "level": 40,
             "type": "equip",
-			"element": "metal",
+            "element": "metal",
             "classes": [
                 "barbarian",
                 "guard",
@@ -5320,7 +5404,7 @@
             "info": "A helmet created for a Dragonlord. Heavy, but tough.",
             "level": 5,
             "type": "equip",
-			"element": "metal",
+            "element": "metal",
             "classes": [
                 "barbarian",
                 "guard",
@@ -5341,7 +5425,7 @@
             "info": "A basic dagger made for rogues",
             "level": 1,
             "type": "equip",
-			"element": "metal",
+            "element": "metal",
             "classes": [
                 "rogue",
                 "assassin",
@@ -5359,7 +5443,7 @@
             "name": "Dragon's Claw",
             "info": "A claw bathed in dragon's blood. Is said to never break. Usable by upgraded rogues.",
             "level": 40,
-			"element": "dragon",
+            "element": "dragon",
             "type": "equip",
             "slot": "rhand",
             "classes": [
@@ -5378,7 +5462,7 @@
             "name": "Wyvernlord Armor",
             "info": "Wyvernlord armor is sleeker and faster than Dragonlord Armor, but is still quite durable.",
             "level": 40,
-			"element": "metal",
+            "element": "metal",
             "type": "equip",
             "classes": [
                 "barbarian",
@@ -5401,7 +5485,7 @@
             "name": "Wyvernlord Shield",
             "info": "A small shield created in the image of a wyvern, allowing for high mobility at the cost of protection.",
             "level": 5,
-			"element": "metal",
+            "element": "metal",
             "type": "equip",
             "classes": [
                 "barbarian",
@@ -5423,7 +5507,7 @@
             "info": "A helmet created in the image of a wyvern. The sleek design allows for quick movement.",
             "level": 35,
             "type": "equip",
-			"element": "metal",
+            "element": "metal",
             "classes": [
                 "barbarian",
                 "marksman",
@@ -5444,7 +5528,7 @@
             "name": "Wyvernlord Sword",
             "info": "A blade found amongst wyverns. Its properties appear strong. Its weight is light and swift.",
             "level": 40,
-			"element": "metal",
+            "element": "metal",
             "type": "equip",
             "slot": "rhand",
             "classes": [
@@ -5465,7 +5549,7 @@
             "name": "Wyvern Robe",
             "info": "A robe created from the hide of a dragon. Holds mystical properties.",
             "level": 40,
-			"element": "dragon",
+            "element": "dragon",
             "type": "equip",
             "slot": "body",
             "cost": 2000,
@@ -5506,7 +5590,7 @@
             "info": "A spear made from the bones in a dragon's wing. The bone is harder, yet lighter than steel. It appears to hold mystical properties as well.",
             "level": 40,
             "type": "equip",
-			"element": "dragon",
+            "element": "dragon",
             "classes": [
                 "barbarian",
                 "dragoon",
@@ -5527,7 +5611,7 @@
             "name": "Long Sword",
             "info": "A long sword for long battles",
             "level": 6,
-			"element": "metal",
+            "element": "metal",
             "type": "equip",
             "classes": [
                 "warrior",
@@ -5562,7 +5646,7 @@
             "name": "Ork Armor",
             "info": "This armor is heavier than it looks! Only warriors and clerics can wear it.",
             "level": 5,
-			"element": "metal",
+            "element": "metal",
             "type": "equip",
             "slot": "body",
             "cost": 120,
@@ -5587,7 +5671,7 @@
             "name": "Earth staff",
             "info": "This staff seems like it emerged from the ground itself.",
             "level": 5,
-			"element": "earth",
+            "element": "earth",
             "type": "equip",
             "classes": [
                 "mage",
@@ -5609,7 +5693,7 @@
             "name": "Ork Helmet",
             "info": "Ugh... This smells really bad",
             "level": 5,
-			"element": "metal",
+            "element": "metal",
             "type": "equip",
             "slot": "head",
             "cost": 100,
@@ -5750,42 +5834,42 @@
                         "denymsg": "Priest: Do you even lift, brother? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Priest: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
-                            "potion": 2,
-                            "armor": 5,
-                            "bow": 3,
-                            "shield": 3,
-                            "slime sword": 20,
+                            "potion": 1,
+                            "armor": 2,
+                            "bow": 2,
+                            "shield": 2,
+                            "slime sword": 40,
                             "swift cape": 30,
-                            "troll skull": 30,
-                            "troll bow": 10,
+                            "troll skull": 4,
+                            "troll bow": 4,
                             "rock": 1,
                             "reapers fangl": 600,
                             "reapers fangr": 600,
-                            "berserker staff": 100,
-                            "wizards staff": 100,
-                            "venom": 5,
-                            "bone bow": 400,
-                            "long sword": 450,
-                            "ork armor": 500,
+                            "berserker staff": 4,
+                            "wizards staff": 10,
+                            "venom": 1,
+                            "bone bow": 4,
+                            "long sword": 10,
+                            "ork armor": 5,
                             "wig": 2,
-                            "sword": 15,
-                            "ork helmet": 300,
+                            "sword": 5,
+                            "ork helmet": 310,
                             "necro sword": 1400,
-                            "udsword": 400,
-                            "udhelmet": 400,
-                            "udshield": 400,
-                            "udarmor": 400,
-                            "earth staff": 350,
-                            "rotten flesh": 12,
-                            "petal": 500,
+                            "udsword": 40,
+                            "udhelmet": 40,
+                            "udshield": 40,
+                            "udarmor": 40,
+                            "earth staff": 3,
+                            "rotten flesh": 2,
+                            "petal": 50,
                             "necro staff": 1400,
-                            "stem": 500,
-                            "gpollen": 200,
-                            "ypollen": 200,
-                            "bpollen": 200,
-                            "rpollen": 200,
-                            "feather": 700,
-                            "wizard hat": 600,
+                            "stem": 50,
+                            "gpollen": 20,
+                            "ypollen": 20,
+                            "bpollen": 20,
+                            "rpollen": 20,
+                            "feather": 70,
+                            "wizard hat": 60,
                             "catacomb key": 2,
                             "venom blade": 1000,
                             "carrot": 15,
@@ -5849,42 +5933,42 @@
                         "denymsg": "Priest: Do you even lift, brother? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Priest: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
-                            "potion": 2,
-                            "armor": 5,
-                            "bow": 3,
-                            "shield": 3,
-                            "slime sword": 20,
+                            "potion": 1,
+                            "armor": 2,
+                            "bow": 2,
+                            "shield": 2,
+                            "slime sword": 40,
                             "swift cape": 30,
-                            "troll skull": 30,
-                            "troll bow": 10,
+                            "troll skull": 4,
+                            "troll bow": 4,
                             "rock": 1,
                             "reapers fangl": 600,
                             "reapers fangr": 600,
-                            "berserker staff": 100,
-                            "wizards staff": 100,
-                            "venom": 5,
-                            "bone bow": 400,
-                            "long sword": 450,
-                            "ork armor": 500,
+                            "berserker staff": 4,
+                            "wizards staff": 10,
+                            "venom": 1,
+                            "bone bow": 4,
+                            "long sword": 10,
+                            "ork armor": 5,
                             "wig": 2,
-                            "sword": 15,
-                            "ork helmet": 300,
+                            "sword": 5,
+                            "ork helmet": 310,
                             "necro sword": 1400,
-                            "udsword": 400,
-                            "udhelmet": 400,
-                            "udshield": 400,
-                            "udarmor": 400,
-                            "earth staff": 350,
-                            "rotten flesh": 12,
-                            "petal": 500,
+                            "udsword": 40,
+                            "udhelmet": 40,
+                            "udshield": 40,
+                            "udarmor": 40,
+                            "earth staff": 3,
+                            "rotten flesh": 2,
+                            "petal": 50,
                             "necro staff": 1400,
-                            "stem": 500,
-                            "gpollen": 200,
-                            "ypollen": 200,
-                            "bpollen": 200,
-                            "rpollen": 200,
-                            "feather": 700,
-                            "wizard hat": 600,
+                            "stem": 50,
+                            "gpollen": 20,
+                            "ypollen": 20,
+                            "bpollen": 20,
+                            "rpollen": 20,
+                            "feather": 70,
+                            "wizard hat": 60,
                             "catacomb key": 2,
                             "venom blade": 1000,
                             "carrot": 15,
@@ -5994,42 +6078,42 @@
                         "denymsg": "Magician: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Magician: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
-                            "potion": 2,
-                            "armor": 5,
-                            "bow": 3,
-                            "shield": 3,
-                            "slime sword": 20,
+                            "potion": 1,
+                            "armor": 2,
+                            "bow": 2,
+                            "shield": 2,
+                            "slime sword": 40,
                             "swift cape": 30,
-                            "troll skull": 30,
-                            "troll bow": 10,
+                            "troll skull": 4,
+                            "troll bow": 4,
                             "rock": 1,
                             "reapers fangl": 600,
                             "reapers fangr": 600,
-                            "berserker staff": 100,
-                            "wizards staff": 100,
-                            "venom": 5,
-                            "bone bow": 400,
-                            "long sword": 450,
-                            "ork armor": 500,
+                            "berserker staff": 4,
+                            "wizards staff": 10,
+                            "venom": 1,
+                            "bone bow": 4,
+                            "long sword": 10,
+                            "ork armor": 5,
                             "wig": 2,
-                            "sword": 15,
-                            "ork helmet": 300,
+                            "sword": 5,
+                            "ork helmet": 310,
                             "necro sword": 1400,
-                            "udsword": 400,
-                            "udhelmet": 400,
-                            "udshield": 400,
-                            "udarmor": 400,
-                            "earth staff": 350,
-                            "rotten flesh": 12,
-                            "petal": 500,
+                            "udsword": 40,
+                            "udhelmet": 40,
+                            "udshield": 40,
+                            "udarmor": 40,
+                            "earth staff": 3,
+                            "rotten flesh": 2,
+                            "petal": 50,
                             "necro staff": 1400,
-                            "stem": 500,
-                            "gpollen": 200,
-                            "ypollen": 200,
-                            "bpollen": 200,
-                            "rpollen": 200,
-                            "feather": 700,
-                            "wizard hat": 600,
+                            "stem": 50,
+                            "gpollen": 20,
+                            "ypollen": 20,
+                            "bpollen": 20,
+                            "rpollen": 20,
+                            "feather": 70,
+                            "wizard hat": 60,
                             "catacomb key": 2,
                             "venom blade": 1000,
                             "carrot": 15,
@@ -6139,42 +6223,42 @@
                         "denymsg": "Hipster Musician: Do you even lift, bro? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Hipster Musician: There you are, man! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
-                            "potion": 2,
-                            "armor": 5,
-                            "bow": 3,
-                            "shield": 3,
-                            "slime sword": 20,
+                            "potion": 1,
+                            "armor": 2,
+                            "bow": 2,
+                            "shield": 2,
+                            "slime sword": 40,
                             "swift cape": 30,
-                            "troll skull": 30,
-                            "troll bow": 10,
+                            "troll skull": 4,
+                            "troll bow": 4,
                             "rock": 1,
                             "reapers fangl": 600,
                             "reapers fangr": 600,
-                            "berserker staff": 100,
-                            "wizards staff": 100,
-                            "venom": 5,
-                            "bone bow": 400,
-                            "long sword": 450,
-                            "ork armor": 500,
+                            "berserker staff": 4,
+                            "wizards staff": 10,
+                            "venom": 1,
+                            "bone bow": 4,
+                            "long sword": 10,
+                            "ork armor": 5,
                             "wig": 2,
-                            "sword": 15,
-                            "ork helmet": 300,
+                            "sword": 5,
+                            "ork helmet": 310,
                             "necro sword": 1400,
-                            "udsword": 400,
-                            "udhelmet": 400,
-                            "udshield": 400,
-                            "udarmor": 400,
-                            "earth staff": 350,
-                            "rotten flesh": 12,
-                            "petal": 500,
+                            "udsword": 40,
+                            "udhelmet": 40,
+                            "udshield": 40,
+                            "udarmor": 40,
+                            "earth staff": 3,
+                            "rotten flesh": 2,
+                            "petal": 50,
                             "necro staff": 1400,
-                            "stem": 500,
-                            "gpollen": 200,
-                            "ypollen": 200,
-                            "bpollen": 200,
-                            "rpollen": 200,
-                            "feather": 700,
-                            "wizard hat": 600,
+                            "stem": 50,
+                            "gpollen": 20,
+                            "ypollen": 20,
+                            "bpollen": 20,
+                            "rpollen": 20,
+                            "feather": 70,
+                            "wizard hat": 60,
                             "catacomb key": 2,
                             "venom blade": 1000,
                             "carrot": 15,
@@ -6284,42 +6368,42 @@
                         "denymsg": "Archer: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Archer: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
-                            "potion": 2,
-                            "armor": 5,
-                            "bow": 3,
-                            "shield": 3,
-                            "slime sword": 20,
+                            "potion": 1,
+                            "armor": 2,
+                            "bow": 2,
+                            "shield": 2,
+                            "slime sword": 40,
                             "swift cape": 30,
-                            "troll skull": 30,
-                            "troll bow": 10,
+                            "troll skull": 4,
+                            "troll bow": 4,
                             "rock": 1,
                             "reapers fangl": 600,
                             "reapers fangr": 600,
-                            "berserker staff": 100,
-                            "wizards staff": 100,
-                            "venom": 5,
-                            "bone bow": 400,
-                            "long sword": 450,
-                            "ork armor": 500,
+                            "berserker staff": 4,
+                            "wizards staff": 10,
+                            "venom": 1,
+                            "bone bow": 4,
+                            "long sword": 10,
+                            "ork armor": 5,
                             "wig": 2,
-                            "sword": 15,
-                            "ork helmet": 300,
+                            "sword": 5,
+                            "ork helmet": 310,
                             "necro sword": 1400,
-                            "udsword": 400,
-                            "udhelmet": 400,
-                            "udshield": 400,
-                            "udarmor": 400,
-                            "earth staff": 350,
-                            "rotten flesh": 12,
-                            "petal": 500,
+                            "udsword": 40,
+                            "udhelmet": 40,
+                            "udshield": 40,
+                            "udarmor": 40,
+                            "earth staff": 3,
+                            "rotten flesh": 2,
+                            "petal": 50,
                             "necro staff": 1400,
-                            "stem": 500,
-                            "gpollen": 200,
-                            "ypollen": 200,
-                            "bpollen": 200,
-                            "rpollen": 200,
-                            "feather": 700,
-                            "wizard hat": 600,
+                            "stem": 50,
+                            "gpollen": 20,
+                            "ypollen": 20,
+                            "bpollen": 20,
+                            "rpollen": 20,
+                            "feather": 70,
+                            "wizard hat": 60,
                             "catacomb key": 2,
                             "venom blade": 1000,
                             "carrot": 15,
@@ -6429,44 +6513,44 @@
                         "denymsg": "Swordsman: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Swordsman: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
-                            "potion": 2,
-                            "armor": 5,
-                            "bow": 3,
-                            "shield": 3,
-                            "slime sword": 20,
+                            "potion": 1,
+                            "armor": 2,
+                            "bow": 2,
+                            "shield": 2,
+                            "slime sword": 40,
                             "swift cape": 30,
-                            "troll skull": 30,
-                            "troll bow": 10,
+                            "troll skull": 4,
+                            "troll bow": 4,
                             "rock": 1,
                             "reapers fangl": 600,
                             "reapers fangr": 600,
-                            "berserker staff": 100,
-                            "wizards staff": 100,
-                            "venom": 5,
-                            "bone bow": 400,
-                            "long sword": 450,
-                            "ork armor": 500,
+                            "berserker staff": 4,
+                            "wizards staff": 10,
+                            "venom": 1,
+                            "bone bow": 4,
+                            "long sword": 10,
+                            "ork armor": 5,
                             "wig": 2,
-                            "sword": 15,
-                            "ork helmet": 300,
+                            "sword": 5,
+                            "ork helmet": 310,
                             "necro sword": 1400,
-                            "udsword": 400,
-                            "udhelmet": 400,
-                            "udshield": 400,
-                            "udarmor": 400,
-                            "earth staff": 350,
-                            "rotten flesh": 12,
-                            "petal": 500,
+                            "udsword": 40,
+                            "udhelmet": 40,
+                            "udshield": 40,
+                            "udarmor": 40,
+                            "earth staff": 3,
+                            "rotten flesh": 2,
+                            "petal": 50,
                             "necro staff": 1400,
-                            "stem": 500,
-                            "gpollen": 200,
-                            "ypollen": 200,
-                            "bpollen": 200,
-                            "rpollen": 200,
-                            "feather": 700,
-                            "wizard hat": 600,
+                            "stem": 50,
+                            "gpollen": 20,
+                            "ypollen": 20,
+                            "bpollen": 20,
+                            "rpollen": 20,
+                            "feather": 70,
+                            "wizard hat": 60,
                             "catacomb key": 2,
-                            "venom blade": 18000,
+                            "venom blade": 1000,
                             "carrot": 15,
                             "cotton": 50
                         },
@@ -6573,44 +6657,44 @@
                         "denymsg": "Brawler: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Brawler: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
-                            "potion": 2,
-                            "armor": 5,
-                            "bow": 3,
-                            "shield": 3,
-                            "slime sword": 20,
+                            "potion": 1,
+                            "armor": 2,
+                            "bow": 2,
+                            "shield": 2,
+                            "slime sword": 40,
                             "swift cape": 30,
-                            "troll skull": 30,
-                            "troll bow": 10,
+                            "troll skull": 4,
+                            "troll bow": 4,
                             "rock": 1,
                             "reapers fangl": 600,
                             "reapers fangr": 600,
-                            "berserker staff": 100,
-                            "wizards staff": 100,
-                            "venom": 5,
-                            "bone bow": 400,
-                            "long sword": 450,
-                            "ork armor": 500,
+                            "berserker staff": 4,
+                            "wizards staff": 10,
+                            "venom": 1,
+                            "bone bow": 4,
+                            "long sword": 10,
+                            "ork armor": 5,
                             "wig": 2,
-                            "sword": 15,
-                            "ork helmet": 300,
+                            "sword": 5,
+                            "ork helmet": 310,
                             "necro sword": 1400,
-                            "udsword": 400,
-                            "udhelmet": 400,
-                            "udshield": 400,
-                            "udarmor": 400,
-                            "earth staff": 350,
-                            "rotten flesh": 12,
-                            "petal": 500,
+                            "udsword": 40,
+                            "udhelmet": 40,
+                            "udshield": 40,
+                            "udarmor": 40,
+                            "earth staff": 3,
+                            "rotten flesh": 2,
+                            "petal": 50,
                             "necro staff": 1400,
-                            "stem": 500,
-                            "gpollen": 200,
-                            "ypollen": 200,
-                            "bpollen": 200,
-                            "rpollen": 200,
-                            "feather": 700,
-                            "wizard hat": 600,
+                            "stem": 50,
+                            "gpollen": 20,
+                            "ypollen": 20,
+                            "bpollen": 20,
+                            "rpollen": 20,
+                            "feather": 70,
+                            "wizard hat": 60,
                             "catacomb key": 2,
-                            "venom blade": 18000,
+                            "venom blade": 1000,
                             "carrot": 15,
                             "cotton": 50
                         },
@@ -6718,42 +6802,42 @@
                         "denymsg": "Thief: Do you even lift, friend? I don't sell for people with less than 2 Strength!",
                         "acceptmsg": "Thief: Here you are! ~Price~ Gold for ~Count~ ~Item~(s)!",
                         "buy": {
-                            "potion": 2,
-                            "armor": 5,
-                            "bow": 3,
-                            "shield": 3,
-                            "slime sword": 20,
+                            "potion": 1,
+                            "armor": 2,
+                            "bow": 2,
+                            "shield": 2,
+                            "slime sword": 40,
                             "swift cape": 30,
-                            "troll skull": 30,
-                            "troll bow": 10,
+                            "troll skull": 4,
+                            "troll bow": 4,
                             "rock": 1,
                             "reapers fangl": 600,
                             "reapers fangr": 600,
-                            "berserker staff": 100,
-                            "wizards staff": 100,
-                            "venom": 5,
-                            "bone bow": 400,
-                            "long sword": 450,
-                            "ork armor": 500,
+                            "berserker staff": 4,
+                            "wizards staff": 10,
+                            "venom": 1,
+                            "bone bow": 4,
+                            "long sword": 10,
+                            "ork armor": 5,
                             "wig": 2,
-                            "sword": 15,
-                            "ork helmet": 300,
+                            "sword": 5,
+                            "ork helmet": 310,
                             "necro sword": 1400,
-                            "udsword": 400,
-                            "udhelmet": 400,
-                            "udshield": 400,
-                            "udarmor": 400,
-                            "earth staff": 350,
-                            "rotten flesh": 12,
-                            "petal": 500,
+                            "udsword": 40,
+                            "udhelmet": 40,
+                            "udshield": 40,
+                            "udarmor": 40,
+                            "earth staff": 3,
+                            "rotten flesh": 2,
+                            "petal": 50,
                             "necro staff": 1400,
-                            "stem": 500,
-                            "gpollen": 200,
-                            "ypollen": 200,
-                            "bpollen": 200,
-                            "rpollen": 200,
-                            "feather": 700,
-                            "wizard hat": 600,
+                            "stem": 50,
+                            "gpollen": 20,
+                            "ypollen": 20,
+                            "bpollen": 20,
+                            "rpollen": 20,
+                            "feather": 70,
+                            "wizard hat": 60,
                             "catacomb key": 2,
                             "venom blade": 1000,
                             "carrot": 15,
@@ -6964,15 +7048,15 @@
                             }
                         },
                         "requisites": {
-							"items": {
-								"troll bow": 20,
-								"rock": 30,
-								"moldy toast": 20
-							},
+                            "items": {
+                                "troll bow": 20,
+                                "rock": 30,
+                                "moldy toast": 20
+                            },
                             "events": {
                                 "trollWeps": false
-								}
-								}
+                            }
+                        }
                     }
                 }
             },
@@ -7300,10 +7384,10 @@
             "welcome": "You have made your way deep into the caves where golems reside. People speak of a golem king and a society based around defending him. No one knows for sure.",
             "type": "dungeon",
             "access": [
-                "cave"
+                "cave b1"
             ],
             "requisites": {
-                "level": 9
+                "level": 10
             },
             "content": {
                 "bat:golem1:bat": 0.2,
@@ -7311,13 +7395,13 @@
                 "golem1:golem1": 0.2,
                 "golem:golem1:golem1": 0.04,
                 "ork:golem1": 0.05,
-				"golem1:golem": 0.05,
-				"golem1": 0.05,
-				"golem": 0.05,
+                "golem1:golem": 0.05,
+                "golem1": 0.05,
+                "golem": 0.05,
                 "golem:golem1:golem": 0.1,
-				"golem king:golem1:golem1": 0.03,
-				"golem king:golem1:golem": 0.02,
-				"golem king:golem:golem": 0.01,
+                "golem king:golem1:golem1": 0.03,
+                "golem king:golem1:golem": 0.02,
+                "golem king:golem:golem": 0.01,
                 "*small axe": 0.02,
                 "*sword": 0.02,
                 "*bone bow": 0.02,
@@ -7333,7 +7417,8 @@
             "welcome": "You have made your way to the lower levels of the cave. Only the strongest of adventurers can survive here.",
             "type": "dungeon",
             "access": [
-                "cave"
+                "cave",
+				"cave b2"
             ],
             "requisites": {
                 "level": 9
@@ -7342,12 +7427,11 @@
                 "bat:skeleton:bat": 0.05,
                 "troll:ork:troll": 0.3,
                 "ork:ork": 0.2,
-				"ork": 0.3,
-				"golem1": 0.1,
-				"bat": 0.05,
-				"ork": 0.1,
+                "ork": 0.1,
+                "golem1": 0.1,
+                "bat": 0.05,
                 "ork:bat": 0.15,
-				"troll:troll": 0.3,
+                "troll:troll": 0.3,
                 "ork:troll": 0.05,
                 "bat:bat:golem1": 0.1,
                 "*berserker staff": 0.02,
